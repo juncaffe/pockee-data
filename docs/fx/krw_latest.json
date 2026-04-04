@@ -2,300 +2,145 @@
   {
     "result": 1,
     "cur_unit": "AED",
-    "ttb": "409.34",
-    "tts": "417.61",
-    "deal_bas_r": "413.48",
-    "bkpr": "413",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "413",
-    "kftc_deal_bas_r": "413.48",
-    "cur_nm": "아랍에미리트 디르함"
+    "cur_nm": "아랍에미리트 디르함",
+    "deal_bas_r": "413.48"
   },
   {
     "result": 1,
     "cur_unit": "AUD",
-    "ttb": "1,039.22",
-    "tts": "1,060.21",
-    "deal_bas_r": "1,049.72",
-    "bkpr": "1,049",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,049",
-    "kftc_deal_bas_r": "1,049.72",
-    "cur_nm": "호주 달러"
+    "cur_nm": "호주 달러",
+    "deal_bas_r": "1,049.72"
   },
   {
     "result": 1,
     "cur_unit": "BHD",
-    "ttb": "3,982.55",
-    "tts": "4,063",
-    "deal_bas_r": "4,022.78",
-    "bkpr": "4,022",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "4,022",
-    "kftc_deal_bas_r": "4,022.78",
-    "cur_nm": "바레인 디나르"
+    "cur_nm": "바레인 디나르",
+    "deal_bas_r": "4,022.78"
   },
   {
     "result": 1,
     "cur_unit": "BND",
-    "ttb": "1,169.76",
-    "tts": "1,193.39",
-    "deal_bas_r": "1,181.58",
-    "bkpr": "1,181",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,181",
-    "kftc_deal_bas_r": "1,181.58",
-    "cur_nm": "브루나이 달러"
+    "cur_nm": "브루나이 달러",
+    "deal_bas_r": "1,181.58"
   },
   {
     "result": 1,
     "cur_unit": "CAD",
-    "ttb": "1,080.29",
-    "tts": "1,102.12",
-    "deal_bas_r": "1,091.21",
-    "bkpr": "1,091",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,091",
-    "kftc_deal_bas_r": "1,091.21",
-    "cur_nm": "캐나다 달러"
+    "cur_nm": "캐나다 달러",
+    "deal_bas_r": "1,091.21"
   },
   {
     "result": 1,
     "cur_unit": "CHF",
-    "ttb": "1,882.45",
-    "tts": "1,920.48",
-    "deal_bas_r": "1,901.47",
-    "bkpr": "1,901",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,901",
-    "kftc_deal_bas_r": "1,901.47",
-    "cur_nm": "스위스 프랑"
+    "cur_nm": "스위스 프랑",
+    "deal_bas_r": "1,901.47"
   },
   {
     "result": 1,
     "cur_unit": "CNH",
-    "ttb": "218.72",
-    "tts": "223.13",
-    "deal_bas_r": "220.93",
-    "bkpr": "220",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "220",
-    "kftc_deal_bas_r": "220.93",
-    "cur_nm": "위안화"
+    "cur_nm": "위안화",
+    "deal_bas_r": "220.93"
   },
   {
     "result": 1,
     "cur_unit": "DKK",
-    "ttb": "232.22",
-    "tts": "236.91",
-    "deal_bas_r": "234.57",
-    "bkpr": "234",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "234",
-    "kftc_deal_bas_r": "234.57",
-    "cur_nm": "덴마아크 크로네"
+    "cur_nm": "덴마아크 크로네",
+    "deal_bas_r": "234.57"
   },
   {
     "result": 1,
     "cur_unit": "EUR",
-    "ttb": "1,735.32",
-    "tts": "1,770.37",
-    "deal_bas_r": "1,752.85",
-    "bkpr": "1,752",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,752",
-    "kftc_deal_bas_r": "1,752.85",
-    "cur_nm": "유로"
+    "cur_nm": "유로",
+    "deal_bas_r": "1,752.85"
   },
   {
     "result": 1,
     "cur_unit": "GBP",
-    "ttb": "1,988.83",
-    "tts": "2,029",
-    "deal_bas_r": "2,008.92",
-    "bkpr": "2,008",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "2,008",
-    "kftc_deal_bas_r": "2,008.92",
-    "cur_nm": "영국 파운드"
+    "cur_nm": "영국 파운드",
+    "deal_bas_r": "2,008.92"
   },
   {
     "result": 1,
     "cur_unit": "HKD",
-    "ttb": "191.84",
-    "tts": "195.71",
-    "deal_bas_r": "193.78",
-    "bkpr": "193",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "193",
-    "kftc_deal_bas_r": "193.78",
-    "cur_nm": "홍콩 달러"
+    "cur_nm": "홍콩 달러",
+    "deal_bas_r": "193.78"
   },
   {
     "result": 1,
     "cur_unit": "IDR(100)",
-    "ttb": "8.85",
-    "tts": "9.02",
-    "deal_bas_r": "8.94",
-    "bkpr": "8",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "8",
-    "kftc_deal_bas_r": "8.94",
-    "cur_nm": "인도네시아 루피아"
+    "cur_nm": "인도네시아 루피아",
+    "deal_bas_r": "8.94"
   },
   {
     "result": 1,
     "cur_unit": "JPY(100)",
-    "ttb": "942.58",
-    "tts": "961.63",
-    "deal_bas_r": "952.11",
-    "bkpr": "952",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "952",
-    "kftc_deal_bas_r": "952.11",
-    "cur_nm": "일본 옌"
+    "cur_nm": "일본 옌",
+    "deal_bas_r": "952.11"
   },
   {
     "result": 1,
     "cur_unit": "KRW",
-    "ttb": "0",
-    "tts": "0",
-    "deal_bas_r": "1",
-    "bkpr": "1",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1",
-    "kftc_deal_bas_r": "1",
-    "cur_nm": "한국 원"
+    "cur_nm": "한국 원",
+    "deal_bas_r": "1"
   },
   {
     "result": 1,
     "cur_unit": "KWD",
-    "ttb": "4,900.15",
-    "tts": "4,999.14",
-    "deal_bas_r": "4,949.65",
-    "bkpr": "4,949",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "4,949",
-    "kftc_deal_bas_r": "4,949.65",
-    "cur_nm": "쿠웨이트 디나르"
+    "cur_nm": "쿠웨이트 디나르",
+    "deal_bas_r": "4,949.65"
   },
   {
     "result": 1,
     "cur_unit": "MYR",
-    "ttb": "372.26",
-    "tts": "379.79",
-    "deal_bas_r": "376.03",
-    "bkpr": "376",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "376",
-    "kftc_deal_bas_r": "376.03",
-    "cur_nm": "말레이지아 링기트"
+    "cur_nm": "말레이지아 링기트",
+    "deal_bas_r": "376.03"
   },
   {
     "result": 1,
     "cur_unit": "NOK",
-    "ttb": "154.38",
-    "tts": "157.49",
-    "deal_bas_r": "155.94",
-    "bkpr": "155",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "155",
-    "kftc_deal_bas_r": "155.94",
-    "cur_nm": "노르웨이 크로네"
+    "cur_nm": "노르웨이 크로네",
+    "deal_bas_r": "155.94"
   },
   {
     "result": 1,
     "cur_unit": "NZD",
-    "ttb": "859.91",
-    "tts": "877.28",
-    "deal_bas_r": "868.6",
-    "bkpr": "868",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "868",
-    "kftc_deal_bas_r": "868.6",
-    "cur_nm": "뉴질랜드 달러"
+    "cur_nm": "뉴질랜드 달러",
+    "deal_bas_r": "868.6"
   },
   {
     "result": 1,
     "cur_unit": "SAR",
-    "ttb": "400.56",
-    "tts": "408.65",
-    "deal_bas_r": "404.61",
-    "bkpr": "404",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "404",
-    "kftc_deal_bas_r": "404.61",
-    "cur_nm": "사우디 리얄"
+    "cur_nm": "사우디 리얄",
+    "deal_bas_r": "404.61"
   },
   {
     "result": 1,
     "cur_unit": "SEK",
-    "ttb": "159.51",
-    "tts": "162.74",
-    "deal_bas_r": "161.13",
-    "bkpr": "161",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "161",
-    "kftc_deal_bas_r": "161.13",
-    "cur_nm": "스웨덴 크로나"
+    "cur_nm": "스웨덴 크로나",
+    "deal_bas_r": "161.13"
   },
   {
     "result": 1,
     "cur_unit": "SGD",
-    "ttb": "1,169.76",
-    "tts": "1,193.39",
-    "deal_bas_r": "1,181.58",
-    "bkpr": "1,181",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,181",
-    "kftc_deal_bas_r": "1,181.58",
-    "cur_nm": "싱가포르 달러"
+    "cur_nm": "싱가포르 달러",
+    "deal_bas_r": "1,181.58"
   },
   {
     "result": 1,
     "cur_unit": "THB",
-    "ttb": "46.07",
-    "tts": "47",
-    "deal_bas_r": "46.54",
-    "bkpr": "46",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "46",
-    "kftc_deal_bas_r": "46.54",
-    "cur_nm": "태국 바트"
+    "cur_nm": "태국 바트",
+    "deal_bas_r": "46.54"
   },
   {
     "result": 1,
     "cur_unit": "USD",
-    "ttb": "1,503.61",
-    "tts": "1,533.98",
-    "deal_bas_r": "1,518.8",
-    "bkpr": "1,518",
-    "yy_efee_r": "0",
-    "ten_dd_efee_r": "0",
-    "kftc_bkpr": "1,518",
-    "kftc_deal_bas_r": "1,518.8",
-    "cur_nm": "미국 달러"
+    "cur_nm": "미국 달러",
+    "deal_bas_r": "1,518.8"
+  },
+  {
+    "result": 1,
+    "cur_unit": "VND(100)",
+    "cur_nm": "베트남 동",
+    "deal_bas_r": "5.75"
   }
 ]
