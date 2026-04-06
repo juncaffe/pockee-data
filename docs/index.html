@@ -84,8 +84,8 @@
         <footer>
             <div>Data provided by Korea Exim Bank</div>
             <div class="json-links">
-                <a href="fx/latest.json" class="json-btn">JSON (Latest)</a>
-                <a href="fx/meta.json" class="json-btn">JSON (Meta)</a>
+                <a href="fx/krw_exchange_rates.json" class="json-btn">JSON (Latest)</a>
+                <a href="fx/krw_meta.json" class="json-btn">JSON (Meta)</a>
             </div>
         </footer>
     </div>
@@ -98,8 +98,8 @@
             try {
                 // 병렬 요청으로 속도 최적화
                 const [metaRes, ratesRes] = await Promise.all([
-                    fetch(getUrl('fx/meta.json')),
-                    fetch(getUrl('fx/latest.json'))
+                    fetch(getUrl('fx/krw_meta.json')),
+                    fetch(getUrl('fx/krw_exchange_rates.json'))
                 ]);
 
                 if (!metaRes.ok || !ratesRes.ok) throw new Error("데이터 로딩 실패");
