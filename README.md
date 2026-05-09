@@ -1,5 +1,5 @@
-# cashlog-data
-CashLog 앱에서 사용하는 공개 데이터 저장소
+# Pockee-data
+Pockee 앱에서 사용하는 공개 데이터 저장소
 
 ## 포함 데이터
 - 수출입은행 환율 (일 1회 스냅샷)
