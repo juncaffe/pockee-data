@@ -1,4 +1,27 @@
 {
-  "android": {},
-  "ios": {}
+  "store_url": "https://play.google.com/store/apps/details?id=com.juncaffe.pockee",
+  "updates": [
+    {
+      "id": "update-2025-v30-force",
+      "min_version_code": null,
+      "max_version_code": 1,
+      "title": {
+        "ko": "필수 업데이트",
+        "en": "Required Update",
+        "ja": "必須アップデート",
+        "zh-cn": "必须更新",
+        "zh-tw": "必須更新"
+      },
+      "message": {
+        "ko": "보안 취약점 수정을 위해 반드시 최신 버전으로 업데이트해 주세요.",
+        "en": "A critical security fix requires you to update to the latest version.",
+        "ja": "セキュリティの脆弱性修正のため、最新バージョンにアップデートしてください。",
+        "zh-cn": "为修复安全漏洞，请立即更新至最新版本。",
+        "zh-tw": "為修復安全漏洞，請立即更新至最新版本。"
+      },
+      "is_dismissible": false,
+      "start_at": null,
+      "end_at": null,
+      "store_url": "https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+    }
 }
