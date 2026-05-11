@@ -1,4 +1,39 @@
 {
-  "android": {},
-  "ios": {}
+  "announcements": [
+    {
+      "id": "ann-2025-urgent-outage",
+      "type": "URGENT",
+      "min_version_code": 1,
+      "max_version_code": 2,
+      "title": {
+        "ko": "서비스 장애 안내",
+        "en": "Service Disruption",
+        "ja": "サービス障害のお知らせ",
+        "zh-cn": "服务故障通知",
+        "zh-tw": "服務故障通知"
+      },
+      "message": {
+        "ko": "현재 동기화 서비스에 일시적인 장애가 발생하고 있습니다. 빠른 복구를 위해 노력 중입니다.",
+        "en": "We are experiencing a temporary disruption in our sync service. We are working to restore it.",
+        "ja": "現在、同期サービスに一時的な障害が発生しています。早急に復旧できるよう対応中です。",
+        "zh-cn": "同步服务目前出现临时故障，我们正在努力尽快恢复。",
+        "zh-tw": "同步服務目前出現臨時故障，我們正在努力盡快恢復。"
+      },
+      "button_text": {
+        "ko": "확인",
+        "en": "OK",
+        "ja": "確認",
+        "zh-cn": "确认",
+        "zh-tw": "確認"
+      },
+      "action": null,
+      "dismiss_policy": {
+        "is_dismissible": true,
+        "show_checkbox": false,
+        "hide_duration_hours": 2
+      },
+      "start_at": "2026-05-11T10:00:00+09:00",
+      "end_at": "2026-04-12T14:00:00+09:00"
+    }
+  ]
 }
