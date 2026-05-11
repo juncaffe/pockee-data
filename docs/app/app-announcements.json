@@ -2,7 +2,7 @@
   "announcements": [
     {
       "id": "ann-2025-urgent-outage",
-      "type": "URGENT",
+      "type": "INFO",
       "min_version_code": 1,
       "max_version_code": 3,
       "title": {
@@ -29,7 +29,7 @@
       "action": null,
       "dismiss_policy": {
         "is_dismissible": true,
-        "show_checkbox": false,
+        "show_checkbox": true,
         "hide_duration_hours": 2
       },
       "start_at": "2026-05-11T10:00:00+09:00",
