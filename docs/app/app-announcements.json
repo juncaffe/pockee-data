@@ -4,7 +4,7 @@
       "id": "ann-2025-urgent-outage",
       "type": "URGENT",
       "min_version_code": 1,
-      "max_version_code": 2,
+      "max_version_code": 3,
       "title": {
         "ko": "서비스 장애 안내",
         "en": "Service Disruption",
