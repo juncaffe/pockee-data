@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CashLog FX Server</title>
+    <title>Pockee FX Server</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
     <style>
         :root { --primary: #6200EE; --bg: #F5F7FA; --surface: #ffffff; --text: #191F28; --sub-text: #8B95A1; }
@@ -46,8 +46,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>CashLog FX <span class="badge">LIVE</span></h1>
-            <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">한국수출입은행 환율 정보</p>
+            <h1>Pockee FX <span class="badge">LIVE</span></h1>
+            <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">Exchange Rate Information from Korea Exim Bank</p>
         </header>
 
         <div id="error"></div>
@@ -55,11 +55,11 @@
         <div id="dashboard" style="display: none;">
             <div class="meta-card">
                 <div class="meta-row">
-                    <span>기준 일자</span>
+                    <span>Base Date</span>
                     <span class="meta-value" id="searchDate">-</span>
                 </div>
                 <div class="meta-row">
-                    <span>최종 갱신 (한국시간)</span>
+                    <span>Last Updated (KST)</span>
                     <span class="meta-value" id="updatedAt">-</span>
                 </div>
             </div>
@@ -68,8 +68,8 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>통화</th>
-                            <th style="text-align: right;">매매기준율</th>
+                            <th>Currency</th>
+                            <th style="text-align: right;">Base Rate</th>
                         </tr>
                     </thead>
                     <tbody id="rateBody"></tbody>
@@ -78,7 +78,7 @@
         </div>
 
         <div id="loading">
-            데이터를 불러오는 중입니다...
+            Loading data...
         </div>
 
         <footer>
@@ -91,27 +91,27 @@
     </div>
 
     <script>
-        // 캐시 방지용 쿼리 스트링 추가 함수
+        // Function to add a cache-busting query string
         const getUrl = (path) => `${path}?t=${new Date().getTime()}`;
 
         async function init() {
             try {
-                // 병렬 요청으로 속도 최적화
+                // Optimize speed with parallel requests
                 const [metaRes, ratesRes] = await Promise.all([
                     fetch(getUrl('fx/krw_meta.json')),
                     fetch(getUrl('fx/krw_exchange_rates.json'))
                 ]);
 
-                if (!metaRes.ok || !ratesRes.ok) throw new Error("데이터 로딩 실패");
+                if (!metaRes.ok || !ratesRes.ok) throw new Error("Failed to load data");
 
                 const meta = await metaRes.json();
                 const rates = await ratesRes.json();
 
-                // 데이터 렌더링
+                // Render data
                 document.getElementById('searchDate').textContent = meta.searchDate.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
                 
                 const dateObj = new Date(meta.updatedAtKst);
-                document.getElementById('updatedAt').textContent = dateObj.toLocaleString('ko-KR');
+                document.getElementById('updatedAt').textContent = dateObj.toLocaleString('en-US');
 
                 const tbody = document.getElementById('rateBody');
                 tbody.innerHTML = '';
@@ -137,7 +137,7 @@
                 console.error(err);
                 document.getElementById('loading').style.display = 'none';
                 const errDiv = document.getElementById('error');
-                errDiv.textContent = "⚠️ 데이터 로드 실패: 아직 환율 정보가 생성되지 않았거나 오류가 발생했습니다.";
+                errDiv.textContent = "⚠️ Failed to load data: Exchange rate information may not have been generated yet, or an error has occurred.";
                 errDiv.style.display = 'block';
             }
         }
