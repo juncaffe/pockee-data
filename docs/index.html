@@ -6,48 +6,253 @@
     <title>Pockee FX Server</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
     <style>
-        :root { --primary: #6200EE; --bg: #F5F7FA; --surface: #ffffff; --text: #191F28; --sub-text: #8B95A1; }
-        body { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; background: var(--bg); color: var(--text); margin: 0; padding: 20px; line-height: 1.5; }
-        .container { max-width: 600px; margin: 0 auto; background: var(--surface); padding: 30px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        
+        :root {
+            --primary: #6200EE;
+            --bg: #F5F7FA;
+            --surface: #ffffff;
+            --text: #191F28;
+            --sub-text: #8B95A1;
+            --border: #EEF0F3;
+            --badge-bg: #F2F4F6;
+            --badge-text: #4E5968;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            background: var(--surface);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+
         /* Header */
-        header { margin-bottom: 30px; text-align: center; }
-        h1 { margin: 0; font-size: 24px; color: var(--text); display: flex; align-items: center; justify-content: center; gap: 8px; }
-        .badge { background: #E8F3FF; color: var(--primary); padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 700; }
-        
+        header {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+            color: var(--text);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .badge {
+            background: #E8F3FF;
+            color: var(--primary);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
         /* Meta Info */
-        .meta-card { background: #F9FAFB; padding: 16px; border-radius: 12px; margin-bottom: 24px; font-size: 14px; color: var(--sub-text); display: flex; flex-direction: column; gap: 6px; }
-        .meta-row { display: flex; justify-content: space-between; }
-        .meta-value { font-weight: 600; color: var(--text); }
+        .meta-card {
+            background: #F9FAFB;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            font-size: 14px;
+            color: var(--sub-text);
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px 18px;
+        }
+
+        .meta-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+        }
+
+        .meta-value {
+            font-weight: 600;
+            color: var(--text);
+            text-align: right;
+            word-break: keep-all;
+        }
 
         /* Table */
-        .table-container { overflow-x: auto; }
-        table { width: 100%; border-collapse: collapse; font-size: 15px; }
-        th { text-align: left; padding: 12px 8px; color: var(--sub-text); font-weight: 500; font-size: 13px; border-bottom: 1px solid #eee; }
-        td { padding: 14px 8px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
-        tr:last-child td { border-bottom: none; }
-        
-        .flag-cell { display: flex; align-items: center; gap: 10px; font-weight: 600; }
-        .unit { font-size: 12px; color: var(--sub-text); font-weight: normal; margin-left: 4px; }
-        .rate { font-family: 'Roboto Mono', monospace; font-weight: 600; color: var(--primary); text-align: right; }
-        
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+            min-width: 720px;
+        }
+
+        th {
+            text-align: left;
+            padding: 12px 8px;
+            color: var(--sub-text);
+            font-weight: 500;
+            font-size: 13px;
+            border-bottom: 1px solid #eee;
+            white-space: nowrap;
+        }
+
+        td {
+            padding: 14px 8px;
+            border-bottom: 1px solid #f0f0f0;
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .flag-cell {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .unit {
+            font-size: 12px;
+            color: var(--sub-text);
+            font-weight: normal;
+            margin-left: 4px;
+        }
+
+        .rate {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 600;
+            color: var(--primary);
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .date {
+            font-family: 'Roboto Mono', monospace;
+            color: var(--text);
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        .source-badge {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            padding: 4px 8px;
+            background: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 12px;
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        .source-koreaexim {
+            background: #E8F3FF;
+            color: #1B64DA;
+        }
+
+        .source-frankfurter {
+            background: #F3E8FF;
+            color: #7E22CE;
+        }
+
+        .source-base {
+            background: #E6F7EF;
+            color: #15803D;
+        }
+
+        .source-retained {
+            background: #FFF7E6;
+            color: #B45309;
+        }
+
         /* Footer */
-        footer { margin-top: 40px; text-align: center; font-size: 13px; color: var(--sub-text); }
-        a { color: var(--primary); text-decoration: none; }
-        .json-links { margin-top: 10px; display: flex; justify-content: center; gap: 10px; }
-        .json-btn { background: #eee; padding: 6px 12px; border-radius: 6px; color: var(--text); font-size: 12px; transition: 0.2s; }
-        .json-btn:hover { background: #ddd; }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 13px;
+            color: var(--sub-text);
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .json-links {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .json-btn {
+            background: #eee;
+            padding: 6px 12px;
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 12px;
+            transition: 0.2s;
+        }
+
+        .json-btn:hover {
+            background: #ddd;
+        }
 
         /* Status */
-        #loading { text-align: center; padding: 40px; color: var(--sub-text); }
-        #error { display: none; background: #FFF5F5; color: #E03E3E; padding: 16px; border-radius: 12px; margin-bottom: 20px; font-size: 14px; }
+        #loading {
+            text-align: center;
+            padding: 40px;
+            color: var(--sub-text);
+        }
+
+        #error {
+            display: none;
+            background: #FFF5F5;
+            color: #E03E3E;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 720px) {
+            .container {
+                padding: 22px 16px;
+            }
+
+            .meta-card {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Pockee FX <span class="badge">LIVE</span></h1>
-            <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">Exchange Rate Information from Korea Exim Bank</p>
+            <h1>Pockee FX <span class="badge">V2 LIVE</span></h1>
+            <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">
+                KRW-based exchange rates from Korea Exim Bank, supplemented by Frankfurter
+            </p>
         </header>
 
         <div id="error"></div>
@@ -62,6 +267,29 @@
                     <span>Last Updated (KST)</span>
                     <span class="meta-value" id="updatedAt">-</span>
                 </div>
+                <div class="meta-row">
+                    <span>Total Currencies</span>
+                    <span class="meta-value" id="totalCount">-</span>
+                </div>
+                <div class="meta-row">
+                    <span>Rate Basis</span>
+                    <span class="meta-value">KRW · Korea Exim Bank first</span>
+                </div>
+                <div class="meta-row">
+                    <span>Data Sources</span>
+                    <span class="meta-value" id="source">-</span>
+                </div>
+                <div class="meta-row">
+                    <span>Fallback Policy</span>
+                    <span class="meta-value">Missing currencies supplemented only</span>
+                </div>
+            </div>
+
+            <div style="background:#FFFFFF; border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin-bottom:18px; font-size:13px; color:var(--sub-text);">
+                <div style="font-weight:700; color:var(--text); margin-bottom:6px;">Source policy</div>
+                <div>Rates are generated with Korea Exim Bank as the primary KRW-based source.</div>
+                <div>Only currencies missing from Korea Exim Bank are supplemented with Frankfurter.</div>
+                <div>Each row shows its actual source and last update date.</div>
             </div>
 
             <div class="table-container">
@@ -70,6 +298,8 @@
                         <tr>
                             <th>Currency</th>
                             <th style="text-align: right;">Base Rate</th>
+                            <th>Source</th>
+                            <th>Updated</th>
                         </tr>
                     </thead>
                     <tbody id="rateBody"></tbody>
@@ -82,10 +312,10 @@
         </div>
 
         <footer>
-            <div>Data provided by Korea Exim Bank</div>
+            <div>Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Base currency: KRW</div>
             <div class="json-links">
-                <a href="fx/krw_exchange_rates.json" class="json-btn">JSON (Latest)</a>
-                <a href="fx/krw_meta.json" class="json-btn">JSON (Meta)</a>
+                <a href="fx/krw_exchange_rates_v2.json" class="json-btn">JSON (V2 Latest)</a>
+                <a href="fx/krw_meta_v2.json" class="json-btn">JSON (V2 Meta)</a>
             </div>
         </footer>
     </div>
@@ -94,38 +324,115 @@
         // Function to add a cache-busting query string
         const getUrl = (path) => `${path}?t=${new Date().getTime()}`;
 
+        const sourceLabelMap = {
+            koreaexim: 'Korea Exim Bank',
+            frankfurter: 'Frankfurter',
+            base: 'KRW Base',
+            retained: 'Retained Previous'
+        };
+
+        function getSourceLabel(source) {
+            return sourceLabelMap[source] || source || '-';
+        }
+
+        function getSourceClass(source) {
+            if (source === 'koreaexim') return 'source-koreaexim';
+            if (source === 'frankfurter') return 'source-frankfurter';
+            if (source === 'base') return 'source-base';
+            if (source === 'retained') return 'source-retained';
+            return '';
+        }
+
+        function formatBaseDate(meta) {
+            if (meta.searchDateIso) return meta.searchDateIso;
+            if (meta.searchDate) {
+                return String(meta.searchDate).replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
+            }
+            return '-';
+        }
+
+        function formatDateTime(value) {
+            if (!value) return '-';
+
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) {
+                return value;
+            }
+
+            return date.toLocaleString('en-US');
+        }
+
+        function formatDate(value) {
+            if (!value) return '-';
+
+            // updated_at is usually YYYY-MM-DD.
+            // Keep it as-is for readability.
+            if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+                return value;
+            }
+
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) {
+                return value;
+            }
+
+            return date.toISOString().slice(0, 10);
+        }
+
         async function init() {
             try {
-                // Optimize speed with parallel requests
+                // V2 JSON 기준으로 로드
                 const [metaRes, ratesRes] = await Promise.all([
-                    fetch(getUrl('fx/krw_meta.json')),
-                    fetch(getUrl('fx/krw_exchange_rates.json'))
+                    fetch(getUrl('fx/krw_meta_v2.json')),
+                    fetch(getUrl('fx/krw_exchange_rates_v2.json'))
                 ]);
 
-                if (!metaRes.ok || !ratesRes.ok) throw new Error("Failed to load data");
+                if (!metaRes.ok || !ratesRes.ok) {
+                    throw new Error("Failed to load V2 data");
+                }
 
                 const meta = await metaRes.json();
                 const rates = await ratesRes.json();
 
-                // Render data
-                document.getElementById('searchDate').textContent = meta.searchDate.replace(/(\d{4})(\d{2})(\d{2})/, '$1-$2-$3');
-                
-                const dateObj = new Date(meta.updatedAtKst);
-                document.getElementById('updatedAt').textContent = dateObj.toLocaleString('en-US');
+                if (!Array.isArray(rates)) {
+                    throw new Error("Invalid V2 rates format");
+                }
 
+                // Render meta
+                document.getElementById('searchDate').textContent = formatBaseDate(meta);
+                document.getElementById('updatedAt').textContent = formatDateTime(meta.updatedAtKst);
+                document.getElementById('totalCount').textContent = String(
+                    meta?.counts?.total ?? rates.length
+                );
+                document.getElementById('source').textContent =
+                    meta.source === 'koreaexim-oapi+frankfurter'
+                        ? 'Korea Exim Bank + Frankfurter'
+                        : (meta.source || 'Korea Exim Bank + Frankfurter');
+
+                // Render rates
                 const tbody = document.getElementById('rateBody');
                 tbody.innerHTML = '';
 
                 rates.forEach(item => {
                     const tr = document.createElement('tr');
+
+                    const source = item.source || '-';
+                    const sourceLabel = getSourceLabel(source);
+                    const sourceClass = getSourceClass(source);
+                    const updatedAt = formatDate(item.updated_at);
+
                     tr.innerHTML = `
                         <td>
                             <div class="flag-cell">
-                                ${item.cur_unit}
-                                <span class="unit">${item.cur_nm}</span>
+                                ${item.cur_unit || '-'}
+                                <span class="unit">${item.cur_nm || '-'}</span>
                             </div>
                         </td>
-                        <td class="rate">${item.deal_bas_r}</td>
+                        <td class="rate">${item.deal_bas_r || '-'}</td>
+                        <td>
+                            <span class="source-badge ${sourceClass}">${sourceLabel}</span>
+                        </td>
+                        <td class="date">${updatedAt}</td>
                     `;
                     tbody.appendChild(tr);
                 });
@@ -136,8 +443,9 @@
             } catch (err) {
                 console.error(err);
                 document.getElementById('loading').style.display = 'none';
+
                 const errDiv = document.getElementById('error');
-                errDiv.textContent = "⚠️ Failed to load data: Exchange rate information may not have been generated yet, or an error has occurred.";
+                errDiv.textContent = "⚠️ Failed to load V2 data: Exchange rate information may not have been generated yet, or an error has occurred.";
                 errDiv.style.display = 'block';
             }
         }
