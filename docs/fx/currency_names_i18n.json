@@ -438,5 +438,1370 @@
     },
     "symbol": "R",
     "display_symbol": "ZAR"
+  },
+
+  "AFN": {
+    "names": {
+      "ko": "아프가니스탄 아프가니",
+      "ja": "アフガニスタン アフガニー",
+      "en": "Afghan Afghani",
+      "zh-cn": "阿富汗尼",
+      "zh-tw": "阿富汗尼"
+    },
+    "symbol": "؋",
+    "display_symbol": "؋"
+  },
+  "ALL": {
+    "names": {
+      "ko": "알바니아 레크",
+      "ja": "アルバニア レク",
+      "en": "Albanian Lek",
+      "zh-cn": "阿尔巴尼亚列克",
+      "zh-tw": "阿爾巴尼亞列克"
+    },
+    "symbol": "Lekë",
+    "display_symbol": "Lekë"
+  },
+  "AMD": {
+    "names": {
+      "ko": "아르메니아 드람",
+      "ja": "アルメニア ドラム",
+      "en": "Armenian Dram",
+      "zh-cn": "亚美尼亚德拉姆",
+      "zh-tw": "亞美尼亞德拉姆"
+    },
+    "symbol": "֏",
+    "display_symbol": "֏"
+  },
+  "ANG": {
+    "names": {
+      "ko": "네덜란드령 안틸레스 길더",
+      "ja": "オランダ領アンティル ギルダー",
+      "en": "Netherlands Antillean Guilder",
+      "zh-cn": "荷属安的列斯盾",
+      "zh-tw": "荷屬安地列斯盾"
+    },
+    "symbol": "NAf.",
+    "display_symbol": "NAf."
+  },
+  "AOA": {
+    "names": {
+      "ko": "앙골라 콴자",
+      "ja": "アンゴラ クワンザ",
+      "en": "Angolan Kwanza",
+      "zh-cn": "安哥拉宽扎",
+      "zh-tw": "安哥拉寬扎"
+    },
+    "symbol": "Kz",
+    "display_symbol": "Kz"
+  },
+  "ARS": {
+    "names": {
+      "ko": "아르헨티나 페소",
+      "ja": "アルゼンチン ペソ",
+      "en": "Argentine Peso",
+      "zh-cn": "阿根廷比索",
+      "zh-tw": "阿根廷披索"
+    },
+    "symbol": "$",
+    "display_symbol": "$AR"
+  },
+  "AWG": {
+    "names": {
+      "ko": "아루바 플로린",
+      "ja": "アルバ フロリン",
+      "en": "Aruban Florin",
+      "zh-cn": "阿鲁巴弗罗林",
+      "zh-tw": "阿路巴盾"
+    },
+    "symbol": "Afl.",
+    "display_symbol": "Afl."
+  },
+  "AZN": {
+    "names": {
+      "ko": "아제르바이잔 마나트",
+      "ja": "アゼルバイジャン マナト",
+      "en": "Azerbaijani Manat",
+      "zh-cn": "阿塞拜疆马纳特",
+      "zh-tw": "亞塞拜然馬納特"
+    },
+    "symbol": "₼",
+    "display_symbol": "₼"
+  },
+  "BAM": {
+    "names": {
+      "ko": "보스니아-헤르체고비나 태환 마르크",
+      "ja": "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
+      "en": "Bosnia-Herzegovina Convertible Mark",
+      "zh-cn": "波斯尼亚-黑塞哥维那可兑换马克",
+      "zh-tw": "波士尼亞-赫塞哥維納可轉換馬克"
+    },
+    "symbol": "KM",
+    "display_symbol": "KM"
+  },
+  "BBD": {
+    "names": {
+      "ko": "바베이도스 달러",
+      "ja": "バルバドス ドル",
+      "en": "Barbadian Dollar",
+      "zh-cn": "巴巴多斯元",
+      "zh-tw": "巴貝多元"
+    },
+    "symbol": "$",
+    "display_symbol": "Bds$"
+  },
+  "BDT": {
+    "names": {
+      "ko": "방글라데시 타카",
+      "ja": "バングラデシュ タカ",
+      "en": "Bangladeshi Taka",
+      "zh-cn": "孟加拉塔卡",
+      "zh-tw": "孟加拉塔卡"
+    },
+    "symbol": "৳",
+    "display_symbol": "৳"
+  },
+  "BIF": {
+    "names": {
+      "ko": "부룬디 프랑",
+      "ja": "ブルンジ フラン",
+      "en": "Burundian Franc",
+      "zh-cn": "布隆迪法郎",
+      "zh-tw": "蒲隆地法郎"
+    },
+    "symbol": "FBu",
+    "display_symbol": "FBu"
+  },
+  "BMD": {
+    "names": {
+      "ko": "버뮤다 달러",
+      "ja": "バミューダ ドル",
+      "en": "Bermudan Dollar",
+      "zh-cn": "百慕大元",
+      "zh-tw": "百慕達幣"
+    },
+    "symbol": "$",
+    "display_symbol": "$BM"
+  },
+  "BOB": {
+    "names": {
+      "ko": "볼리비아 볼리비아노",
+      "ja": "ボリビア ボリビアーノ",
+      "en": "Bolivian Boliviano",
+      "zh-cn": "玻利维亚诺",
+      "zh-tw": "玻利維亞諾"
+    },
+    "symbol": "Bs",
+    "display_symbol": "Bs"
+  },
+  "BSD": {
+    "names": {
+      "ko": "바하마 달러",
+      "ja": "バハマ ドル",
+      "en": "Bahamian Dollar",
+      "zh-cn": "巴哈马元",
+      "zh-tw": "巴哈馬元"
+    },
+    "symbol": "$",
+    "display_symbol": "BS$"
+  },
+  "BTN": {
+    "names": {
+      "ko": "부탄 눌투눔",
+      "ja": "ブータン ニュルタム",
+      "en": "Bhutanese Ngultrum",
+      "zh-cn": "不丹努尔特鲁姆",
+      "zh-tw": "不丹那特倫"
+    },
+    "symbol": "Nu.",
+    "display_symbol": "Nu."
+  },
+  "BWP": {
+    "names": {
+      "ko": "보츠와나 풀라",
+      "ja": "ボツワナ プラ",
+      "en": "Botswanan Pula",
+      "zh-cn": "博茨瓦纳普拉",
+      "zh-tw": "波札那普拉"
+    },
+    "symbol": "P",
+    "display_symbol": "BWP"
+  },
+  "BYN": {
+    "names": {
+      "ko": "벨라루스 루블",
+      "ja": "ベラルーシ ルーブル",
+      "en": "Belarusian Ruble",
+      "zh-cn": "白俄罗斯卢布",
+      "zh-tw": "白俄羅斯盧布"
+    },
+    "symbol": "Br",
+    "display_symbol": "Br"
+  },
+  "BZD": {
+    "names": {
+      "ko": "벨리즈 달러",
+      "ja": "ベリーズ ドル",
+      "en": "Belize Dollar",
+      "zh-cn": "伯利兹元",
+      "zh-tw": "貝里斯元"
+    },
+    "symbol": "$",
+    "display_symbol": "$BZ"
+  },
+  "CDF": {
+    "names": {
+      "ko": "콩고 프랑",
+      "ja": "コンゴ フラン",
+      "en": "Congolese Franc",
+      "zh-cn": "刚果法郎",
+      "zh-tw": "剛果法郎"
+    },
+    "symbol": "FC",
+    "display_symbol": "FC"
+  },
+  "CLP": {
+    "names": {
+      "ko": "칠레 페소",
+      "ja": "チリ ペソ",
+      "en": "Chilean Peso",
+      "zh-cn": "智利比索",
+      "zh-tw": "智利披索"
+    },
+    "symbol": "$",
+    "display_symbol": "$CL"
+  },
+  "COP": {
+    "names": {
+      "ko": "콜롬비아 페소",
+      "ja": "コロンビア ペソ",
+      "en": "Colombian Peso",
+      "zh-cn": "哥伦比亚比索",
+      "zh-tw": "哥倫比亞披索"
+    },
+    "symbol": "$",
+    "display_symbol": "$CO"
+  },
+  "CRC": {
+    "names": {
+      "ko": "코스타리카 콜론",
+      "ja": "コスタリカ コロン",
+      "en": "Costa Rican Colón",
+      "zh-cn": "哥斯达黎加科朗",
+      "zh-tw": "哥斯大黎加科朗"
+    },
+    "symbol": "₡",
+    "display_symbol": "₡"
+  },
+  "CUP": {
+    "names": {
+      "ko": "쿠바 페소",
+      "ja": "キューバ ペソ",
+      "en": "Cuban Peso",
+      "zh-cn": "古巴比索",
+      "zh-tw": "古巴披索"
+    },
+    "symbol": "$",
+    "display_symbol": "CUP"
+  },
+  "CVE": {
+    "names": {
+      "ko": "카보베르데 에스쿠도",
+      "ja": "カーボベルデ エスクード",
+      "en": "Cape Verdean Escudo",
+      "zh-cn": "佛得角埃斯库多",
+      "zh-tw": "維德角埃斯庫多"
+    },
+    "symbol": "CVE",
+    "display_symbol": "CVE"
+  },
+  "DJF": {
+    "names": {
+      "ko": "지부티 프랑",
+      "ja": "ジブチ フラン",
+      "en": "Djiboutian Franc",
+      "zh-cn": "吉布提法郎",
+      "zh-tw": "吉布地法郎"
+    },
+    "symbol": "Fdj",
+    "display_symbol": "Fdj"
+  },
+  "DOP": {
+    "names": {
+      "ko": "도미니카 페소",
+      "ja": "ドミニカ ペソ",
+      "en": "Dominican Peso",
+      "zh-cn": "多米尼加比索",
+      "zh-tw": "多明尼加披索"
+    },
+    "symbol": "RD$",
+    "display_symbol": "RD$"
+  },
+  "DZD": {
+    "names": {
+      "ko": "알제리 디나르",
+      "ja": "アルジェリア ディナール",
+      "en": "Algerian Dinar",
+      "zh-cn": "阿尔及利亚第纳尔",
+      "zh-tw": "阿爾及利亞第納爾"
+    },
+    "symbol": "DA",
+    "display_symbol": "DA"
+  },
+  "ERN": {
+    "names": {
+      "ko": "에리트리아 나크파",
+      "ja": "エリトリア ナクファ",
+      "en": "Eritrean Nakfa",
+      "zh-cn": "厄立特里亚纳克法",
+      "zh-tw": "厄立特里亞納克法"
+    },
+    "symbol": "Nfk",
+    "display_symbol": "Nfk"
+  },
+  "ETB": {
+    "names": {
+      "ko": "에티오피아 비르",
+      "ja": "エチオピア ブル",
+      "en": "Ethiopian Birr",
+      "zh-cn": "埃塞俄比亚比尔",
+      "zh-tw": "衣索比亞比爾"
+    },
+    "symbol": "Br",
+    "display_symbol": "Br"
+  },
+  "FJD": {
+    "names": {
+      "ko": "피지 달러",
+      "ja": "フィジー ドル",
+      "en": "Fijian Dollar",
+      "zh-cn": "斐济元",
+      "zh-tw": "斐濟元"
+    },
+    "symbol": "$",
+    "display_symbol": "$FJ"
+  },
+  "FKP": {
+    "names": {
+      "ko": "포클랜드제도 파운드",
+      "ja": "フォークランド（マルビナス）諸島 ポンド",
+      "en": "Falkland Islands Pound",
+      "zh-cn": "福克兰群岛镑",
+      "zh-tw": "福克蘭群島鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "£FK"
+  },
+  "GEL": {
+    "names": {
+      "ko": "조지아 라리",
+      "ja": "ジョージア ラリ",
+      "en": "Georgian Lari",
+      "zh-cn": "格鲁吉亚拉里",
+      "zh-tw": "喬治亞拉里"
+    },
+    "symbol": "₾",
+    "display_symbol": "₾"
+  },
+  "GGP": {
+    "names": {
+      "ko": "건지 파운드",
+      "ja": "ガーンジー・ポンド",
+      "en": "Guernsey Pound",
+      "zh-cn": "根西岛镑",
+      "zh-tw": "根西島鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "GGP"
+  },
+  "GHS": {
+    "names": {
+      "ko": "가나 세디",
+      "ja": "ガーナ セディ",
+      "en": "Ghanaian Cedi",
+      "zh-cn": "加纳塞地",
+      "zh-tw": "迦納塞地"
+    },
+    "symbol": "GH₵",
+    "display_symbol": "GH₵"
+  },
+  "GIP": {
+    "names": {
+      "ko": "지브롤터 파운드",
+      "ja": "ジブラルタル ポンド",
+      "en": "Gibraltar Pound",
+      "zh-cn": "直布罗陀镑",
+      "zh-tw": "直布羅陀鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "£GI"
+  },
+  "GMD": {
+    "names": {
+      "ko": "감비아 달라시",
+      "ja": "ガンビア ダラシ",
+      "en": "Gambian Dalasi",
+      "zh-cn": "冈比亚达拉西",
+      "zh-tw": "甘比亞達拉西"
+    },
+    "symbol": "D",
+    "display_symbol": "GMD"
+  },
+  "GNF": {
+    "names": {
+      "ko": "기니 프랑",
+      "ja": "ギニア フラン",
+      "en": "Guinean Franc",
+      "zh-cn": "几内亚法郎",
+      "zh-tw": "幾內亞法郎"
+    },
+    "symbol": "FG",
+    "display_symbol": "FG"
+  },
+  "GTQ": {
+    "names": {
+      "ko": "과테말라 케트살",
+      "ja": "グアテマラ ケツァル",
+      "en": "Guatemalan Quetzal",
+      "zh-cn": "危地马拉格查尔",
+      "zh-tw": "瓜地馬拉格查爾"
+    },
+    "symbol": "Q",
+    "display_symbol": "GTQ"
+  },
+  "GYD": {
+    "names": {
+      "ko": "가이아나 달러",
+      "ja": "ガイアナ ドル",
+      "en": "Guyanaese Dollar",
+      "zh-cn": "圭亚那元",
+      "zh-tw": "圭亞那元"
+    },
+    "symbol": "$",
+    "display_symbol": "GYD"
+  },
+  "HNL": {
+    "names": {
+      "ko": "온두라스 렘피라",
+      "ja": "ホンジュラス レンピラ",
+      "en": "Honduran Lempira",
+      "zh-cn": "洪都拉斯伦皮拉",
+      "zh-tw": "洪都拉斯倫皮拉"
+    },
+    "symbol": "L",
+    "display_symbol": "HNL"
+  },
+  "HTG": {
+    "names": {
+      "ko": "아이티 구르드",
+      "ja": "ハイチ グールド",
+      "en": "Haitian Gourde",
+      "zh-cn": "海地古德",
+      "zh-tw": "海地古德"
+    },
+    "symbol": "G",
+    "display_symbol": "HTG"
+  },
+  "IMP": {
+    "names": {
+      "ko": "맨섬 파운드",
+      "ja": "マン島ポンド",
+      "en": "Manx Pound",
+      "zh-cn": "马恩岛镑",
+      "zh-tw": "曼島鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "IMP"
+  },
+  "IQD": {
+    "names": {
+      "ko": "이라크 디나르",
+      "ja": "イラク ディナール",
+      "en": "Iraqi Dinar",
+      "zh-cn": "伊拉克第纳尔",
+      "zh-tw": "伊拉克第納爾"
+    },
+    "symbol": "د.ع.‏",
+    "display_symbol": "د.ع.‏"
+  },
+  "IRR": {
+    "names": {
+      "ko": "이란 리얄",
+      "ja": "イラン リアル",
+      "en": "Iranian Rial",
+      "zh-cn": "伊朗里亚尔",
+      "zh-tw": "伊朗里亞爾"
+    },
+    "symbol": "ریال",
+    "display_symbol": "ریال"
+  },
+  "ISK": {
+    "names": {
+      "ko": "아이슬란드 크로나",
+      "ja": "アイスランド クローナ",
+      "en": "Icelandic Króna",
+      "zh-cn": "冰岛克朗",
+      "zh-tw": "冰島克朗"
+    },
+    "symbol": "kr.",
+    "display_symbol": "kr."
+  },
+  "JEP": {
+    "names": {
+      "ko": "저지 파운드",
+      "ja": "ジャージー・ポンド",
+      "en": "Jersey Pound",
+      "zh-cn": "泽西镑",
+      "zh-tw": "澤西鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "JEP"
+  },
+  "JMD": {
+    "names": {
+      "ko": "자메이카 달러",
+      "ja": "ジャマイカ ドル",
+      "en": "Jamaican Dollar",
+      "zh-cn": "牙买加元",
+      "zh-tw": "牙買加元"
+    },
+    "symbol": "$",
+    "display_symbol": "JM$"
+  },
+  "JOD": {
+    "names": {
+      "ko": "요르단 디나르",
+      "ja": "ヨルダン ディナール",
+      "en": "Jordanian Dinar",
+      "zh-cn": "约旦第纳尔",
+      "zh-tw": "約旦第納爾"
+    },
+    "symbol": "د.أ.‏",
+    "display_symbol": "د.أ.‏"
+  },
+  "KES": {
+    "names": {
+      "ko": "케냐 실링",
+      "ja": "ケニア シリング",
+      "en": "Kenyan Shilling",
+      "zh-cn": "肯尼亚先令",
+      "zh-tw": "肯尼亞先令"
+    },
+    "symbol": "Ksh",
+    "display_symbol": "Ksh"
+  },
+  "KGS": {
+    "names": {
+      "ko": "키르기스스탄 솜",
+      "ja": "キルギス ソム",
+      "en": "Kyrgystani Som",
+      "zh-cn": "吉尔吉斯斯坦索姆",
+      "zh-tw": "吉爾吉斯索姆"
+    },
+    "symbol": "сом",
+    "display_symbol": "сом"
+  },
+  "KHR": {
+    "names": {
+      "ko": "캄보디아 리엘",
+      "ja": "カンボジア リエル",
+      "en": "Cambodian Riel",
+      "zh-cn": "柬埔寨瑞尔",
+      "zh-tw": "柬埔寨瑞爾"
+    },
+    "symbol": "៛",
+    "display_symbol": "៛"
+  },
+  "KMF": {
+    "names": {
+      "ko": "코모르 프랑",
+      "ja": "コモロ フラン",
+      "en": "Comorian Franc",
+      "zh-cn": "科摩罗法郎",
+      "zh-tw": "科摩羅法郎"
+    },
+    "symbol": "CF",
+    "display_symbol": "CF"
+  },
+  "KYD": {
+    "names": {
+      "ko": "케이맨 제도 달러",
+      "ja": "ケイマン諸島 ドル",
+      "en": "Cayman Islands Dollar",
+      "zh-cn": "开曼元",
+      "zh-tw": "開曼群島元"
+    },
+    "symbol": "$",
+    "display_symbol": "KYD"
+  },
+  "KZT": {
+    "names": {
+      "ko": "카자흐스탄 텡게",
+      "ja": "カザフスタン テンゲ",
+      "en": "Kazakhstani Tenge",
+      "zh-cn": "哈萨克斯坦坚戈",
+      "zh-tw": "哈薩克堅戈"
+    },
+    "symbol": "₸",
+    "display_symbol": "₸"
+  },
+  "LAK": {
+    "names": {
+      "ko": "라오스 키프",
+      "ja": "ラオス キープ",
+      "en": "Laotian Kip",
+      "zh-cn": "老挝基普",
+      "zh-tw": "寮國基普"
+    },
+    "symbol": "₭",
+    "display_symbol": "₭"
+  },
+  "LBP": {
+    "names": {
+      "ko": "레바논 파운드",
+      "ja": "レバノン ポンド",
+      "en": "Lebanese Pound",
+      "zh-cn": "黎巴嫩镑",
+      "zh-tw": "黎巴嫩鎊"
+    },
+    "symbol": "ل.ل.‏",
+    "display_symbol": "ل.ل.‏"
+  },
+  "LKR": {
+    "names": {
+      "ko": "스리랑카 루피",
+      "ja": "スリランカ ルピー",
+      "en": "Sri Lankan Rupee",
+      "zh-cn": "斯里兰卡卢比",
+      "zh-tw": "斯里蘭卡盧比"
+    },
+    "symbol": "Rs.",
+    "display_symbol": "Rs."
+  },
+  "LRD": {
+    "names": {
+      "ko": "라이베리아 달러",
+      "ja": "リベリア ドル",
+      "en": "Liberian Dollar",
+      "zh-cn": "利比里亚元",
+      "zh-tw": "賴比瑞亞元"
+    },
+    "symbol": "$",
+    "display_symbol": "LRD"
+  },
+  "LSL": {
+    "names": {
+      "ko": "레소토 로티",
+      "ja": "レソト ロティ",
+      "en": "Lesotho Loti",
+      "zh-cn": "莱索托洛蒂",
+      "zh-tw": "賴索托洛蒂"
+    },
+    "symbol": "M",
+    "display_symbol": "ЛСЛ"
+  },
+  "LYD": {
+    "names": {
+      "ko": "리비아 디나르",
+      "ja": "リビア ディナール",
+      "en": "Libyan Dinar",
+      "zh-cn": "利比亚第纳尔",
+      "zh-tw": "利比亞第納爾"
+    },
+    "symbol": "د.ل.‏",
+    "display_symbol": "د.ل.‏"
+  },
+  "MAD": {
+    "names": {
+      "ko": "모로코 디르함",
+      "ja": "モロッコ ディルハム",
+      "en": "Moroccan Dirham",
+      "zh-cn": "摩洛哥迪拉姆",
+      "zh-tw": "摩洛哥迪拉姆"
+    },
+    "symbol": "د.م.‏",
+    "display_symbol": "د.م.‏"
+  },
+  "MDL": {
+    "names": {
+      "ko": "몰도바 레이",
+      "ja": "モルドバ レイ",
+      "en": "Moldovan Leu",
+      "zh-cn": "摩尔多瓦列伊",
+      "zh-tw": "摩杜雲列伊"
+    },
+    "symbol": "L",
+    "display_symbol": "MDL"
+  },
+  "MGA": {
+    "names": {
+      "ko": "마다가스카르 아리아리",
+      "ja": "マダガスカル アリアリ",
+      "en": "Malagasy Ariary",
+      "zh-cn": "马达加斯加阿里亚里",
+      "zh-tw": "馬達加斯加阿里亞里"
+    },
+    "symbol": "Ar",
+    "display_symbol": "Ar"
+  },
+  "MKD": {
+    "names": {
+      "ko": "마케도니아 디나르",
+      "ja": "マケドニア デナル",
+      "en": "Macedonian Denar",
+      "zh-cn": "马其顿第纳尔",
+      "zh-tw": "馬其頓第納爾"
+    },
+    "symbol": "den",
+    "display_symbol": "den"
+  },
+  "MMK": {
+    "names": {
+      "ko": "미얀마 키얏",
+      "ja": "ミャンマー チャット",
+      "en": "Myanmar Kyat",
+      "zh-cn": "缅甸元",
+      "zh-tw": "緬甸元"
+    },
+    "symbol": "K",
+    "display_symbol": "MMK"
+  },
+  "MNT": {
+    "names": {
+      "ko": "몽골 투그릭",
+      "ja": "モンゴル トグログ",
+      "en": "Mongolian Tugrik",
+      "zh-cn": "蒙古图格里克",
+      "zh-tw": "蒙古圖格里克"
+    },
+    "symbol": "₮",
+    "display_symbol": "₮"
+  },
+  "MRO": {
+    "names": {
+      "ko": "모리타니 우기야 (1973–2017)",
+      "ja": "モーリタニア ウギア (1973–2017)",
+      "en": "Mauritanian Ouguiya (1973–2017)",
+      "zh-cn": "毛里塔尼亚乌吉亚 (1973–2017)",
+      "zh-tw": "茅利塔尼亞烏吉亞 (1973–2017)"
+    },
+    "symbol": "MRO",
+    "display_symbol": "MRO"
+  },
+  "MRU": {
+    "names": {
+      "ko": "모리타니 우기야",
+      "ja": "モーリタニア ウギア",
+      "en": "Mauritanian Ouguiya",
+      "zh-cn": "毛里塔尼亚乌吉亚",
+      "zh-tw": "茅利塔尼亞烏吉亞"
+    },
+    "symbol": "UM",
+    "display_symbol": "UM"
+  },
+  "MUR": {
+    "names": {
+      "ko": "모리셔스 루피",
+      "ja": "モーリシャス ルピー",
+      "en": "Mauritian Rupee",
+      "zh-cn": "毛里求斯卢比",
+      "zh-tw": "模里西斯盧比"
+    },
+    "symbol": "Rs",
+    "display_symbol": "Rs"
+  },
+  "MVR": {
+    "names": {
+      "ko": "몰디브 제도 루피아",
+      "ja": "モルディブ ルフィア",
+      "en": "Maldivian Rufiyaa",
+      "zh-cn": "马尔代夫卢菲亚",
+      "zh-tw": "馬爾地夫盧非亞"
+    },
+    "symbol": "Rf",
+    "display_symbol": "Rf"
+  },
+  "MWK": {
+    "names": {
+      "ko": "말라위 콰차",
+      "ja": "マラウィ クワチャ",
+      "en": "Malawian Kwacha",
+      "zh-cn": "马拉维克瓦查",
+      "zh-tw": "馬拉維克瓦查"
+    },
+    "symbol": "MK",
+    "display_symbol": "MK"
+  },
+  "MZN": {
+    "names": {
+      "ko": "모잠비크 메티칼",
+      "ja": "モザンビーク メティカル",
+      "en": "Mozambican Metical",
+      "zh-cn": "莫桑比克美提卡",
+      "zh-tw": "莫三比克梅蒂卡爾"
+    },
+    "symbol": "MTn",
+    "display_symbol": "MTn"
+  },
+  "NAD": {
+    "names": {
+      "ko": "나미비아 달러",
+      "ja": "ナミビア ドル",
+      "en": "Namibian Dollar",
+      "zh-cn": "纳米比亚元",
+      "zh-tw": "納米比亞元"
+    },
+    "symbol": "$",
+    "display_symbol": "$NA"
+  },
+  "NGN": {
+    "names": {
+      "ko": "나이지리아 나이라",
+      "ja": "ナイジェリア ナイラ",
+      "en": "Nigerian Naira",
+      "zh-cn": "尼日利亚奈拉",
+      "zh-tw": "奈及利亞奈拉"
+    },
+    "symbol": "₦",
+    "display_symbol": "₦"
+  },
+  "NIO": {
+    "names": {
+      "ko": "니카라과 코르도바",
+      "ja": "ニカラグア コルドバ オロ",
+      "en": "Nicaraguan Córdoba",
+      "zh-cn": "尼加拉瓜科多巴",
+      "zh-tw": "尼加拉瓜金科多巴"
+    },
+    "symbol": "C$",
+    "display_symbol": "C$"
+  },
+  "NPR": {
+    "names": {
+      "ko": "네팔 루피",
+      "ja": "ネパール ルピー",
+      "en": "Nepalese Rupee",
+      "zh-cn": "尼泊尔卢比",
+      "zh-tw": "尼泊爾盧比"
+    },
+    "symbol": "नेरू",
+    "display_symbol": "नेरू"
+  },
+  "OMR": {
+    "names": {
+      "ko": "오만 리알",
+      "ja": "オマーン リアル",
+      "en": "Omani Rial",
+      "zh-cn": "阿曼里亚尔",
+      "zh-tw": "阿曼里亞爾"
+    },
+    "symbol": "ر.ع.‏",
+    "display_symbol": "ر.ع.‏"
+  },
+  "PAB": {
+    "names": {
+      "ko": "파나마 발보아",
+      "ja": "パナマ バルボア",
+      "en": "Panamanian Balboa",
+      "zh-cn": "巴拿马巴波亚",
+      "zh-tw": "巴拿馬巴波亞"
+    },
+    "symbol": "B/.",
+    "display_symbol": "B/."
+  },
+  "PEN": {
+    "names": {
+      "ko": "페루 솔",
+      "ja": "ペルー ソル",
+      "en": "Peruvian Sol",
+      "zh-cn": "秘鲁索尔",
+      "zh-tw": "秘魯太陽幣"
+    },
+    "symbol": "S/",
+    "display_symbol": "S/"
+  },
+  "PGK": {
+    "names": {
+      "ko": "파푸아뉴기니 키나",
+      "ja": "パプアニューギニア キナ",
+      "en": "Papua New Guinean Kina",
+      "zh-cn": "巴布亚新几内亚基那",
+      "zh-tw": "巴布亞紐幾內亞基那"
+    },
+    "symbol": "K",
+    "display_symbol": "PGK"
+  },
+  "PYG": {
+    "names": {
+      "ko": "파라과이 과라니",
+      "ja": "パラグアイ グアラニ",
+      "en": "Paraguayan Guarani",
+      "zh-cn": "巴拉圭瓜拉尼",
+      "zh-tw": "巴拉圭瓜拉尼"
+    },
+    "symbol": "₲",
+    "display_symbol": "₲"
+  },
+  "QAR": {
+    "names": {
+      "ko": "카타르 리얄",
+      "ja": "カタール リアル",
+      "en": "Qatari Riyal",
+      "zh-cn": "卡塔尔里亚尔",
+      "zh-tw": "卡達里亞爾"
+    },
+    "symbol": "ر.ق.‏",
+    "display_symbol": "ر.ق.‏"
+  },
+  "RON": {
+    "names": {
+      "ko": "루마니아 레우",
+      "ja": "ルーマニア レイ",
+      "en": "Romanian Leu",
+      "zh-cn": "罗马尼亚列伊",
+      "zh-tw": "羅馬尼亞列伊"
+    },
+    "symbol": "RON",
+    "display_symbol": "RON"
+  },
+  "RSD": {
+    "names": {
+      "ko": "세르비아 디나르",
+      "ja": "セルビア ディナール",
+      "en": "Serbian Dinar",
+      "zh-cn": "塞尔维亚第纳尔",
+      "zh-tw": "塞爾維亞戴納"
+    },
+    "symbol": "din.",
+    "display_symbol": "din."
+  },
+  "RWF": {
+    "names": {
+      "ko": "르완다 프랑",
+      "ja": "ルワンダ フラン",
+      "en": "Rwandan Franc",
+      "zh-cn": "卢旺达法郎",
+      "zh-tw": "盧安達法郎"
+    },
+    "symbol": "RF",
+    "display_symbol": "RF"
+  },
+  "SBD": {
+    "names": {
+      "ko": "솔로몬 제도 달러",
+      "ja": "ソロモン諸島 ドル",
+      "en": "Solomon Islands Dollar",
+      "zh-cn": "所罗门群岛元",
+      "zh-tw": "索羅門群島元"
+    },
+    "symbol": "$",
+    "display_symbol": "$SB"
+  },
+  "SCR": {
+    "names": {
+      "ko": "세이셸 루피",
+      "ja": "セーシェル ルピー",
+      "en": "Seychellois Rupee",
+      "zh-cn": "塞舌尔卢比",
+      "zh-tw": "塞席爾盧比"
+    },
+    "symbol": "SR",
+    "display_symbol": "SR"
+  },
+  "SDG": {
+    "names": {
+      "ko": "수단 파운드",
+      "ja": "スーダン ポンド",
+      "en": "Sudanese Pound",
+      "zh-cn": "苏丹镑",
+      "zh-tw": "蘇丹鎊"
+    },
+    "symbol": "ج.س.",
+    "display_symbol": "ج.س."
+  },
+  "SHP": {
+    "names": {
+      "ko": "세인트헬레나 파운드",
+      "ja": "セントヘレナ ポンド",
+      "en": "St. Helena Pound",
+      "zh-cn": "圣赫勒拿群岛磅",
+      "zh-tw": "聖赫勒拿鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "SHP"
+  },
+  "SLE": {
+    "names": {
+      "ko": "시에라리온 리온",
+      "ja": "シエラレオネ レオン",
+      "en": "Sierra Leonean Leone",
+      "zh-cn": "塞拉利昂新利昂",
+      "zh-tw": "獅子山利昂"
+    },
+    "symbol": "Le",
+    "display_symbol": "Le"
+  },
+  "SOS": {
+    "names": {
+      "ko": "소말리아 실링",
+      "ja": "ソマリア シリング",
+      "en": "Somali Shilling",
+      "zh-cn": "索马里先令",
+      "zh-tw": "索馬利亞先令"
+    },
+    "symbol": "S",
+    "display_symbol": "SOS"
+  },
+  "SRD": {
+    "names": {
+      "ko": "수리남 달러",
+      "ja": "スリナム ドル",
+      "en": "Surinamese Dollar",
+      "zh-cn": "苏里南元",
+      "zh-tw": "蘇利南元"
+    },
+    "symbol": "$",
+    "display_symbol": "$SR"
+  },
+  "SSP": {
+    "names": {
+      "ko": "남수단 파운드",
+      "ja": "南スーダン ポンド",
+      "en": "South Sudanese Pound",
+      "zh-cn": "南苏丹镑",
+      "zh-tw": "南蘇丹鎊"
+    },
+    "symbol": "£",
+    "display_symbol": "SSP"
+  },
+  "STN": {
+    "names": {
+      "ko": "상투메 프린시페 도브라",
+      "ja": "サントメ・プリンシペ ドブラ",
+      "en": "São Tomé & Príncipe Dobra",
+      "zh-cn": "圣多美和普林西比多布拉",
+      "zh-tw": "聖多美島和普林西比島多布拉"
+    },
+    "symbol": "Db",
+    "display_symbol": "Db"
+  },
+  "SVC": {
+    "names": {
+      "ko": "엘살바도르 콜론",
+      "ja": "エルサルバドル コロン",
+      "en": "Salvadoran Colón",
+      "zh-cn": "萨尔瓦多科朗",
+      "zh-tw": "薩爾瓦多科郎"
+    },
+    "symbol": "SVC",
+    "display_symbol": "SVC"
+  },
+  "SYP": {
+    "names": {
+      "ko": "시리아 파운드",
+      "ja": "シリア ポンド",
+      "en": "Syrian Pound",
+      "zh-cn": "叙利亚镑",
+      "zh-tw": "敘利亞鎊"
+    },
+    "symbol": "LS",
+    "display_symbol": "LS"
+  },
+  "SZL": {
+    "names": {
+      "ko": "스와질란드 릴랑게니",
+      "ja": "スワジランド リランゲニ",
+      "en": "Swazi Lilangeni",
+      "zh-cn": "斯威士兰里兰吉尼",
+      "zh-tw": "史瓦帝尼朗吉尼"
+    },
+    "symbol": "E",
+    "display_symbol": "SZL"
+  },
+  "TJS": {
+    "names": {
+      "ko": "타지키스탄 소모니",
+      "ja": "タジキスタン ソモニ",
+      "en": "Tajikistani Somoni",
+      "zh-cn": "塔吉克斯坦索莫尼",
+      "zh-tw": "塔吉克索莫尼"
+    },
+    "symbol": "TJS",
+    "display_symbol": "TJS"
+  },
+  "TMT": {
+    "names": {
+      "ko": "투르크메니스탄 마나트",
+      "ja": "トルクメニスタン マナト",
+      "en": "Turkmenistani Manat",
+      "zh-cn": "土库曼斯坦马纳特",
+      "zh-tw": "土庫曼馬納特"
+    },
+    "symbol": "ТМТ",
+    "display_symbol": "ТМТ"
+  },
+  "TND": {
+    "names": {
+      "ko": "튀니지 디나르",
+      "ja": "チュニジア ディナール",
+      "en": "Tunisian Dinar",
+      "zh-cn": "突尼斯第纳尔",
+      "zh-tw": "突尼西亞第納爾"
+    },
+    "symbol": "DT",
+    "display_symbol": "DT"
+  },
+  "TOP": {
+    "names": {
+      "ko": "통가 파앙가",
+      "ja": "トンガ パ・アンガ",
+      "en": "Tongan Paʻanga",
+      "zh-cn": "汤加潘加",
+      "zh-tw": "東加潘加"
+    },
+    "symbol": "T$",
+    "display_symbol": "T$"
+  },
+  "TTD": {
+    "names": {
+      "ko": "트리니다드 토바고 달러",
+      "ja": "トリニダード・トバゴ ドル",
+      "en": "Trinidad & Tobago Dollar",
+      "zh-cn": "特立尼达和多巴哥元",
+      "zh-tw": "千里達及托巴哥元"
+    },
+    "symbol": "$",
+    "display_symbol": "$TT"
+  },
+  "TZS": {
+    "names": {
+      "ko": "탄자니아 실링",
+      "ja": "タンザニア シリング",
+      "en": "Tanzanian Shilling",
+      "zh-cn": "坦桑尼亚先令",
+      "zh-tw": "坦尚尼亞先令"
+    },
+    "symbol": "TSh",
+    "display_symbol": "TSh"
+  },
+  "UAH": {
+    "names": {
+      "ko": "우크라이나 그리브나",
+      "ja": "ウクライナ フリヴニャ",
+      "en": "Ukrainian Hryvnia",
+      "zh-cn": "乌克兰格里夫纳",
+      "zh-tw": "烏克蘭格里夫納"
+    },
+    "symbol": "₴",
+    "display_symbol": "₴"
+  },
+  "UGX": {
+    "names": {
+      "ko": "우간다 실링",
+      "ja": "ウガンダ シリング",
+      "en": "Ugandan Shilling",
+      "zh-cn": "乌干达先令",
+      "zh-tw": "烏干達先令"
+    },
+    "symbol": "USh",
+    "display_symbol": "USh"
+  },
+  "UYU": {
+    "names": {
+      "ko": "우루과이 페소",
+      "ja": "ウルグアイ ペソ",
+      "en": "Uruguayan Peso",
+      "zh-cn": "乌拉圭比索",
+      "zh-tw": "烏拉圭披索"
+    },
+    "symbol": "$",
+    "display_symbol": "$UY"
+  },
+  "UZS": {
+    "names": {
+      "ko": "우즈베키스탄 숨",
+      "ja": "ウズベキスタン スム",
+      "en": "Uzbekistani Som",
+      "zh-cn": "乌兹别克斯坦苏姆",
+      "zh-tw": "烏茲別克索姆"
+    },
+    "symbol": "сўм",
+    "display_symbol": "сўм"
+  },
+  "VES": {
+    "names": {
+      "ko": "베네수엘라 볼리바르",
+      "ja": "ベネズエラ ボリバル",
+      "en": "Venezuelan Bolívar",
+      "zh-cn": "委内瑞拉玻利瓦尔",
+      "zh-tw": "委內瑞拉玻利瓦"
+    },
+    "symbol": "Bs.S",
+    "display_symbol": "Bs.S"
+  },
+  "VUV": {
+    "names": {
+      "ko": "바누아투 바투",
+      "ja": "バヌアツ バツ",
+      "en": "Vanuatu Vatu",
+      "zh-cn": "瓦努阿图瓦图",
+      "zh-tw": "萬那杜瓦圖"
+    },
+    "symbol": "VT",
+    "display_symbol": "VT"
+  },
+  "WST": {
+    "names": {
+      "ko": "서 사모아 탈라",
+      "ja": "サモア タラ",
+      "en": "Samoan Tala",
+      "zh-cn": "萨摩亚塔拉",
+      "zh-tw": "西薩摩亞塔拉"
+    },
+    "symbol": "WS$",
+    "display_symbol": "WS$"
+  },
+  "XAF": {
+    "names": {
+      "ko": "중앙아프리카 CFA 프랑",
+      "ja": "中央アフリカ CFA フラン",
+      "en": "Central African CFA Franc",
+      "zh-cn": "中非法郎",
+      "zh-tw": "法郎 (CFA–BEAC)"
+    },
+    "symbol": "FCFA",
+    "display_symbol": "FCFA"
+  },
+  "XAG": {
+    "names": {
+      "ko": "은화",
+      "ja": "銀",
+      "en": "Silver",
+      "zh-cn": "银",
+      "zh-tw": "白銀"
+    },
+    "symbol": "XAG",
+    "display_symbol": "XAG"
+  },
+  "XAU": {
+    "names": {
+      "ko": "금",
+      "ja": "金",
+      "en": "Gold",
+      "zh-cn": "黄金",
+      "zh-tw": "黃金"
+    },
+    "symbol": "XAU",
+    "display_symbol": "XAU"
+  },
+  "XCD": {
+    "names": {
+      "ko": "동카리브 달러",
+      "ja": "東カリブ ドル",
+      "en": "East Caribbean Dollar",
+      "zh-cn": "东加勒比元",
+      "zh-tw": "格瑞那達元"
+    },
+    "symbol": "EC$",
+    "display_symbol": "EC$"
+  },
+  "XCG": {
+    "names": {
+      "ko": "카리브 길더",
+      "ja": "カリブ・ギルダー",
+      "en": "Caribbean Guilder",
+      "zh-cn": "加勒比盾",
+      "zh-tw": "加勒比盾"
+    },
+    "symbol": "Cg.",
+    "display_symbol": "Cg."
+  },
+  "XDR": {
+    "names": {
+      "ko": "특별인출권",
+      "ja": "特別引き出し権",
+      "en": "Special Drawing Rights",
+      "zh-cn": "特别提款权",
+      "zh-tw": "特殊提款權"
+    },
+    "symbol": "XDR",
+    "display_symbol": "XDR"
+  },
+  "XOF": {
+    "names": {
+      "ko": "서아프리카 CFA 프랑",
+      "ja": "西アフリカ CFA フラン",
+      "en": "West African CFA Franc",
+      "zh-cn": "西非法郎",
+      "zh-tw": "法郎 (CFA–BCEAO)"
+    },
+    "symbol": "F CFA",
+    "display_symbol": "F CFA"
+  },
+  "XPD": {
+    "names": {
+      "ko": "팔라듐",
+      "ja": "パラジウム",
+      "en": "Palladium",
+      "zh-cn": "钯",
+      "zh-tw": "帕拉狄昂"
+    },
+    "symbol": "XPD",
+    "display_symbol": "XPD"
+  },
+  "XPF": {
+    "names": {
+      "ko": "CFP 프랑",
+      "ja": "CFP フラン",
+      "en": "CFP Franc",
+      "zh-cn": "太平洋法郎",
+      "zh-tw": "法郎 (CFP)"
+    },
+    "symbol": "CFPF",
+    "display_symbol": "CFPF"
+  },
+  "XPT": {
+    "names": {
+      "ko": "백금",
+      "ja": "プラチナ",
+      "en": "Platinum",
+      "zh-cn": "铂",
+      "zh-tw": "白金"
+    },
+    "symbol": "XPT",
+    "display_symbol": "XPT"
+  },
+  "YER": {
+    "names": {
+      "ko": "예멘 리알",
+      "ja": "イエメン リアル",
+      "en": "Yemeni Rial",
+      "zh-cn": "也门里亚尔",
+      "zh-tw": "葉門里亞爾"
+    },
+    "symbol": "ر.ي.‏",
+    "display_symbol": "ر.ي.‏"
+  },
+  "ZMW": {
+    "names": {
+      "ko": "잠비아 콰차",
+      "ja": "ザンビア クワチャ",
+      "en": "Zambian Kwacha",
+      "zh-cn": "赞比亚克瓦查",
+      "zh-tw": "尚比亞克瓦查"
+    },
+    "symbol": "K",
+    "display_symbol": "ZMW"
+  },
+  "ZWG": {
+    "names": {
+      "ko": "짐바브웨 골드",
+      "ja": "ジンバブエ・ゴールド",
+      "en": "Zimbabwean Gold",
+      "zh-cn": "津巴布韦金币",
+      "zh-tw": "辛巴威金幣"
+    },
+    "symbol": "ZWG",
+    "display_symbol": "ZWG"
   }
 }
