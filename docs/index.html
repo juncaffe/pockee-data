@@ -133,6 +133,91 @@
             box-shadow: 0 0 0 3px rgba(98, 0, 238, 0.08);
         }
 
+
+        .currency-combobox {
+            position: relative;
+            min-width: 300px;
+            flex: 1;
+            max-width: 420px;
+        }
+
+        .currency-combobox .control-input {
+            width: 100%;
+            min-width: 0;
+            padding-right: 40px;
+        }
+
+        .combo-arrow {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--sub-text);
+            pointer-events: none;
+            font-size: 12px;
+        }
+
+        .combo-menu {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(100% + 6px);
+            z-index: 30;
+            display: none;
+            max-height: 280px;
+            overflow-y: auto;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+            padding: 6px;
+        }
+
+        .combo-menu.open {
+            display: block;
+        }
+
+        .combo-option {
+            width: 100%;
+            border: 0;
+            background: transparent;
+            color: var(--text);
+            padding: 10px 10px;
+            border-radius: 8px;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            font: inherit;
+        }
+
+        .combo-option:hover,
+        .combo-option.active {
+            background: #F2F4F6;
+        }
+
+        .combo-code {
+            font-weight: 800;
+            color: var(--primary);
+            white-space: nowrap;
+        }
+
+        .combo-name {
+            flex: 1;
+            color: var(--text);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .combo-empty {
+            padding: 12px 10px;
+            color: var(--sub-text);
+            font-size: 13px;
+        }
+
         .search-control {
             background: #FFFFFF;
             border: 1px solid var(--border);
@@ -369,17 +454,21 @@
 
             <div class="base-control">
                 <label for="baseCurrencyInput">Base Currency</label>
-                <input
-                    id="baseCurrencyInput"
-                    class="control-input"
-                    list="baseCurrencyOptions"
-                    value="USD"
-                    placeholder="Search currency code or name"
-                    autocomplete="off"
-                    aria-label="Base currency search"
-                >
-                <datalist id="baseCurrencyOptions"></datalist>
-                <select id="baseCurrencySelect" aria-label="Base currency" style="display:none;"></select>
+                <div class="currency-combobox" id="baseCurrencyCombo">
+                    <input
+                        id="baseCurrencyInput"
+                        class="control-input"
+                        value="USD · US Dollar"
+                        placeholder="Search or choose currency"
+                        autocomplete="off"
+                        role="combobox"
+                        aria-label="Base currency search"
+                        aria-expanded="false"
+                        aria-controls="baseCurrencyMenu"
+                    >
+                    <span class="combo-arrow">▼</span>
+                    <div id="baseCurrencyMenu" class="combo-menu" role="listbox"></div>
+                </div>
                 <div class="base-help" id="baseHelp">
                     Rates are originally KRW-based and converted for display using cross-rate calculation.
                 </div>
@@ -598,52 +687,155 @@
                     return includesMatch?.code || '';
                 }
 
-                function renderBaseOptions() {
-                    const select = document.getElementById('baseCurrencySelect');
-                    const dataList = document.getElementById('baseCurrencyOptions');
-                    const input = document.getElementById('baseCurrencyInput');
+                let selectedBaseCode = rateItems.some(item => item.code === 'USD') ? 'USD' : 'KRW';
+                let baseOptionItems = [];
+                let activeBaseOptionIndex = -1;
 
-                    select.innerHTML = '';
-                    dataList.innerHTML = '';
-
-                    rateItems.forEach(item => {
-                        const name = getCurrencyNameEnByCode(item.code);
-
-                        const option = document.createElement('option');
-                        option.value = item.code;
-                        option.textContent = `${item.code} · ${name}`;
-                        select.appendChild(option);
-
-                        const dataOption = document.createElement('option');
-                        dataOption.value = item.code;
-                        dataOption.label = name;
-                        dataList.appendChild(dataOption);
-                    });
-
-                    const defaultCode = rateItems.some(item => item.code === 'USD') ? 'USD' : 'KRW';
-                    select.value = defaultCode;
-                    input.value = defaultCode;
+                function getBaseInputLabel(code) {
+                    return `${code} · ${getCurrencyNameEnByCode(code)}`;
                 }
 
-                function updateBaseCurrencyFromInput() {
-                    const select = document.getElementById('baseCurrencySelect');
-                    const input = document.getElementById('baseCurrencyInput');
-                    const resolvedCode = resolveBaseCodeFromInput(input.value);
+                function getBaseSearchText(item) {
+                    return [
+                        item.code,
+                        item.cur_unit,
+                        item.cur_nm,
+                        getCurrencyNameEn(item)
+                    ].filter(Boolean).join(' ').toLowerCase();
+                }
 
-                    if (!resolvedCode) {
-                        document.getElementById('baseHelp').textContent =
-                            'Type a currency code or English name, then choose a valid currency.';
+                function renderBaseOptions(filterValue = '') {
+                    const menu = document.getElementById('baseCurrencyMenu');
+                    const query = String(filterValue || '').trim().toLowerCase();
+
+                    baseOptionItems = query
+                        ? rateItems.filter(item => getBaseSearchText(item).includes(query))
+                        : rateItems;
+
+                    activeBaseOptionIndex = baseOptionItems.length ? 0 : -1;
+                    menu.innerHTML = '';
+
+                    if (!baseOptionItems.length) {
+                        const empty = document.createElement('div');
+                        empty.className = 'combo-empty';
+                        empty.textContent = 'No matching currency';
+                        menu.appendChild(empty);
                         return;
                     }
 
-                    select.value = resolvedCode;
-                    input.value = resolvedCode;
+                    baseOptionItems.forEach((item, index) => {
+                        const button = document.createElement('button');
+                        button.type = 'button';
+                        button.className = `combo-option${index === activeBaseOptionIndex ? ' active' : ''}`;
+                        button.setAttribute('role', 'option');
+                        button.setAttribute('aria-selected', item.code === selectedBaseCode ? 'true' : 'false');
+                        button.dataset.code = item.code;
+                        button.innerHTML = `
+                            <span class="combo-code">${escapeHtml(item.code)}</span>
+                            <span class="combo-name">${escapeHtml(getCurrencyNameEn(item))}</span>
+                        `;
+                        button.addEventListener('mousedown', event => {
+                            event.preventDefault();
+                            selectBaseCurrency(item.code);
+                        });
+                        menu.appendChild(button);
+                    });
+                }
+
+                function openBaseDropdown() {
+                    const input = document.getElementById('baseCurrencyInput');
+                    const menu = document.getElementById('baseCurrencyMenu');
+                    renderBaseOptions(input.value);
+                    menu.classList.add('open');
+                    input.setAttribute('aria-expanded', 'true');
+                }
+
+                function closeBaseDropdown() {
+                    const input = document.getElementById('baseCurrencyInput');
+                    const menu = document.getElementById('baseCurrencyMenu');
+                    menu.classList.remove('open');
+                    input.setAttribute('aria-expanded', 'false');
+                }
+
+                function selectBaseCurrency(code) {
+                    if (!code || !rateItems.some(item => item.code === code)) return;
+                    selectedBaseCode = code;
+                    document.getElementById('baseCurrencyInput').value = getBaseInputLabel(code);
+                    closeBaseDropdown();
                     renderRates();
                 }
 
+                function updateActiveBaseOption(nextIndex) {
+                    if (!baseOptionItems.length) return;
+                    const menu = document.getElementById('baseCurrencyMenu');
+                    activeBaseOptionIndex = (nextIndex + baseOptionItems.length) % baseOptionItems.length;
+                    Array.from(menu.querySelectorAll('.combo-option')).forEach((button, index) => {
+                        button.classList.toggle('active', index === activeBaseOptionIndex);
+                        if (index === activeBaseOptionIndex) {
+                            button.scrollIntoView({ block: 'nearest' });
+                        }
+                    });
+                }
+
+                function initializeBaseDropdown() {
+                    const input = document.getElementById('baseCurrencyInput');
+                    input.value = getBaseInputLabel(selectedBaseCode);
+                    renderBaseOptions();
+
+                    input.addEventListener('focus', () => {
+                        input.select();
+                        openBaseDropdown();
+                    });
+
+                    input.addEventListener('click', () => {
+                        input.select();
+                        openBaseDropdown();
+                    });
+
+                    input.addEventListener('input', () => {
+                        renderBaseOptions(input.value);
+                        document.getElementById('baseCurrencyMenu').classList.add('open');
+                        input.setAttribute('aria-expanded', 'true');
+                    });
+
+                    input.addEventListener('keydown', event => {
+                        if (event.key === 'ArrowDown') {
+                            event.preventDefault();
+                            openBaseDropdown();
+                            updateActiveBaseOption(activeBaseOptionIndex + 1);
+                            return;
+                        }
+                        if (event.key === 'ArrowUp') {
+                            event.preventDefault();
+                            openBaseDropdown();
+                            updateActiveBaseOption(activeBaseOptionIndex - 1);
+                            return;
+                        }
+                        if (event.key === 'Enter') {
+                            event.preventDefault();
+                            const selected = baseOptionItems[activeBaseOptionIndex] || baseOptionItems[0];
+                            if (selected) {
+                                selectBaseCurrency(selected.code);
+                            }
+                            return;
+                        }
+                        if (event.key === 'Escape') {
+                            closeBaseDropdown();
+                            input.value = getBaseInputLabel(selectedBaseCode);
+                        }
+                    });
+
+                    document.addEventListener('mousedown', event => {
+                        const combo = document.getElementById('baseCurrencyCombo');
+                        if (!combo.contains(event.target)) {
+                            closeBaseDropdown();
+                            input.value = getBaseInputLabel(selectedBaseCode);
+                        }
+                    });
+                }
+
                 function renderRates() {
-                    const select = document.getElementById('baseCurrencySelect');
-                    const baseCode = select.value || 'USD';
+                    const baseCode = selectedBaseCode || 'USD';
                     const baseItem = rateItems.find(item => item.code === baseCode);
                     const baseKrwPerUnit = baseItem?.krwPerUnit || 1;
                     const searchInput = document.getElementById('currencySearchInput');
@@ -705,16 +897,8 @@
                         ? 'Korea Exim Bank + Frankfurter'
                         : (meta.source || 'Korea Exim Bank + Frankfurter');
 
-                renderBaseOptions();
+                initializeBaseDropdown();
                 renderRates();
-                document.getElementById('baseCurrencySelect').addEventListener('change', renderRates);
-                document.getElementById('baseCurrencyInput').addEventListener('change', updateBaseCurrencyFromInput);
-                document.getElementById('baseCurrencyInput').addEventListener('keydown', event => {
-                    if (event.key === 'Enter') {
-                        event.preventDefault();
-                        updateBaseCurrencyFromInput();
-                    }
-                });
                 document.getElementById('currencySearchInput').addEventListener('input', renderRates);
 
                 document.getElementById('loading').style.display = 'none';
