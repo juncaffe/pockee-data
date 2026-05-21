@@ -198,6 +198,20 @@
             background: #F2F4F6;
         }
 
+        .combo-option.selected {
+            background: #F6F0FF;
+            border: 1px solid rgba(98, 0, 238, 0.18);
+        }
+
+        .combo-option.match {
+            background: #FFF7E6;
+        }
+
+        .combo-option.selected.match,
+        .combo-option.active.match {
+            background: #EFE7FF;
+        }
+
         .combo-code {
             font-weight: 800;
             color: var(--primary);
@@ -704,21 +718,52 @@
                     ].filter(Boolean).join(' ').toLowerCase();
                 }
 
-                function renderBaseOptions(filterValue = '') {
+                function findBestBaseOptionIndex(query) {
+                    const normalizedQuery = String(query || '').trim().toLowerCase();
+                    if (!normalizedQuery) {
+                        const selectedIndex = rateItems.findIndex(item => item.code === selectedBaseCode);
+                        return selectedIndex >= 0 ? selectedIndex : 0;
+                    }
+
+                    const exactCodeIndex = rateItems.findIndex(item => item.code.toLowerCase() === normalizedQuery);
+                    if (exactCodeIndex >= 0) return exactCodeIndex;
+
+                    const startsWithIndex = rateItems.findIndex(item =>
+                        item.code.toLowerCase().startsWith(normalizedQuery) ||
+                        getCurrencyNameEn(item).toLowerCase().startsWith(normalizedQuery)
+                    );
+                    if (startsWithIndex >= 0) return startsWithIndex;
+
+                    return rateItems.findIndex(item => getBaseSearchText(item).includes(normalizedQuery));
+                }
+
+                function isBaseOptionMatch(item, query) {
+                    const normalizedQuery = String(query || '').trim().toLowerCase();
+                    if (!normalizedQuery) return false;
+                    return getBaseSearchText(item).includes(normalizedQuery);
+                }
+
+                function renderBaseOptions(searchValue = '') {
                     const menu = document.getElementById('baseCurrencyMenu');
-                    const query = String(filterValue || '').trim().toLowerCase();
+                    const query = String(searchValue || '').trim().toLowerCase();
 
-                    baseOptionItems = query
-                        ? rateItems.filter(item => getBaseSearchText(item).includes(query))
-                        : rateItems;
+                    // Always keep the full dropdown list visible.
+                    // Search only moves/highlights the best matching item instead of filtering the list.
+                    baseOptionItems = rateItems;
+                    activeBaseOptionIndex = findBestBaseOptionIndex(query);
+                    if (activeBaseOptionIndex < 0) {
+                        activeBaseOptionIndex = rateItems.findIndex(item => item.code === selectedBaseCode);
+                    }
+                    if (activeBaseOptionIndex < 0 && rateItems.length) {
+                        activeBaseOptionIndex = 0;
+                    }
 
-                    activeBaseOptionIndex = baseOptionItems.length ? 0 : -1;
                     menu.innerHTML = '';
 
                     if (!baseOptionItems.length) {
                         const empty = document.createElement('div');
                         empty.className = 'combo-empty';
-                        empty.textContent = 'No matching currency';
+                        empty.textContent = 'No currencies available';
                         menu.appendChild(empty);
                         return;
                     }
@@ -726,9 +771,17 @@
                     baseOptionItems.forEach((item, index) => {
                         const button = document.createElement('button');
                         button.type = 'button';
-                        button.className = `combo-option${index === activeBaseOptionIndex ? ' active' : ''}`;
+                        const isActive = index === activeBaseOptionIndex;
+                        const isSelected = item.code === selectedBaseCode;
+                        const isMatch = isBaseOptionMatch(item, query);
+                        button.className = [
+                            'combo-option',
+                            isActive ? 'active' : '',
+                            isSelected ? 'selected' : '',
+                            isMatch ? 'match' : ''
+                        ].filter(Boolean).join(' ');
                         button.setAttribute('role', 'option');
-                        button.setAttribute('aria-selected', item.code === selectedBaseCode ? 'true' : 'false');
+                        button.setAttribute('aria-selected', isSelected ? 'true' : 'false');
                         button.dataset.code = item.code;
                         button.innerHTML = `
                             <span class="combo-code">${escapeHtml(item.code)}</span>
@@ -740,6 +793,16 @@
                         });
                         menu.appendChild(button);
                     });
+
+                    scrollActiveBaseOptionIntoView();
+                }
+
+                function scrollActiveBaseOptionIntoView() {
+                    const menu = document.getElementById('baseCurrencyMenu');
+                    const active = menu.querySelectorAll('.combo-option')[activeBaseOptionIndex];
+                    if (active) {
+                        active.scrollIntoView({ block: 'nearest' });
+                    }
                 }
 
                 function openBaseDropdown() {
@@ -783,12 +846,10 @@
                     renderBaseOptions();
 
                     input.addEventListener('focus', () => {
-                        input.select();
                         openBaseDropdown();
                     });
 
                     input.addEventListener('click', () => {
-                        input.select();
                         openBaseDropdown();
                     });
 
