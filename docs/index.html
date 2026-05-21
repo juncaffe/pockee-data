@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pockee FX Server</title>
+    <title>Pockee FX</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
     <style>
         :root {
@@ -249,7 +249,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>Pockee FX <span class="badge">V2 LIVE</span></h1>
+            <h1>Pockee FX <span class="badge">LIVE</span></h1>
             <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">
                 KRW-based exchange rates from Korea Exim Bank, supplemented by Frankfurter
             </p>
@@ -379,20 +379,31 @@
         async function init() {
             try {
                 // V2 JSON 기준으로 로드
-                const [metaRes, ratesRes] = await Promise.all([
+                const [metaRes, ratesRes, currencyNamesRes] = await Promise.all([
                     fetch(getUrl('fx/krw_meta_v2.json')),
-                    fetch(getUrl('fx/krw_exchange_rates_v2.json'))
+                    fetch(getUrl('fx/krw_exchange_rates_v2.json')),
+                    fetch(getUrl('fx/currency_names_i18n.json'))
                 ]);
 
-                if (!metaRes.ok || !ratesRes.ok) {
+                if (!metaRes.ok || !ratesRes.ok || !currencyNamesRes.ok) {
                     throw new Error("Failed to load V2 data");
                 }
 
                 const meta = await metaRes.json();
                 const rates = await ratesRes.json();
+                const currencyNames = await currencyNamesRes.json();
 
                 if (!Array.isArray(rates)) {
                     throw new Error("Invalid V2 rates format");
+                }
+
+                function normalizeCurrencyCode(curUnit) {
+                    return String(curUnit || '').replace(/\(\d+\)$/, '');
+                }
+
+                function getCurrencyNameEn(item) {
+                    const code = normalizeCurrencyCode(item.cur_unit);
+                    return currencyNames?.[code]?.names?.en || item.cur_nm || '-';
                 }
 
                 // Render meta
@@ -422,7 +433,7 @@
                         <td>
                             <div class="flag-cell">
                                 ${item.cur_unit || '-'}
-                                <span class="unit">${item.cur_nm || '-'}</span>
+                                <span class="unit">${getCurrencyNameEn(item)}</span>
                             </div>
                         </td>
                         <td class="rate">${item.deal_bas_r || '-'}</td>
