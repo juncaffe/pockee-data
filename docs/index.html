@@ -138,6 +138,53 @@
         }
 
 
+
+
+        .amount-control {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex: 1 1 260px;
+            min-width: 0;
+        }
+
+        .amount-control label {
+            white-space: nowrap;
+        }
+
+        .amount-input-wrap {
+            position: relative;
+            flex: 1 1 auto;
+            min-width: 180px;
+        }
+
+        .amount-input-wrap .control-input {
+            width: 100%;
+            min-width: 0;
+            padding-right: 58px;
+            text-align: right;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .amount-currency-chip {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            color: var(--sub-text);
+            font-size: 12px;
+            font-weight: 700;
+            pointer-events: none;
+        }
+
+        .converted-amount {
+            font-family: 'Roboto Mono', monospace;
+            font-weight: 700;
+            color: var(--text);
+            text-align: right;
+            white-space: nowrap;
+        }
+
         .currency-combobox {
             position: relative;
             min-width: 0;
@@ -449,6 +496,11 @@
                 align-items: stretch;
             }
 
+            .amount-control {
+                align-items: stretch;
+                flex-direction: column;
+            }
+
             .currency-combobox,
             .control-input {
                 width: 100%;
@@ -538,6 +590,22 @@
                     <span class="combo-arrow">▼</span>
                     <div id="baseCurrencyMenu" class="combo-menu" role="listbox"></div>
                 </div>
+                <div class="amount-control">
+                    <label for="baseAmountInput">Amount</label>
+                    <div class="amount-input-wrap">
+                        <input
+                            id="baseAmountInput"
+                            class="control-input"
+                            type="text"
+                            inputmode="decimal"
+                            value="1"
+                            placeholder="Enter amount"
+                            autocomplete="off"
+                            aria-label="Base amount"
+                        >
+                        <span class="amount-currency-chip" id="amountCurrencyChip">USD</span>
+                    </div>
+                </div>
                 <div class="base-help" id="baseHelp">
                     Rates are originally KRW-based and converted for display using cross-rate calculation.
                 </div>
@@ -562,6 +630,7 @@
                         <tr>
                             <th>Currency</th>
                             <th style="text-align: right;" id="rateHeader">Rate</th>
+                            <th style="text-align: right;" id="amountHeader">Converted Amount</th>
                             <th>Source</th>
                             <th>Updated</th>
                         </tr>
@@ -685,6 +754,28 @@
                     const normalized = String(value || '').replace(/,/g, '').trim();
                     const parsed = Number(normalized);
                     return Number.isFinite(parsed) ? parsed : null;
+                }
+
+                function parseAmountInput(value) {
+                    const raw = String(value || '').trim();
+                    if (!raw) return 1;
+                    const normalized = raw.replace(/,/g, '').replace(/\s/g, '');
+                    const parsed = Number(normalized);
+                    return Number.isFinite(parsed) && parsed >= 0 ? parsed : 1;
+                }
+
+                function formatConvertedAmount(value, currencyCode) {
+                    if (!Number.isFinite(value)) return '-';
+
+                    const metaMinorUnit = Number(currencyNames?.[currencyCode]?.minor_unit);
+                    const maximumFractionDigits = Number.isFinite(metaMinorUnit)
+                        ? Math.min(Math.max(metaMinorUnit, 0), 8)
+                        : 2;
+
+                    return new Intl.NumberFormat('en-US', {
+                        minimumFractionDigits: 0,
+                        maximumFractionDigits
+                    }).format(value);
                 }
 
                 function getCurrencyNameEnByCode(code) {
@@ -889,6 +980,7 @@
                     if (!code || !rateItems.some(item => item.code === code)) return;
                     selectedBaseCode = code;
                     document.getElementById('baseCurrencyInput').value = getBaseInputLabel(code);
+                    document.getElementById('amountCurrencyChip').textContent = code;
                     closeBaseDropdown();
                     renderRates();
                 }
@@ -908,6 +1000,7 @@
                 function initializeBaseDropdown() {
                     const input = document.getElementById('baseCurrencyInput');
                     input.value = getBaseInputLabel(selectedBaseCode);
+                    document.getElementById('amountCurrencyChip').textContent = selectedBaseCode;
                     renderBaseOptions();
 
                     input.addEventListener('focus', () => {
@@ -965,10 +1058,13 @@
                     const baseItem = rateItems.find(item => item.code === baseCode);
                     const baseKrwPerUnit = baseItem?.krwPerUnit || 1;
                     const searchInput = document.getElementById('currencySearchInput');
+                    const amountInput = document.getElementById('baseAmountInput');
+                    const baseAmount = parseAmountInput(amountInput?.value);
                     const searchQuery = String(searchInput?.value || '').trim().toLowerCase();
 
-                    document.getElementById('rateBasis').textContent = `1 ${baseCode} → target currency`;
+                    document.getElementById('rateBasis').textContent = `${formatConvertedAmount(baseAmount, baseCode)} ${baseCode} → target currency`;
                     document.getElementById('rateHeader').textContent = `Rate (1 ${baseCode} =)`;
+                    document.getElementById('amountHeader').textContent = `Amount (${formatConvertedAmount(baseAmount, baseCode)} ${baseCode} =)`;
                     document.getElementById('baseHelp').textContent =
                         `Rates are originally KRW-based. Unit rates such as JPY(100) are normalized to 1 JPY before cross-rate calculation.`;
 
@@ -987,6 +1083,7 @@
                         const sourceClass = getSourceClass(source);
                         const updatedAt = formatDate(item.updated_at);
                         const convertedRate = baseKrwPerUnit / item.krwPerUnit;
+                        const convertedAmount = baseAmount * convertedRate;
 
                         const rawUnitLabel = item.multiplier > 1 ? ` · source unit ${item.cur_unit}` : '';
 
@@ -998,6 +1095,7 @@
                                 </div>
                             </td>
                             <td class="rate">${escapeHtml(formatConvertedRate(convertedRate))} ${escapeHtml(item.code)}</td>
+                            <td class="converted-amount">${escapeHtml(formatConvertedAmount(convertedAmount, item.code))} ${escapeHtml(item.code)}</td>
                             <td>
                                 <span class="source-badge ${escapeHtml(sourceClass)}">${escapeHtml(sourceLabel)}</span>
                             </td>
@@ -1028,6 +1126,7 @@
                 initializeBaseDropdown();
                 renderRates();
                 document.getElementById('currencySearchInput').addEventListener('input', renderRates);
+                document.getElementById('baseAmountInput').addEventListener('input', renderRates);
 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('dashboard').style.display = 'block';
