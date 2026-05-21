@@ -116,6 +116,48 @@
             font-weight: 600;
         }
 
+        .control-input {
+            min-width: 240px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 12px;
+            background: #FFFFFF;
+            color: var(--text);
+            font-size: 14px;
+            font-weight: 600;
+            outline: none;
+        }
+
+        .control-input:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(98, 0, 238, 0.08);
+        }
+
+        .search-control {
+            background: #FFFFFF;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .search-control label {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .search-summary {
+            width: 100%;
+            font-size: 12px;
+            color: var(--sub-text);
+        }
+
         .base-help {
             width: 100%;
             font-size: 12px;
@@ -326,11 +368,34 @@
             </div>
 
             <div class="base-control">
-                <label for="baseCurrencySelect">Base Currency</label>
-                <select id="baseCurrencySelect" aria-label="Base currency"></select>
+                <label for="baseCurrencyInput">Base Currency</label>
+                <input
+                    id="baseCurrencyInput"
+                    class="control-input"
+                    list="baseCurrencyOptions"
+                    value="USD"
+                    placeholder="Search currency code or name"
+                    autocomplete="off"
+                    aria-label="Base currency search"
+                >
+                <datalist id="baseCurrencyOptions"></datalist>
+                <select id="baseCurrencySelect" aria-label="Base currency" style="display:none;"></select>
                 <div class="base-help" id="baseHelp">
                     Rates are originally KRW-based and converted for display using cross-rate calculation.
                 </div>
+            </div>
+
+            <div class="search-control">
+                <label for="currencySearchInput">Search Currency</label>
+                <input
+                    id="currencySearchInput"
+                    class="control-input"
+                    type="search"
+                    placeholder="Search by code, English name, source"
+                    autocomplete="off"
+                    aria-label="Search currencies"
+                >
+                <div class="search-summary" id="searchSummary">Showing all currencies</div>
             </div>
 
             <div class="table-container">
@@ -500,18 +565,80 @@
                     })
                     .filter(item => item.code && item.krwPerUnit !== null && item.krwPerUnit > 0);
 
+                function getRateSearchText(item) {
+                    return [
+                        item.code,
+                        item.cur_unit,
+                        item.cur_nm,
+                        getCurrencyNameEn(item),
+                        getSourceLabel(item.source)
+                    ].filter(Boolean).join(' ').toLowerCase();
+                }
+
+                function resolveBaseCodeFromInput(value) {
+                    const query = String(value || '').trim().toLowerCase();
+                    if (!query) return '';
+
+                    const exactCode = rateItems.find(item => item.code.toLowerCase() === query);
+                    if (exactCode) return exactCode.code;
+
+                    const exactUnit = rateItems.find(item => String(item.cur_unit || '').toLowerCase() === query);
+                    if (exactUnit) return exactUnit.code;
+
+                    const nameMatch = rateItems.find(item => getCurrencyNameEn(item).toLowerCase() === query);
+                    if (nameMatch) return nameMatch.code;
+
+                    const startsWithMatch = rateItems.find(item =>
+                        item.code.toLowerCase().startsWith(query) ||
+                        getCurrencyNameEn(item).toLowerCase().startsWith(query)
+                    );
+                    if (startsWithMatch) return startsWithMatch.code;
+
+                    const includesMatch = rateItems.find(item => getRateSearchText(item).includes(query));
+                    return includesMatch?.code || '';
+                }
+
                 function renderBaseOptions() {
                     const select = document.getElementById('baseCurrencySelect');
+                    const dataList = document.getElementById('baseCurrencyOptions');
+                    const input = document.getElementById('baseCurrencyInput');
+
                     select.innerHTML = '';
+                    dataList.innerHTML = '';
 
                     rateItems.forEach(item => {
+                        const name = getCurrencyNameEnByCode(item.code);
+
                         const option = document.createElement('option');
                         option.value = item.code;
-                        option.textContent = `${item.code} · ${getCurrencyNameEnByCode(item.code)}`;
+                        option.textContent = `${item.code} · ${name}`;
                         select.appendChild(option);
+
+                        const dataOption = document.createElement('option');
+                        dataOption.value = item.code;
+                        dataOption.label = name;
+                        dataList.appendChild(dataOption);
                     });
 
-                    select.value = rateItems.some(item => item.code === 'USD') ? 'USD' : 'KRW';
+                    const defaultCode = rateItems.some(item => item.code === 'USD') ? 'USD' : 'KRW';
+                    select.value = defaultCode;
+                    input.value = defaultCode;
+                }
+
+                function updateBaseCurrencyFromInput() {
+                    const select = document.getElementById('baseCurrencySelect');
+                    const input = document.getElementById('baseCurrencyInput');
+                    const resolvedCode = resolveBaseCodeFromInput(input.value);
+
+                    if (!resolvedCode) {
+                        document.getElementById('baseHelp').textContent =
+                            'Type a currency code or English name, then choose a valid currency.';
+                        return;
+                    }
+
+                    select.value = resolvedCode;
+                    input.value = resolvedCode;
+                    renderRates();
                 }
 
                 function renderRates() {
@@ -519,6 +646,8 @@
                     const baseCode = select.value || 'USD';
                     const baseItem = rateItems.find(item => item.code === baseCode);
                     const baseKrwPerUnit = baseItem?.krwPerUnit || 1;
+                    const searchInput = document.getElementById('currencySearchInput');
+                    const searchQuery = String(searchInput?.value || '').trim().toLowerCase();
 
                     document.getElementById('rateBasis').textContent = `1 ${baseCode} → target currency`;
                     document.getElementById('rateHeader').textContent = `Rate (1 ${baseCode} =)`;
@@ -528,7 +657,11 @@
                     const tbody = document.getElementById('rateBody');
                     tbody.innerHTML = '';
 
-                    rateItems.forEach(item => {
+                    const filteredItems = searchQuery
+                        ? rateItems.filter(item => getRateSearchText(item).includes(searchQuery))
+                        : rateItems;
+
+                    filteredItems.forEach(item => {
                         const tr = document.createElement('tr');
 
                         const source = item.source || '-';
@@ -552,6 +685,13 @@
                         `;
                         tbody.appendChild(tr);
                     });
+
+                    const summary = document.getElementById('searchSummary');
+                    if (summary) {
+                        summary.textContent = searchQuery
+                            ? `Showing ${filteredItems.length} of ${rateItems.length} currencies`
+                            : `Showing all ${rateItems.length} currencies`;
+                    }
                 }
 
                 // Render meta
@@ -568,6 +708,14 @@
                 renderBaseOptions();
                 renderRates();
                 document.getElementById('baseCurrencySelect').addEventListener('change', renderRates);
+                document.getElementById('baseCurrencyInput').addEventListener('change', updateBaseCurrencyFromInput);
+                document.getElementById('baseCurrencyInput').addEventListener('keydown', event => {
+                    if (event.key === 'Enter') {
+                        event.preventDefault();
+                        updateBaseCurrencyFromInput();
+                    }
+                });
+                document.getElementById('currencySearchInput').addEventListener('input', renderRates);
 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('dashboard').style.display = 'block';
