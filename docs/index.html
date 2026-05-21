@@ -767,14 +767,11 @@
                 function formatConvertedAmount(value, currencyCode) {
                     if (!Number.isFinite(value)) return '-';
 
-                    const metaMinorUnit = Number(currencyNames?.[currencyCode]?.minor_unit);
-                    const maximumFractionDigits = Number.isFinite(metaMinorUnit)
-                        ? Math.min(Math.max(metaMinorUnit, 0), 8)
-                        : 2;
-
+                    // This page is a calculator/verification view, so do not round by currency minor_unit.
+                    // Showing up to 6 decimal places avoids misleading results such as 1,500 KRW -> 1 USD.
                     return new Intl.NumberFormat('en-US', {
                         minimumFractionDigits: 0,
-                        maximumFractionDigits
+                        maximumFractionDigits: 6
                     }).format(value);
                 }
 
@@ -800,15 +797,10 @@
                 function formatConvertedRate(value) {
                     if (!Number.isFinite(value)) return '-';
 
-                    const abs = Math.abs(value);
-                    let maximumFractionDigits = 6;
-                    if (abs >= 1000) maximumFractionDigits = 2;
-                    else if (abs >= 1) maximumFractionDigits = 4;
-                    else maximumFractionDigits = 8;
-
+                    // Keep cross-rate display consistent and transparent.
                     return new Intl.NumberFormat('en-US', {
                         minimumFractionDigits: 0,
-                        maximumFractionDigits
+                        maximumFractionDigits: 6
                     }).format(value);
                 }
 
