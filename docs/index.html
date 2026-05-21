@@ -17,6 +17,10 @@
             --badge-text: #4E5968;
         }
 
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
             background: var(--bg);
@@ -136,9 +140,10 @@
 
         .currency-combobox {
             position: relative;
-            min-width: 300px;
-            flex: 1;
-            max-width: 420px;
+            min-width: 0;
+            width: 100%;
+            flex: 1 1 320px;
+            max-width: 460px;
         }
 
         .currency-combobox .control-input {
@@ -164,8 +169,11 @@
             top: calc(100% + 6px);
             z-index: 30;
             display: none;
+            width: 100%;
+            max-width: 100%;
             max-height: 280px;
             overflow-y: auto;
+            overflow-x: hidden;
             background: var(--surface);
             border: 1px solid var(--border);
             border-radius: 12px;
@@ -357,6 +365,33 @@
             color: #B45309;
         }
 
+
+
+        .app-note {
+            margin-top: 12px;
+            color: var(--sub-text);
+            font-size: 14px;
+        }
+
+        .store-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 12px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: #F6F0FF;
+            color: var(--primary);
+            font-size: 13px;
+            font-weight: 700;
+            border: 1px solid rgba(98, 0, 238, 0.16);
+            transition: 0.2s;
+        }
+
+        .store-link:hover {
+            background: #EFE7FF;
+        }
+
         /* Footer */
         footer {
             margin-top: 40px;
@@ -409,6 +444,17 @@
         }
 
         @media (max-width: 720px) {
+            .base-control,
+            .search-control {
+                align-items: stretch;
+            }
+
+            .currency-combobox,
+            .control-input {
+                width: 100%;
+                max-width: 100%;
+            }
+
             .container {
                 padding: 22px 16px;
             }
@@ -430,6 +476,15 @@
             <p style="color: var(--sub-text); margin: 5px 0 0 0; font-size: 14px;">
                 KRW-based exchange rates from Korea Exim Bank, supplemented by Frankfurter
             </p>
+            <p class="app-note">
+                Used by Pockee, a smart personal finance app.
+            </p>
+            <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="store-link">
+                Get Pockee on Google Play
+            </a>
         </header>
 
         <div id="error"></div>
@@ -521,11 +576,15 @@
         </div>
 
         <footer>
-            <div>Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Original base currency: KRW</div>
-            <div class="json-links">
-                <a href="fx/krw_exchange_rates_v2.json" class="json-btn">JSON (V2 Latest)</a>
-                <a href="fx/krw_meta_v2.json" class="json-btn">JSON (V2 Meta)</a>
+            <div>Exchange-rate data for Pockee personal finance app</div>
+            <div style="margin-top: 8px;">
+                <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Get Pockee on Google Play
+                </a>
             </div>
+            <div style="margin-top: 14px;">Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Original base currency: KRW</div>
         </footer>
     </div>
 
