@@ -86,6 +86,42 @@
             word-break: keep-all;
         }
 
+        .base-control {
+            background: #FFFFFF;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .base-control label {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+        }
+
+        .base-control select {
+            min-width: 240px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 10px 12px;
+            background: #FFFFFF;
+            color: var(--text);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .base-help {
+            width: 100%;
+            font-size: 12px;
+            color: var(--sub-text);
+        }
+
         /* Table */
         .table-container {
             overflow-x: auto;
@@ -273,7 +309,7 @@
                 </div>
                 <div class="meta-row">
                     <span>Rate Basis</span>
-                    <span class="meta-value">KRW · Korea Exim Bank first</span>
+                    <span class="meta-value" id="rateBasis">1 USD → target currency</span>
                 </div>
                 <div class="meta-row">
                     <span>Data Sources</span>
@@ -289,12 +325,20 @@
                 <div>Only currencies missing from Korea Exim Bank are supplemented with Frankfurter.</div>
             </div>
 
+            <div class="base-control">
+                <label for="baseCurrencySelect">Base Currency</label>
+                <select id="baseCurrencySelect" aria-label="Base currency"></select>
+                <div class="base-help" id="baseHelp">
+                    Rates are originally KRW-based and converted for display using cross-rate calculation.
+                </div>
+            </div>
+
             <div class="table-container">
                 <table>
                     <thead>
                         <tr>
                             <th>Currency</th>
-                            <th style="text-align: right;">Base Rate</th>
+                            <th style="text-align: right;" id="rateHeader">Rate</th>
                             <th>Source</th>
                             <th>Updated</th>
                         </tr>
@@ -309,7 +353,7 @@
         </div>
 
         <footer>
-            <div>Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Base currency: KRW</div>
+            <div>Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Original base currency: KRW</div>
             <div class="json-links">
                 <a href="fx/krw_exchange_rates_v2.json" class="json-btn">JSON (V2 Latest)</a>
                 <a href="fx/krw_meta_v2.json" class="json-btn">JSON (V2 Meta)</a>
@@ -401,9 +445,113 @@
                     return String(curUnit || '').replace(/\(\d+\)$/, '');
                 }
 
+                function getCurrencyUnitMultiplier(curUnit) {
+                    const match = String(curUnit || '').match(/\((\d+)\)$/);
+                    return match ? Number(match[1]) : 1;
+                }
+
+                function parseRateNumber(value) {
+                    const normalized = String(value || '').replace(/,/g, '').trim();
+                    const parsed = Number(normalized);
+                    return Number.isFinite(parsed) ? parsed : null;
+                }
+
+                function getCurrencyNameEnByCode(code) {
+                    return currencyNames?.[code]?.names?.en || code || '-';
+                }
+
                 function getCurrencyNameEn(item) {
                     const code = normalizeCurrencyCode(item.cur_unit);
-                    return currencyNames?.[code]?.names?.en || item.cur_nm || '-';
+                    return getCurrencyNameEnByCode(code) || item.cur_nm || '-';
+                }
+
+                function escapeHtml(value) {
+                    return String(value ?? '').replace(/[&<>'"]/g, char => ({
+                        '&': '&amp;',
+                        '<': '&lt;',
+                        '>': '&gt;',
+                        ''': '&#39;',
+                        '"': '&quot;'
+                    }[char]));
+                }
+
+                function formatConvertedRate(value) {
+                    if (!Number.isFinite(value)) return '-';
+
+                    const abs = Math.abs(value);
+                    let maximumFractionDigits = 6;
+                    if (abs >= 1000) maximumFractionDigits = 2;
+                    else if (abs >= 1) maximumFractionDigits = 4;
+                    else maximumFractionDigits = 8;
+
+                    return new Intl.NumberFormat('en-US', {
+                        minimumFractionDigits: 0,
+                        maximumFractionDigits
+                    }).format(value);
+                }
+
+                const rateItems = rates
+                    .map(item => {
+                        const code = normalizeCurrencyCode(item.cur_unit);
+                        const multiplier = getCurrencyUnitMultiplier(item.cur_unit);
+                        const rawKrwRate = parseRateNumber(item.deal_bas_r);
+                        const krwPerUnit = rawKrwRate === null ? null : rawKrwRate / multiplier;
+                        return { ...item, code, multiplier, krwPerUnit };
+                    })
+                    .filter(item => item.code && item.krwPerUnit !== null && item.krwPerUnit > 0);
+
+                function renderBaseOptions() {
+                    const select = document.getElementById('baseCurrencySelect');
+                    select.innerHTML = '';
+
+                    rateItems.forEach(item => {
+                        const option = document.createElement('option');
+                        option.value = item.code;
+                        option.textContent = `${item.code} · ${getCurrencyNameEnByCode(item.code)}`;
+                        select.appendChild(option);
+                    });
+
+                    select.value = rateItems.some(item => item.code === 'USD') ? 'USD' : 'KRW';
+                }
+
+                function renderRates() {
+                    const select = document.getElementById('baseCurrencySelect');
+                    const baseCode = select.value || 'USD';
+                    const baseItem = rateItems.find(item => item.code === baseCode);
+                    const baseKrwPerUnit = baseItem?.krwPerUnit || 1;
+
+                    document.getElementById('rateBasis').textContent = `1 ${baseCode} → target currency`;
+                    document.getElementById('rateHeader').textContent = `Rate (1 ${baseCode} =)`;
+                    document.getElementById('baseHelp').textContent =
+                        `Rates are originally KRW-based. Values below show how much target currency equals 1 ${baseCode}.`;
+
+                    const tbody = document.getElementById('rateBody');
+                    tbody.innerHTML = '';
+
+                    rateItems.forEach(item => {
+                        const tr = document.createElement('tr');
+
+                        const source = item.source || '-';
+                        const sourceLabel = getSourceLabel(source);
+                        const sourceClass = getSourceClass(source);
+                        const updatedAt = formatDate(item.updated_at);
+                        const convertedRate = baseKrwPerUnit / item.krwPerUnit;
+
+                        tr.innerHTML = `
+                            <td>
+                                <div class="flag-cell">
+                                    ${escapeHtml(item.cur_unit || '-')}
+                                    <span class="unit">${escapeHtml(getCurrencyNameEn(item))}</span>
+                                </div>
+                            </td>
+                            <td class="rate">${escapeHtml(formatConvertedRate(convertedRate))} ${escapeHtml(item.code)}</td>
+                            <td>
+                                <span class="source-badge ${escapeHtml(sourceClass)}">${escapeHtml(sourceLabel)}</span>
+                            </td>
+                            <td class="date">${escapeHtml(updatedAt)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
                 }
 
                 // Render meta
@@ -417,33 +565,9 @@
                         ? 'Korea Exim Bank + Frankfurter'
                         : (meta.source || 'Korea Exim Bank + Frankfurter');
 
-                // Render rates
-                const tbody = document.getElementById('rateBody');
-                tbody.innerHTML = '';
-
-                rates.forEach(item => {
-                    const tr = document.createElement('tr');
-
-                    const source = item.source || '-';
-                    const sourceLabel = getSourceLabel(source);
-                    const sourceClass = getSourceClass(source);
-                    const updatedAt = formatDate(item.updated_at);
-
-                    tr.innerHTML = `
-                        <td>
-                            <div class="flag-cell">
-                                ${item.cur_unit || '-'}
-                                <span class="unit">${getCurrencyNameEn(item)}</span>
-                            </div>
-                        </td>
-                        <td class="rate">${item.deal_bas_r || '-'}</td>
-                        <td>
-                            <span class="source-badge ${sourceClass}">${sourceLabel}</span>
-                        </td>
-                        <td class="date">${updatedAt}</td>
-                    `;
-                    tbody.appendChild(tr);
-                });
+                renderBaseOptions();
+                renderRates();
+                document.getElementById('baseCurrencySelect').addEventListener('change', renderRates);
 
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('dashboard').style.display = 'block';
