@@ -585,6 +585,10 @@
                 </a>
             </div>
             <div style="margin-top: 14px;">Primary source: Korea Exim Bank · Supplementary source: Frankfurter · Original base currency: KRW</div>
+            <div class="json-links">
+                <a href="fx/krw_exchange_rates_v2.json" class="json-btn">JSON (V2 Latest)</a>
+                <a href="fx/krw_meta_v2.json" class="json-btn">JSON (V2 Meta)</a>
+            </div>
         </footer>
     </div>
 
@@ -673,7 +677,7 @@
                 }
 
                 function getCurrencyUnitMultiplier(curUnit) {
-                    const match = String(curUnit || '').match(/\((\d+)\)$/);
+                    const match = String(curUnit || '').trim().match(/\((\d+)\)$/);
                     return match ? Number(match[1]) : 1;
                 }
 
@@ -722,6 +726,8 @@
                         const code = normalizeCurrencyCode(item.cur_unit);
                         const multiplier = getCurrencyUnitMultiplier(item.cur_unit);
                         const rawKrwRate = parseRateNumber(item.deal_bas_r);
+                        // Korea Exim can provide rates in units like JPY(100) or IDR(100).
+                        // Normalize every item to KRW per 1 currency unit before cross-rate calculation.
                         const krwPerUnit = rawKrwRate === null ? null : rawKrwRate / multiplier;
                         return { ...item, code, multiplier, krwPerUnit };
                     })
@@ -964,7 +970,7 @@
                     document.getElementById('rateBasis').textContent = `1 ${baseCode} → target currency`;
                     document.getElementById('rateHeader').textContent = `Rate (1 ${baseCode} =)`;
                     document.getElementById('baseHelp').textContent =
-                        `Rates are originally KRW-based. Values below show how much target currency equals 1 ${baseCode}.`;
+                        `Rates are originally KRW-based. Unit rates such as JPY(100) are normalized to 1 JPY before cross-rate calculation.`;
 
                     const tbody = document.getElementById('rateBody');
                     tbody.innerHTML = '';
@@ -982,11 +988,13 @@
                         const updatedAt = formatDate(item.updated_at);
                         const convertedRate = baseKrwPerUnit / item.krwPerUnit;
 
+                        const rawUnitLabel = item.multiplier > 1 ? ` · source unit ${item.cur_unit}` : '';
+
                         tr.innerHTML = `
-                            <td>
+                            <td title="${escapeHtml(String(item.cur_unit || item.code || '-'))}">
                                 <div class="flag-cell">
-                                    ${escapeHtml(item.cur_unit || '-')}
-                                    <span class="unit">${escapeHtml(getCurrencyNameEn(item))}</span>
+                                    ${escapeHtml(item.code || '-')}
+                                    <span class="unit">${escapeHtml(getCurrencyNameEn(item) + rawUnitLabel)}</span>
                                 </div>
                             </td>
                             <td class="rate">${escapeHtml(formatConvertedRate(convertedRate))} ${escapeHtml(item.code)}</td>
