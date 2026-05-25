@@ -1,5 +1,5 @@
 {
-  "updatedAtKst": "2026-05-24T15:23:51+0900",
+  "updatedAtKst": "2026-05-25T15:57:20+0900",
   "searchDate": "20260522",
   "searchDateIso": "2026-05-22",
   "source": "koreaexim-oapi+frankfurter",
@@ -22,8 +22,6 @@
     "XPT"
   ],
   "missingCurrencyNameCodes": [
-    "BGN",
-    "BYR",
     "KPW"
   ],
   "invalidRateCodes": [],
@@ -31,11 +29,11 @@
   "counts": {
     "total": 159,
     "koreaexim_count": 23,
-    "frankfurter_seen_count": 166,
+    "frankfurter_seen_count": 164,
     "frankfurter_added_or_updated_count": 136,
     "retained_existing_count": 0,
     "excluded_count": 5,
-    "missing_currency_name_count": 3,
+    "missing_currency_name_count": 1,
     "invalid_rate_count": 0
   }
 }
