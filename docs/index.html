@@ -3,7 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pockee FX</title>
+    <title>Pockee Currency Converter - Manage overseas spending with Pockee</title>
+    <meta id="metaDescription" name="description" content="Check KRW-based exchange rates and manage overseas spending with Pockee, a smart personal finance app.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#6200EE">
+    <link id="canonicalLink" rel="canonical" href="https://juncaffe.github.io/pockee-data/?lang=en">
+    <link rel="alternate" hreflang="x-default" href="https://juncaffe.github.io/pockee-data/">
+    <link rel="alternate" hreflang="en" href="https://juncaffe.github.io/pockee-data/?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://juncaffe.github.io/pockee-data/?lang=ko">
+    <link rel="alternate" hreflang="ja" href="https://juncaffe.github.io/pockee-data/?lang=ja">
+    <link rel="alternate" hreflang="zh-CN" href="https://juncaffe.github.io/pockee-data/?lang=zh-cn">
+    <link rel="alternate" hreflang="zh-TW" href="https://juncaffe.github.io/pockee-data/?lang=zh-tw">
+    <meta id="ogTitle" property="og:title" content="Pockee Currency Converter">
+    <meta id="ogDescription" property="og:description" content="Check KRW-based exchange rates and manage overseas spending with Pockee.">
+    <meta property="og:type" content="website">
+    <meta id="ogUrl" property="og:url" content="https://juncaffe.github.io/pockee-data/?lang=en">
+    <meta property="og:image" content="https://juncaffe.github.io/assets/images/pockee_graphic_image_en_1024.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta id="twitterTitle" name="twitter:title" content="Pockee Currency Converter">
+    <meta id="twitterDescription" name="twitter:description" content="Check KRW-based exchange rates and manage overseas spending with Pockee.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
     <style>
         :root {
@@ -130,6 +148,135 @@
             font-size: 13px;
             font-weight: 800;
             outline: none;
+        }
+
+        .hero-actions {
+            margin-top: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .store-link.primary-cta {
+            background: var(--primary);
+            color: #FFFFFF;
+            border-color: var(--primary);
+        }
+
+        .store-link.primary-cta:hover {
+            background: #4F00C8;
+        }
+
+        .learn-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 12px;
+            padding: 9px 14px;
+            border-radius: 999px;
+            background: #FFFFFF;
+            color: var(--text);
+            font-size: 13px;
+            font-weight: 800;
+            border: 1px solid var(--border);
+            transition: 0.2s;
+        }
+
+        .learn-link:hover {
+            background: #F9FAFB;
+        }
+
+        .promo-card {
+            margin: 0 0 18px;
+            padding: 18px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #F6F0FF 0%, #E8F3FF 100%);
+            border: 1px solid rgba(98, 0, 238, 0.12);
+        }
+
+        .promo-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 9px;
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.72);
+            color: var(--primary);
+            font-size: 12px;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+
+        .promo-title {
+            margin: 0;
+            color: var(--text);
+            font-size: 21px;
+            line-height: 1.35;
+            letter-spacing: -0.02em;
+        }
+
+        .promo-desc {
+            margin: 8px 0 0;
+            color: var(--badge-text);
+            font-size: 14px;
+        }
+
+        .promo-features {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .promo-feature {
+            background: rgba(255, 255, 255, 0.76);
+            border: 1px solid rgba(255, 255, 255, 0.7);
+            border-radius: 14px;
+            padding: 12px;
+        }
+
+        .promo-feature-title {
+            color: var(--text);
+            font-size: 13px;
+            font-weight: 900;
+            margin-bottom: 4px;
+        }
+
+        .promo-feature-desc {
+            color: var(--sub-text);
+            font-size: 12px;
+            line-height: 1.45;
+        }
+
+        .promo-actions,
+        .bottom-cta-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-top: 14px;
+        }
+
+        .bottom-cta {
+            margin-top: 28px;
+            padding: 20px;
+            border: 1px solid rgba(98, 0, 238, 0.14);
+            border-radius: 18px;
+            background: #FFFFFF;
+            box-shadow: 0 2px 14px rgba(0,0,0,0.04);
+        }
+
+        .bottom-cta-title {
+            margin: 0;
+            font-size: 19px;
+            letter-spacing: -0.02em;
+        }
+
+        .bottom-cta-desc {
+            margin: 8px 0 0;
+            color: var(--sub-text);
+            font-size: 14px;
         }
 
         .meta-card {
@@ -622,6 +769,38 @@
                 text-align: right;
             }
 
+            .hero-actions {
+                justify-content: flex-start;
+            }
+
+            .hero-actions .store-link,
+            .hero-actions .learn-link,
+            .promo-actions .store-link,
+            .promo-actions .learn-link,
+            .bottom-cta-actions .store-link,
+            .bottom-cta-actions .learn-link {
+                width: 100%;
+                margin-top: 0;
+            }
+
+            .promo-card {
+                padding: 16px;
+                margin-bottom: 16px;
+            }
+
+            .promo-title {
+                font-size: 19px;
+            }
+
+            .promo-features {
+                grid-template-columns: 1fr;
+            }
+
+            .bottom-cta {
+                margin-top: 22px;
+                padding: 17px;
+            }
+
             .meta-card {
                 grid-template-columns: 1fr;
                 padding: 14px;
@@ -683,20 +862,27 @@
 <body>
     <div class="container">
         <header>
-            <h1>Pockee FX <span class="badge">LIVE</span></h1>
+            <h1><span data-i18n="heroTitle">Pockee Currency Converter</span> <span class="badge">LIVE</span></h1>
             <p class="subtitle" data-i18n="subtitle">
-                KRW-based exchange rates from Korea Exim Bank, supplemented by Frankfurter
+                Check KRW-based exchange rates and manage overseas spending with Pockee.
             </p>
             <p class="app-note" data-i18n="appNote">
-                Used by Pockee, a smart personal finance app.
+                This exchange-rate data is also used by Pockee’s multi-currency personal finance features.
             </p>
-            <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="store-link"
-               data-i18n="storeLink">
-                Get Pockee on Google Play
-            </a>
+            <div class="hero-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="store-link primary-cta"
+                   data-i18n="storeLink">
+                    Get Pockee on Google Play
+                </a>
+                <a href="https://juncaffe.github.io/"
+                   class="learn-link"
+                   data-i18n="learnMoreLink">
+                    Learn more about Pockee
+                </a>
+            </div>
             <div class="top-actions">
                 <div class="language-control">
                     <label for="languageSelect" data-i18n="language">Language</label>
@@ -710,6 +896,44 @@
                 </div>
             </div>
         </header>
+
+        <section class="promo-card" aria-labelledby="promoTitle">
+            <div class="promo-eyebrow" data-i18n="promoEyebrow">Pockee for overseas spending</div>
+            <h2 class="promo-title" id="promoTitle" data-i18n="promoTitle">
+                Don’t stop at checking rates. Keep your overseas spending organized with Pockee.
+            </h2>
+            <p class="promo-desc" data-i18n="promoDesc">
+                Record travel, overseas shopping, and subscription payments in multiple currencies, then review them in your household account book.
+            </p>
+            <div class="promo-features" aria-label="Pockee features">
+                <div class="promo-feature">
+                    <div class="promo-feature-title" data-i18n="promoFeature1Title">Multi-currency records</div>
+                    <div class="promo-feature-desc" data-i18n="promoFeature1Desc">Track expenses in foreign currencies and view converted amounts.</div>
+                </div>
+                <div class="promo-feature">
+                    <div class="promo-feature-title" data-i18n="promoFeature2Title">Smarter categorization</div>
+                    <div class="promo-feature-desc" data-i18n="promoFeature2Desc">Pockee learns from your history and suggests categories.</div>
+                </div>
+                <div class="promo-feature">
+                    <div class="promo-feature-title" data-i18n="promoFeature3Title">Installments and loans</div>
+                    <div class="promo-feature-desc" data-i18n="promoFeature3Desc">Manage split payments, balances, and repayment history together.</div>
+                </div>
+            </div>
+            <div class="promo-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="store-link primary-cta"
+                   data-i18n="storeLink">
+                    Get Pockee on Google Play
+                </a>
+                <a href="https://juncaffe.github.io/"
+                   class="learn-link"
+                   data-i18n="learnMoreLink">
+                    Learn more about Pockee
+                </a>
+            </div>
+        </section>
 
         <div id="error"></div>
 
@@ -822,6 +1046,29 @@
             Loading data...
         </div>
 
+        <section class="bottom-cta" aria-labelledby="bottomCtaTitle">
+            <h2 class="bottom-cta-title" id="bottomCtaTitle" data-i18n="bottomCtaTitle">
+                Want to manage the spending behind these rates?
+            </h2>
+            <p class="bottom-cta-desc" data-i18n="bottomCtaDesc">
+                Pockee helps you record income, expenses, budgets, installments, loans, and multi-currency transactions in one app.
+            </p>
+            <div class="bottom-cta-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="store-link primary-cta"
+                   data-i18n="storeLink">
+                    Get Pockee on Google Play
+                </a>
+                <a href="https://juncaffe.github.io/"
+                   class="learn-link"
+                   data-i18n="learnMoreLink">
+                    Learn more about Pockee
+                </a>
+            </div>
+        </section>
+
         <footer>
             <div data-i18n="footerTitle">Exchange-rate data for Pockee personal finance app</div>
             <div style="margin-top: 8px;">
@@ -850,11 +1097,79 @@
             'zh-tw': 'zh-TW'
         };
 
+        const PAGE_BASE_URL = 'https://juncaffe.github.io/pockee-data/';
+
+        function normalizeLanguage(value) {
+            const normalized = String(value || '').trim().toLowerCase().replace('_', '-');
+            return LANGUAGE_OPTIONS.includes(normalized) ? normalized : null;
+        }
+
+        function getInitialLanguage() {
+            const params = new URLSearchParams(window.location.search);
+            return normalizeLanguage(params.get('lang')) || 'en';
+        }
+
+        function getLanguageUrl(language) {
+            const normalized = normalizeLanguage(language) || 'en';
+            return `${PAGE_BASE_URL}?lang=${encodeURIComponent(normalized)}`;
+        }
+
+        function redirectToLanguage(language) {
+            const normalized = normalizeLanguage(language) || 'en';
+            window.location.href = getLanguageUrl(normalized);
+        }
+
+        const SEO = {
+            en: {
+                title: 'Pockee Currency Converter - Manage overseas spending with Pockee',
+                description: 'Check KRW-based exchange rates and manage travel, overseas shopping, subscriptions, and multi-currency spending with Pockee.',
+                ogTitle: 'Pockee Currency Converter',
+                ogDescription: 'Check KRW-based exchange rates and manage overseas spending with Pockee.'
+            },
+            ko: {
+                title: 'Pockee 환율 계산기 - 해외 결제 내역까지 관리하는 가계부',
+                description: '원화 기준 환율을 확인하고 여행, 해외직구, 해외 구독 결제 같은 다중 통화 지출을 Pockee 가계부에서 관리하세요.',
+                ogTitle: 'Pockee 환율 계산기',
+                ogDescription: '환율 확인에서 끝내지 말고, 해외 결제 내역까지 Pockee에서 관리하세요.'
+            },
+            ja: {
+                title: 'Pockee 為替計算機 - 海外支出も管理できる家計簿',
+                description: 'KRW基準の為替レートを確認し、旅行、海外ショッピング、海外サブスクなどの多通貨支出をPockeeで管理できます。',
+                ogTitle: 'Pockee 為替計算機',
+                ogDescription: '為替の確認だけで終わらせず、海外支出もPockeeで管理しましょう。'
+            },
+            'zh-cn': {
+                title: 'Pockee 汇率计算器 - 管理海外消费的记账应用',
+                description: '查看基于KRW的汇率，并用Pockee管理旅行、海外购物、海外订阅等多币种消费记录。',
+                ogTitle: 'Pockee 汇率计算器',
+                ogDescription: '不只查看汇率，也可以用Pockee管理海外消费记录。'
+            },
+            'zh-tw': {
+                title: 'Pockee 匯率計算機 - 管理海外消費的記帳 App',
+                description: '查看以KRW為基準的匯率，並用Pockee管理旅行、海外購物、海外訂閱等多幣別消費紀錄。',
+                ogTitle: 'Pockee 匯率計算機',
+                ogDescription: '不只查看匯率，也可以用Pockee管理海外消費紀錄。'
+            }
+        };
+
         const I18N = {
             en: {
-                subtitle: 'KRW-based exchange rates from Korea Exim Bank, supplemented by Frankfurter',
-                appNote: 'Used by Pockee, a smart personal finance app.',
+                heroTitle: 'Pockee Currency Converter',
+                subtitle: 'Check KRW-based exchange rates and manage overseas spending with Pockee.',
+                appNote: 'This exchange-rate data is also used by Pockee’s multi-currency personal finance features.',
                 storeLink: 'Get Pockee on Google Play',
+                learnMoreLink: 'Learn more about Pockee',
+                promoEyebrow: 'Pockee for overseas spending',
+                promoTitle: 'Don’t stop at checking rates. Keep your overseas spending organized with Pockee.',
+                promoDesc: 'Record travel, overseas shopping, and subscription payments in multiple currencies, then review them in your household account book.',
+                promoFeature1Title: 'Multi-currency records',
+                promoFeature1Desc: 'Track expenses in foreign currencies and view converted amounts.',
+                promoFeature2Title: 'Smarter categorization',
+                promoFeature2Desc: 'Pockee learns from your history and suggests categories.',
+                promoFeature3Title: 'Installments and loans',
+                promoFeature3Desc: 'Manage split payments, balances, and repayment history together.',
+                bottomCtaTitle: 'Want to manage the spending behind these rates?',
+                bottomCtaDesc: 'Pockee helps you record income, expenses, budgets, installments, loans, and multi-currency transactions in one app.',
                 language: 'Language',
                 baseDate: 'Base Date',
                 lastUpdated: 'Last Updated (KST)',
@@ -896,9 +1211,22 @@
                 }
             },
             ko: {
-                subtitle: '수출입은행 KRW 기준 환율에 Frankfurter 보완 데이터를 더해 제공합니다',
-                appNote: '스마트 가계부 Pockee에서 사용하는 환율 정보입니다.',
+                heroTitle: 'Pockee 환율 계산기',
+                subtitle: '원화 기준 환율을 확인하고, 해외 결제 내역은 Pockee에서 함께 관리하세요.',
+                appNote: '이 환율 데이터는 Pockee의 다중 통화 가계부 기능에도 사용됩니다.',
                 storeLink: 'Google Play에서 Pockee 보기',
+                learnMoreLink: 'Pockee 알아보기',
+                promoEyebrow: '해외 결제 관리도 Pockee로',
+                promoTitle: '환율 확인에서 끝내지 말고, 해외 결제 내역까지 Pockee에서 정리하세요.',
+                promoDesc: '여행, 해외직구, 해외 구독 결제까지 여러 통화의 지출을 기록하고 가계부에서 함께 확인할 수 있어요.',
+                promoFeature1Title: '다중 통화 기록',
+                promoFeature1Desc: '외화 지출을 기록하고 환산 금액을 함께 확인해요.',
+                promoFeature2Title: '똑똑한 카테고리 추천',
+                promoFeature2Desc: '이전 기록을 바탕으로 카테고리를 추천해요.',
+                promoFeature3Title: '분할거래와 대출 관리',
+                promoFeature3Desc: '남은 금액, 납부 내역, 상환 흐름을 함께 관리해요.',
+                bottomCtaTitle: '환율 뒤의 지출까지 관리하고 싶다면?',
+                bottomCtaDesc: 'Pockee는 수입, 지출, 예산, 분할거래, 대출, 다중 통화 거래를 한 곳에서 기록할 수 있는 가계부예요.',
                 language: '언어',
                 baseDate: '기준일',
                 lastUpdated: '마지막 업데이트 (KST)',
@@ -940,9 +1268,22 @@
                 }
             },
             ja: {
-                subtitle: '韓国輸出入銀行のKRW基準レートにFrankfurterの補完データを加えて提供します',
-                appNote: 'スマート家計簿 Pockee で使用する為替情報です。',
+                heroTitle: 'Pockee 為替計算機',
+                subtitle: 'KRW基準の為替レートを確認し、海外支出もPockeeで管理できます。',
+                appNote: 'この為替データは、Pockeeの多通貨家計簿機能にも使用されます。',
                 storeLink: 'Google PlayでPockeeを見る',
+                learnMoreLink: 'Pockeeについて見る',
+                promoEyebrow: '海外支出もPockeeで管理',
+                promoTitle: '為替の確認だけで終わらせず、海外で使ったお金もPockeeで整理しましょう。',
+                promoDesc: '旅行、海外ショッピング、海外サブスクの支出を複数通貨で記録し、家計簿でまとめて確認できます。',
+                promoFeature1Title: '多通貨の記録',
+                promoFeature1Desc: '外貨の支出を記録し、換算額も確認できます。',
+                promoFeature2Title: 'スマートなカテゴリ提案',
+                promoFeature2Desc: '過去の記録をもとにカテゴリを提案します。',
+                promoFeature3Title: '分割取引・ローン管理',
+                promoFeature3Desc: '残額、支払い履歴、返済状況をまとめて管理できます。',
+                bottomCtaTitle: '為替の先にある支出も管理しませんか？',
+                bottomCtaDesc: 'Pockeeは収入、支出、予算、分割取引、ローン、多通貨取引をひとつのアプリで記録できる家計簿です。',
                 language: '言語',
                 baseDate: '基準日',
                 lastUpdated: '最終更新 (KST)',
@@ -984,9 +1325,22 @@
                 }
             },
             'zh-cn': {
-                subtitle: '基于韩国进出口银行的KRW汇率，并使用Frankfurter补充缺失货币',
-                appNote: '这是智能记账应用 Pockee 使用的汇率信息。',
+                heroTitle: 'Pockee 汇率计算器',
+                subtitle: '查看基于KRW的汇率，并用Pockee管理海外消费。',
+                appNote: '这些汇率数据也用于Pockee的多币种记账功能。',
                 storeLink: '在 Google Play 查看 Pockee',
+                learnMoreLink: '了解 Pockee',
+                promoEyebrow: '用Pockee管理海外消费',
+                promoTitle: '不要只停留在查看汇率，也把海外消费记录整理到Pockee里。',
+                promoDesc: '旅行、海外购物、海外订阅付款都可以用多币种记录，并在记账本中统一查看。',
+                promoFeature1Title: '多币种记录',
+                promoFeature1Desc: '记录外币支出，并查看换算后的金额。',
+                promoFeature2Title: '智能分类推荐',
+                promoFeature2Desc: 'Pockee会参考你的历史记录推荐分类。',
+                promoFeature3Title: '分期与贷款管理',
+                promoFeature3Desc: '一起管理余额、付款记录和还款进度。',
+                bottomCtaTitle: '想管理汇率背后的消费吗？',
+                bottomCtaDesc: 'Pockee可以在一个应用中记录收入、支出、预算、分期、贷款和多币种交易。',
                 language: '语言',
                 baseDate: '基准日期',
                 lastUpdated: '最后更新 (KST)',
@@ -1028,9 +1382,22 @@
                 }
             },
             'zh-tw': {
-                subtitle: '以韓國輸出入銀行的KRW匯率為基礎，並使用Frankfurter補充缺漏幣別',
-                appNote: '這是智慧記帳 App Pockee 使用的匯率資訊。',
+                heroTitle: 'Pockee 匯率計算機',
+                subtitle: '查看以KRW為基準的匯率，並用Pockee管理海外消費。',
+                appNote: '這些匯率資料也用於Pockee的多幣別記帳功能。',
                 storeLink: '在 Google Play 查看 Pockee',
+                learnMoreLink: '了解 Pockee',
+                promoEyebrow: '用Pockee管理海外消費',
+                promoTitle: '不要只停留在查看匯率，也把海外消費紀錄整理到Pockee裡。',
+                promoDesc: '旅行、海外購物、海外訂閱付款都可以用多幣別記錄，並在記帳本中統一查看。',
+                promoFeature1Title: '多幣別紀錄',
+                promoFeature1Desc: '記錄外幣支出，並查看換算後的金額。',
+                promoFeature2Title: '智慧分類推薦',
+                promoFeature2Desc: 'Pockee會參考你的歷史紀錄推薦分類。',
+                promoFeature3Title: '分期與貸款管理',
+                promoFeature3Desc: '一起管理餘額、付款紀錄和還款進度。',
+                bottomCtaTitle: '想管理匯率背後的消費嗎？',
+                bottomCtaDesc: 'Pockee可以在一個App中記錄收入、支出、預算、分期、貸款和多幣別交易。',
                 language: '語言',
                 baseDate: '基準日期',
                 lastUpdated: '最後更新 (KST)',
@@ -1073,7 +1440,7 @@
             }
         };
 
-        let currentLanguage = 'en';
+        let currentLanguage = getInitialLanguage();
         let metaData = null;
         let rateItems = [];
         let currencyNames = {};
@@ -1414,8 +1781,22 @@
             });
         }
 
+        function updateSeoTags() {
+            const seo = SEO[currentLanguage] || SEO.en;
+            const langUrl = getLanguageUrl(currentLanguage);
+            document.title = seo.title;
+            document.getElementById('canonicalLink')?.setAttribute('href', langUrl);
+            document.getElementById('metaDescription')?.setAttribute('content', seo.description);
+            document.getElementById('ogTitle')?.setAttribute('content', seo.ogTitle);
+            document.getElementById('ogDescription')?.setAttribute('content', seo.ogDescription);
+            document.getElementById('ogUrl')?.setAttribute('content', langUrl);
+            document.getElementById('twitterTitle')?.setAttribute('content', seo.ogTitle);
+            document.getElementById('twitterDescription')?.setAttribute('content', seo.ogDescription);
+        }
+
         function renderText() {
             document.documentElement.lang = currentLanguage;
+            updateSeoTags();
 
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
@@ -1613,7 +1994,7 @@
                 document.getElementById('currencySearchInput').addEventListener('input', renderRates);
                 document.getElementById('baseAmountInput').addEventListener('input', renderRates);
                 document.getElementById('languageSelect').addEventListener('change', event => {
-                    changeLanguage(event.target.value);
+                    redirectToLanguage(event.target.value);
                 });
 
                 document.getElementById('loading').style.display = 'none';
@@ -1629,7 +2010,7 @@
             }
         }
 
-        changeLanguage('en');
+        changeLanguage(currentLanguage);
         init();
     </script>
 </body>
