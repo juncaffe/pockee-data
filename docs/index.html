@@ -8,6 +8,54 @@
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#6200EE">
     
+
+    <script>
+        (function () {
+            var supported = ['en', 'ko', 'ja', 'zh-cn', 'zh-tw'];
+
+            function normalizeLanguage(value) {
+                var normalized = String(value || '').trim().toLowerCase().replace('_', '-');
+                if (supported.indexOf(normalized) >= 0) return normalized;
+                if (normalized === 'zh' || normalized.indexOf('hans') >= 0) return 'zh-cn';
+                if (normalized === 'zh-hk' || normalized === 'zh-mo' || normalized.indexOf('hant') >= 0) return 'zh-tw';
+                return null;
+            }
+
+            function detectBrowserLanguage() {
+                var candidates = [];
+                if (navigator.languages && navigator.languages.length) {
+                    candidates = candidates.concat(navigator.languages);
+                }
+                if (navigator.language) {
+                    candidates.push(navigator.language);
+                }
+
+                for (var i = 0; i < candidates.length; i += 1) {
+                    var raw = String(candidates[i] || '').toLowerCase();
+                    var normalized = normalizeLanguage(raw);
+                    if (normalized) return normalized;
+                    if (raw.indexOf('ko') === 0) return 'ko';
+                    if (raw.indexOf('ja') === 0) return 'ja';
+                    if (raw.indexOf('zh-cn') === 0 || raw.indexOf('hans') >= 0) return 'zh-cn';
+                    if (raw.indexOf('zh-tw') === 0 || raw.indexOf('zh-hk') === 0 || raw.indexOf('hant') >= 0) return 'zh-tw';
+                    if (raw.indexOf('en') === 0) return 'en';
+                }
+
+                return 'en';
+            }
+
+            var url = new URL(window.location.href);
+            var currentLang = normalizeLanguage(url.searchParams.get('lang')) || detectBrowserLanguage();
+
+            window.POCKEE_FX_INITIAL_LANG = currentLang;
+
+            if (!url.searchParams.get('lang')) {
+                url.searchParams.set('lang', currentLang);
+                window.history.replaceState({}, '', url.toString());
+            }
+        })();
+    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -1145,12 +1193,45 @@
 
         function normalizeLanguage(value) {
             const normalized = String(value || '').trim().toLowerCase().replace('_', '-');
-            return LANGUAGE_OPTIONS.includes(normalized) ? normalized : null;
+            if (LANGUAGE_OPTIONS.includes(normalized)) return normalized;
+            if (normalized === 'zh' || normalized.includes('hans')) return 'zh-cn';
+            if (normalized === 'zh-hk' || normalized === 'zh-mo' || normalized.includes('hant')) return 'zh-tw';
+            return null;
+        }
+
+        function detectBrowserLanguage() {
+            const candidates = [
+                ...(navigator.languages || []),
+                navigator.language || ''
+            ];
+
+            for (const candidate of candidates) {
+                const raw = String(candidate || '').toLowerCase();
+                const normalized = normalizeLanguage(raw);
+                if (normalized) return normalized;
+
+                if (raw.startsWith('ko')) return 'ko';
+                if (raw.startsWith('ja')) return 'ja';
+                if (raw.startsWith('zh-cn') || raw.includes('hans')) return 'zh-cn';
+                if (raw.startsWith('zh-tw') || raw.startsWith('zh-hk') || raw.includes('hant')) return 'zh-tw';
+                if (raw.startsWith('en')) return 'en';
+            }
+
+            return 'en';
         }
 
         function getInitialLanguage() {
             const params = new URLSearchParams(window.location.search);
-            return normalizeLanguage(params.get('lang')) || 'en';
+            return normalizeLanguage(params.get('lang')) || window.POCKEE_FX_INITIAL_LANG || detectBrowserLanguage();
+        }
+
+        function syncLanguageUrl(language) {
+            const normalized = normalizeLanguage(language) || 'en';
+            const url = new URL(window.location.href);
+            if (!url.searchParams.get('lang')) {
+                url.searchParams.set('lang', normalized);
+                window.history.replaceState({}, '', url.toString());
+            }
         }
 
         function getLanguageUrl(language) {
@@ -1161,6 +1242,26 @@
         function redirectToLanguage(language) {
             const normalized = normalizeLanguage(language) || 'en';
             window.location.href = getLanguageUrl(normalized);
+        }
+
+
+        function getPlayStoreUrl(position, language = currentLanguage) {
+            const referrer = new URLSearchParams({
+                utm_source: 'pockee_fx',
+                utm_medium: 'web',
+                utm_campaign: 'fx_page',
+                utm_content: position || 'unknown',
+                utm_term: language || 'en'
+            }).toString();
+
+            return `https://play.google.com/store/apps/details?id=com.juncaffe.pockee&referrer=${encodeURIComponent(referrer)}`;
+        }
+
+        function updateTrackedLinks() {
+            document.querySelectorAll('[data-track="play_store_click"]').forEach(link => {
+                const position = link.dataset.position || 'unknown';
+                link.setAttribute('href', getPlayStoreUrl(position, currentLanguage));
+            });
         }
 
         const SEO = {
@@ -1852,9 +1953,11 @@
         }
 
         function renderText() {
+            syncLanguageUrl(currentLanguage);
             document.documentElement.lang = currentLanguage;
             updateSeoTags();
             updateLearnMoreLinks();
+            updateTrackedLinks();
 
             document.querySelectorAll('[data-i18n]').forEach(element => {
                 const key = element.getAttribute('data-i18n');
@@ -1996,7 +2099,7 @@
         }
 
         function changeLanguage(nextLanguage) {
-            currentLanguage = LANGUAGE_OPTIONS.includes(nextLanguage) ? nextLanguage : 'en';
+            currentLanguage = normalizeLanguage(nextLanguage) || 'en';
             const languageSelect = document.getElementById('languageSelect');
             if (languageSelect.value !== currentLanguage) {
                 languageSelect.value = currentLanguage;
@@ -2019,7 +2122,7 @@
                 event: eventName,
                 source: params.source || 'pockee_fx',
                 page: params.page || 'pockee_data',
-                lang: currentLanguage,
+                lang: currentLanguage || getInitialLanguage(),
                 position: params.position || 'unknown',
                 base_currency: selectedBaseCode || 'unknown'
             });
