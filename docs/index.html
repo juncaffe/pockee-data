@@ -7,6 +7,8 @@
     <meta id="metaDescription" name="description" content="Check KRW-based exchange rates, share conversion links, and manage overseas spending with Pockee, a smart personal finance app.">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#6200EE">
+    <link rel="icon" type="image/png" href="https://juncaffe.github.io/assets/images/pockee_icon.png">
+    <link rel="apple-touch-icon" href="https://juncaffe.github.io/assets/images/pockee_icon.png">
     
 
     <script>
@@ -132,6 +134,15 @@
             justify-content: center;
             gap: 8px;
             letter-spacing: -0.02em;
+        }
+
+        .title-app-icon {
+            width: 34px;
+            height: 34px;
+            border-radius: 12px;
+            object-fit: cover;
+            box-shadow: 0 8px 18px rgba(98, 0, 238, 0.16);
+            flex: 0 0 auto;
         }
 
         .badge {
@@ -992,7 +1003,13 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="container">
         <header>
-            <h1><span data-i18n="heroTitle">Pockee Currency Converter</span> <span class="badge">LIVE</span></h1>
+            <h1>
+                <img src="https://juncaffe.github.io/assets/images/pockee_icon.png"
+                     alt="Pockee"
+                     class="title-app-icon">
+                <span data-i18n="heroTitle">Pockee Currency Converter</span>
+                <span class="badge">LIVE</span>
+            </h1>
             <p class="subtitle" data-i18n="subtitle">
                 Check KRW-based exchange rates and manage overseas spending with Pockee.
             </p>
