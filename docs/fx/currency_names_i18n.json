@@ -5,7 +5,11 @@
       "ja": "UAEディルハム",
       "en": "UAE Dirham",
       "zh-cn": "阿联酋迪拉姆",
-      "zh-tw": "阿聯酋迪拉姆"
+      "zh-tw": "阿聯酋迪拉姆",
+      "vi": "Dirham UAE",
+      "ms": "Dirham UAE",
+      "hi": "UAE दिरहम",
+      "id": "Dirham UEA"
     },
     "symbol": "د.إ",
     "display_symbol": "AED",
@@ -21,7 +25,11 @@
       "ja": "オーストラリアドル",
       "en": "Australian Dollar",
       "zh-cn": "澳大利亚元",
-      "zh-tw": "澳元"
+      "zh-tw": "澳元",
+      "vi": "Đô la Úc",
+      "ms": "Dolar Australia",
+      "hi": "ऑस्ट्रेलियाई डॉलर",
+      "id": "Dolar Australia"
     },
     "symbol": "$",
     "display_symbol": "A$",
@@ -37,7 +45,11 @@
       "ja": "バーレーンディナール",
       "en": "Bahraini Dinar",
       "zh-cn": "巴林第纳尔",
-      "zh-tw": "巴林第納爾"
+      "zh-tw": "巴林第納爾",
+      "vi": "Dinar Bahrain",
+      "ms": "Dinar Bahrain",
+      "hi": "बहरीनी दीनार",
+      "id": "Dinar Bahrain"
     },
     "symbol": ".د.ب",
     "display_symbol": "BHD",
@@ -53,7 +65,11 @@
       "ja": "ブルネイドル",
       "en": "Brunei Dollar",
       "zh-cn": "文莱元",
-      "zh-tw": "汶萊元"
+      "zh-tw": "汶萊元",
+      "vi": "Đô la Brunei",
+      "ms": "Dolar Brunei",
+      "hi": "ब्रुनेई डॉलर",
+      "id": "Dolar Brunei"
     },
     "symbol": "$",
     "display_symbol": "B$",
@@ -69,7 +85,11 @@
       "ja": "ブラジルレアル",
       "en": "Brazilian Real",
       "zh-cn": "巴西雷亚尔",
-      "zh-tw": "巴西里亞伊"
+      "zh-tw": "巴西里亞伊",
+      "vi": "Real Brazil",
+      "ms": "Real Brazil",
+      "hi": "ब्राज़ीलियाई रियाल",
+      "id": "Real Brasil"
     },
     "symbol": "R$",
     "display_symbol": "R$",
@@ -85,7 +105,11 @@
       "ja": "カナダドル",
       "en": "Canadian Dollar",
       "zh-cn": "加拿大元",
-      "zh-tw": "加元"
+      "zh-tw": "加元",
+      "vi": "Đô la Canada",
+      "ms": "Dolar Kanada",
+      "hi": "कनाडाई डॉलर",
+      "id": "Dolar Kanada"
     },
     "symbol": "$",
     "display_symbol": "C$",
@@ -101,7 +125,11 @@
       "ja": "スイスフラン",
       "en": "Swiss Franc",
       "zh-cn": "瑞士法郎",
-      "zh-tw": "瑞士法郎"
+      "zh-tw": "瑞士法郎",
+      "vi": "Franc Thụy Sĩ",
+      "ms": "Franc Switzerland",
+      "hi": "स्विस फ्रैंक",
+      "id": "Franc Swiss"
     },
     "symbol": "CHF",
     "display_symbol": "CHF",
@@ -117,7 +145,11 @@
       "ja": "人民元",
       "en": "Chinese Yuan",
       "zh-cn": "人民币",
-      "zh-tw": "人民幣"
+      "zh-tw": "人民幣",
+      "vi": "Nhân dân tệ (ngoài lãnh thổ)",
+      "ms": "Yuan China (luar pesisir)",
+      "hi": "चीनी युआन (अपतटीय)",
+      "id": "Yuan Tiongkok (offshore)"
     },
     "symbol": "¥",
     "display_symbol": "CN¥",
@@ -133,7 +165,11 @@
       "ja": "中国人民元",
       "en": "Chinese Yuan",
       "zh-cn": "人民币",
-      "zh-tw": "人民幣"
+      "zh-tw": "人民幣",
+      "vi": "Nhân dân tệ",
+      "ms": "Yuan China",
+      "hi": "चीनी युआन",
+      "id": "Yuan Tiongkok"
     },
     "symbol": "¥",
     "display_symbol": "CN¥",
@@ -149,7 +185,11 @@
       "ja": "チェココルナ",
       "en": "Czech Koruna",
       "zh-cn": "捷克克朗",
-      "zh-tw": "捷克克朗"
+      "zh-tw": "捷克克朗",
+      "vi": "Koruna Séc",
+      "ms": "Koruna Czech",
+      "hi": "चेक कोरुना",
+      "id": "Koruna Ceko"
     },
     "symbol": "Kč",
     "display_symbol": "Kč",
@@ -165,7 +205,11 @@
       "ja": "デンマーククローネ",
       "en": "Danish Krone",
       "zh-cn": "丹麦克朗",
-      "zh-tw": "丹麥克朗"
+      "zh-tw": "丹麥克朗",
+      "vi": "Krone Đan Mạch",
+      "ms": "Krone Denmark",
+      "hi": "डेनिश क्रोन",
+      "id": "Krone Denmark"
     },
     "symbol": "kr",
     "display_symbol": "DKK",
@@ -181,7 +225,11 @@
       "ja": "エジプトポンド",
       "en": "Egyptian Pound",
       "zh-cn": "埃及镑",
-      "zh-tw": "埃及鎊"
+      "zh-tw": "埃及鎊",
+      "vi": "Bảng Ai Cập",
+      "ms": "Pound Mesir",
+      "hi": "मिस्री पाउंड",
+      "id": "Pound Mesir"
     },
     "symbol": "E£",
     "display_symbol": "E£",
@@ -197,7 +245,11 @@
       "ja": "ユーロ",
       "en": "Euro",
       "zh-cn": "欧元",
-      "zh-tw": "歐元"
+      "zh-tw": "歐元",
+      "vi": "Euro",
+      "ms": "Euro",
+      "hi": "यूरो",
+      "id": "Euro"
     },
     "symbol": "€",
     "display_symbol": "€",
@@ -213,7 +265,11 @@
       "ja": "イギリスポンド",
       "en": "British Pound",
       "zh-cn": "英镑",
-      "zh-tw": "英鎊"
+      "zh-tw": "英鎊",
+      "vi": "Bảng Anh",
+      "ms": "Pound Sterling",
+      "hi": "ब्रिटिश पाउंड",
+      "id": "Pound Inggris"
     },
     "symbol": "£",
     "display_symbol": "£",
@@ -229,7 +285,11 @@
       "ja": "香港ドル",
       "en": "Hong Kong Dollar",
       "zh-cn": "港元",
-      "zh-tw": "港元"
+      "zh-tw": "港元",
+      "vi": "Đô la Hồng Kông",
+      "ms": "Dolar Hong Kong",
+      "hi": "हांगकांग डॉलर",
+      "id": "Dolar Hong Kong"
     },
     "symbol": "$",
     "display_symbol": "HK$",
@@ -245,7 +305,11 @@
       "ja": "ハンガリーフォリント",
       "en": "Hungarian Forint",
       "zh-cn": "匈牙利福林",
-      "zh-tw": "匈牙利福林"
+      "zh-tw": "匈牙利福林",
+      "vi": "Forint Hungary",
+      "ms": "Forint Hungary",
+      "hi": "हंगेरियन फोरिंट",
+      "id": "Forint Hungaria"
     },
     "symbol": "Ft",
     "display_symbol": "Ft",
@@ -261,7 +325,11 @@
       "ja": "インドネシアルピア",
       "en": "Indonesian Rupiah",
       "zh-cn": "印尼卢比",
-      "zh-tw": "印尼盧比"
+      "zh-tw": "印尼盧比",
+      "vi": "Rupiah Indonesia",
+      "ms": "Rupiah Indonesia",
+      "hi": "इंडोनेशियाई रुपिया",
+      "id": "Rupiah Indonesia"
     },
     "symbol": "Rp",
     "display_symbol": "Rp",
@@ -277,7 +345,11 @@
       "ja": "イスラエル新シェケル",
       "en": "Israeli New Shekel",
       "zh-cn": "以色列新谢克尔",
-      "zh-tw": "以色列新謝克爾"
+      "zh-tw": "以色列新謝克爾",
+      "vi": "Shekel Israel",
+      "ms": "Syikal Israel",
+      "hi": "इज़राइली शेकेल",
+      "id": "Shekel Israel"
     },
     "symbol": "₪",
     "display_symbol": "₪",
@@ -293,7 +365,11 @@
       "ja": "インドルピー",
       "en": "Indian Rupee",
       "zh-cn": "印度卢比",
-      "zh-tw": "印度盧比"
+      "zh-tw": "印度盧比",
+      "vi": "Rupee Ấn Độ",
+      "ms": "Rupee India",
+      "hi": "भारतीय रुपया",
+      "id": "Rupee India"
     },
     "symbol": "₹",
     "display_symbol": "₹",
@@ -309,7 +385,11 @@
       "ja": "日本円",
       "en": "Japanese Yen",
       "zh-cn": "日元",
-      "zh-tw": "日圓"
+      "zh-tw": "日圓",
+      "vi": "Yên Nhật",
+      "ms": "Yen Jepun",
+      "hi": "जापानी येन",
+      "id": "Yen Jepang"
     },
     "symbol": "¥",
     "display_symbol": "JP¥",
@@ -325,7 +405,11 @@
       "ja": "韓国ウォン",
       "en": "South Korean Won",
       "zh-cn": "韩元",
-      "zh-tw": "韓元"
+      "zh-tw": "韓元",
+      "vi": "Won Hàn Quốc",
+      "ms": "Won Korea Selatan",
+      "hi": "दक्षिण कोरियाई वोन",
+      "id": "Won Korea Selatan"
     },
     "symbol": "₩",
     "display_symbol": "₩",
@@ -341,7 +425,11 @@
       "ja": "クウェートディナール",
       "en": "Kuwaiti Dinar",
       "zh-cn": "科威特第纳尔",
-      "zh-tw": "科威特第納爾"
+      "zh-tw": "科威特第納爾",
+      "vi": "Dinar Kuwait",
+      "ms": "Dinar Kuwait",
+      "hi": "कुवैती दीनार",
+      "id": "Dinar Kuwait"
     },
     "symbol": "د.ك",
     "display_symbol": "KWD",
@@ -357,7 +445,11 @@
       "ja": "マカオパタカ",
       "en": "Macanese Pataca",
       "zh-cn": "澳门元",
-      "zh-tw": "澳門元"
+      "zh-tw": "澳門元",
+      "vi": "Pataca Macao",
+      "ms": "Pataca Macau",
+      "hi": "मकाऊ पटाका",
+      "id": "Pataca Makau"
     },
     "symbol": "P",
     "display_symbol": "MOP$",
@@ -373,7 +465,11 @@
       "ja": "メキシコペソ",
       "en": "Mexican Peso",
       "zh-cn": "墨西哥比索",
-      "zh-tw": "墨西哥披索"
+      "zh-tw": "墨西哥披索",
+      "vi": "Peso Mexico",
+      "ms": "Peso Mexico",
+      "hi": "मैक्सिकन पेसो",
+      "id": "Peso Meksiko"
     },
     "symbol": "$",
     "display_symbol": "MX$",
@@ -389,7 +485,11 @@
       "ja": "マレーシアリンギット",
       "en": "Malaysian Ringgit",
       "zh-cn": "马来西亚林吉特",
-      "zh-tw": "馬來西亞令吉"
+      "zh-tw": "馬來西亞令吉",
+      "vi": "Ringgit Malaysia",
+      "ms": "Ringgit Malaysia",
+      "hi": "मलेशियाई रिंगिट",
+      "id": "Ringgit Malaysia"
     },
     "symbol": "RM",
     "display_symbol": "RM",
@@ -405,7 +505,11 @@
       "ja": "ノルウェークローネ",
       "en": "Norwegian Krone",
       "zh-cn": "挪威克朗",
-      "zh-tw": "挪威克朗"
+      "zh-tw": "挪威克朗",
+      "vi": "Krone Na Uy",
+      "ms": "Krone Norway",
+      "hi": "नॉर्वेजियन क्रोन",
+      "id": "Krone Norwegia"
     },
     "symbol": "kr",
     "display_symbol": "NOK",
@@ -421,7 +525,11 @@
       "ja": "ニュージーランドドル",
       "en": "New Zealand Dollar",
       "zh-cn": "新西兰元",
-      "zh-tw": "紐西蘭元"
+      "zh-tw": "紐西蘭元",
+      "vi": "Đô la New Zealand",
+      "ms": "Dolar New Zealand",
+      "hi": "न्यूज़ीलैंड डॉलर",
+      "id": "Dolar Selandia Baru"
     },
     "symbol": "$",
     "display_symbol": "NZ$",
@@ -437,7 +545,11 @@
       "ja": "フィリピンペソ",
       "en": "Philippine Peso",
       "zh-cn": "菲律宾比索",
-      "zh-tw": "菲律賓披索"
+      "zh-tw": "菲律賓披索",
+      "vi": "Peso Philippines",
+      "ms": "Peso Filipina",
+      "hi": "फिलीपीनी पेसो",
+      "id": "Peso Filipina"
     },
     "symbol": "₱",
     "display_symbol": "₱",
@@ -453,7 +565,11 @@
       "ja": "パキスタンルピー",
       "en": "Pakistani Rupee",
       "zh-cn": "巴基斯坦卢比",
-      "zh-tw": "巴基斯坦盧比"
+      "zh-tw": "巴基斯坦盧比",
+      "vi": "Rupee Pakistan",
+      "ms": "Rupee Pakistan",
+      "hi": "पाकिस्तानी रुपया",
+      "id": "Rupee Pakistan"
     },
     "symbol": "₨",
     "display_symbol": "PKR",
@@ -469,7 +585,11 @@
       "ja": "ポーランドズウォティ",
       "en": "Polish Zloty",
       "zh-cn": "波兰兹罗提",
-      "zh-tw": "波蘭茲羅提"
+      "zh-tw": "波蘭茲羅提",
+      "vi": "Zloty Ba Lan",
+      "ms": "Zloty Poland",
+      "hi": "पोलिश ज़्लॉटी",
+      "id": "Zloty Polandia"
     },
     "symbol": "zł",
     "display_symbol": "zł",
@@ -485,7 +605,11 @@
       "ja": "ロシアルーブル",
       "en": "Russian Ruble",
       "zh-cn": "俄罗斯卢布",
-      "zh-tw": "俄羅斯盧布"
+      "zh-tw": "俄羅斯盧布",
+      "vi": "Rúp Nga",
+      "ms": "Ruble Rusia",
+      "hi": "रूसी रूबल",
+      "id": "Rubel Rusia"
     },
     "symbol": "₽",
     "display_symbol": "₽",
@@ -501,7 +625,11 @@
       "ja": "サウジアラビアリヤル",
       "en": "Saudi Riyal",
       "zh-cn": "沙特里亚尔",
-      "zh-tw": "沙烏地里亞爾"
+      "zh-tw": "沙烏地里亞爾",
+      "vi": "Riyal Saudi",
+      "ms": "Riyal Arab Saudi",
+      "hi": "सऊदी रियाल",
+      "id": "Riyal Arab Saudi"
     },
     "symbol": "﷼",
     "display_symbol": "SAR",
@@ -517,7 +645,11 @@
       "ja": "スウェーデンクローナ",
       "en": "Swedish Krona",
       "zh-cn": "瑞典克朗",
-      "zh-tw": "瑞典克朗"
+      "zh-tw": "瑞典克朗",
+      "vi": "Krona Thụy Điển",
+      "ms": "Krona Sweden",
+      "hi": "स्वीडिश क्रोना",
+      "id": "Krona Swedia"
     },
     "symbol": "kr",
     "display_symbol": "SEK",
@@ -533,7 +665,11 @@
       "ja": "シンガポールドル",
       "en": "Singapore Dollar",
       "zh-cn": "新加坡元",
-      "zh-tw": "新加坡元"
+      "zh-tw": "新加坡元",
+      "vi": "Đô la Singapore",
+      "ms": "Dolar Singapura",
+      "hi": "सिंगापुर डॉलर",
+      "id": "Dolar Singapura"
     },
     "symbol": "$",
     "display_symbol": "S$",
@@ -549,7 +685,11 @@
       "ja": "タイバーツ",
       "en": "Thai Baht",
       "zh-cn": "泰铢",
-      "zh-tw": "泰銖"
+      "zh-tw": "泰銖",
+      "vi": "Baht Thái",
+      "ms": "Baht Thailand",
+      "hi": "थाई बात",
+      "id": "Baht Thailand"
     },
     "symbol": "฿",
     "display_symbol": "฿",
@@ -565,7 +705,11 @@
       "ja": "トルコリラ",
       "en": "Turkish Lira",
       "zh-cn": "土耳其里拉",
-      "zh-tw": "土耳其里拉"
+      "zh-tw": "土耳其里拉",
+      "vi": "Lira Thổ Nhĩ Kỳ",
+      "ms": "Lira Turki",
+      "hi": "तुर्की लीरा",
+      "id": "Lira Turki"
     },
     "symbol": "₺",
     "display_symbol": "₺",
@@ -581,7 +725,11 @@
       "ja": "台湾ドル",
       "en": "New Taiwan Dollar",
       "zh-cn": "新台币",
-      "zh-tw": "新臺幣"
+      "zh-tw": "新臺幣",
+      "vi": "Đô la Đài Loan",
+      "ms": "Dolar Taiwan",
+      "hi": "ताइवान डॉलर",
+      "id": "Dolar Taiwan"
     },
     "symbol": "$",
     "display_symbol": "NT$",
@@ -597,7 +745,11 @@
       "ja": "USドル",
       "en": "US Dollar",
       "zh-cn": "美元",
-      "zh-tw": "美元"
+      "zh-tw": "美元",
+      "vi": "Đô la Mỹ",
+      "ms": "Dolar Amerika Syarikat",
+      "hi": "अमेरिकी डॉलर",
+      "id": "Dolar Amerika Serikat"
     },
     "symbol": "$",
     "display_symbol": "US$",
@@ -613,7 +765,11 @@
       "ja": "ベトナムドン",
       "en": "Vietnamese Dong",
       "zh-cn": "越南盾",
-      "zh-tw": "越南盾"
+      "zh-tw": "越南盾",
+      "vi": "Đồng Việt Nam",
+      "ms": "Dong Vietnam",
+      "hi": "वियतनामी डोंग",
+      "id": "Dong Vietnam"
     },
     "symbol": "₫",
     "display_symbol": "₫",
@@ -629,7 +785,11 @@
       "ja": "南アフリカランド",
       "en": "South African Rand",
       "zh-cn": "南非兰特",
-      "zh-tw": "南非蘭特"
+      "zh-tw": "南非蘭特",
+      "vi": "Rand Nam Phi",
+      "ms": "Rand Afrika Selatan",
+      "hi": "दक्षिण अफ़्रीकी रैंड",
+      "id": "Rand Afrika Selatan"
     },
     "symbol": "R",
     "display_symbol": "ZAR",
@@ -645,7 +805,11 @@
       "ja": "アフガニスタン アフガニー",
       "en": "Afghan Afghani",
       "zh-cn": "阿富汗尼",
-      "zh-tw": "阿富汗尼"
+      "zh-tw": "阿富汗尼",
+      "vi": "Afghani Afghanistan",
+      "ms": "Afghani Afghanistan",
+      "hi": "अफ़ग़ान अफ़ग़ानी",
+      "id": "Afghani Afghanistan"
     },
     "symbol": "؋",
     "display_symbol": "؋",
@@ -661,7 +825,11 @@
       "ja": "アルバニア レク",
       "en": "Albanian Lek",
       "zh-cn": "阿尔巴尼亚列克",
-      "zh-tw": "阿爾巴尼亞列克"
+      "zh-tw": "阿爾巴尼亞列克",
+      "vi": "Lek Albania",
+      "ms": "Lek Albania",
+      "hi": "अल्बानियाई लेक",
+      "id": "Lek Albania"
     },
     "symbol": "Lekë",
     "display_symbol": "Lekë",
@@ -677,7 +845,11 @@
       "ja": "アルメニア ドラム",
       "en": "Armenian Dram",
       "zh-cn": "亚美尼亚德拉姆",
-      "zh-tw": "亞美尼亞德拉姆"
+      "zh-tw": "亞美尼亞德拉姆",
+      "vi": "Dram Armenia",
+      "ms": "Dram Armenia",
+      "hi": "अर्मेनियाई ड्राम",
+      "id": "Dram Armenia"
     },
     "symbol": "֏",
     "display_symbol": "֏",
@@ -693,7 +865,11 @@
       "ja": "オランダ領アンティル ギルダー",
       "en": "Netherlands Antillean Guilder",
       "zh-cn": "荷属安的列斯盾",
-      "zh-tw": "荷屬安地列斯盾"
+      "zh-tw": "荷屬安地列斯盾",
+      "vi": "Guilder Antilles Hà Lan",
+      "ms": "Guilder Antilles Belanda",
+      "hi": "नीदरलैंड एंटिलियन गुल्डर",
+      "id": "Gulden Antillen Belanda"
     },
     "symbol": "NAf.",
     "display_symbol": "NAf.",
@@ -709,7 +885,11 @@
       "ja": "アンゴラ クワンザ",
       "en": "Angolan Kwanza",
       "zh-cn": "安哥拉宽扎",
-      "zh-tw": "安哥拉寬扎"
+      "zh-tw": "安哥拉寬扎",
+      "vi": "Kwanza Angola",
+      "ms": "Kwanza Angola",
+      "hi": "अंगोलन क्वान्ज़ा",
+      "id": "Kwanza Angola"
     },
     "symbol": "Kz",
     "display_symbol": "Kz",
@@ -725,7 +905,11 @@
       "ja": "アルゼンチン ペソ",
       "en": "Argentine Peso",
       "zh-cn": "阿根廷比索",
-      "zh-tw": "阿根廷披索"
+      "zh-tw": "阿根廷披索",
+      "vi": "Peso Argentina",
+      "ms": "Peso Argentina",
+      "hi": "अर्जेंटीनी पेसो",
+      "id": "Peso Argentina"
     },
     "symbol": "$",
     "display_symbol": "$AR",
@@ -741,7 +925,11 @@
       "ja": "アルバ フロリン",
       "en": "Aruban Florin",
       "zh-cn": "阿鲁巴弗罗林",
-      "zh-tw": "阿路巴盾"
+      "zh-tw": "阿路巴盾",
+      "vi": "Florin Aruba",
+      "ms": "Florin Aruba",
+      "hi": "अरुबन फ्लोरिन",
+      "id": "Florin Aruba"
     },
     "symbol": "Afl.",
     "display_symbol": "Afl.",
@@ -757,7 +945,11 @@
       "ja": "アゼルバイジャン マナト",
       "en": "Azerbaijani Manat",
       "zh-cn": "阿塞拜疆马纳特",
-      "zh-tw": "亞塞拜然馬納特"
+      "zh-tw": "亞塞拜然馬納特",
+      "vi": "Manat Azerbaijan",
+      "ms": "Manat Azerbaijan",
+      "hi": "अज़रबैजानी मनात",
+      "id": "Manat Azerbaijan"
     },
     "symbol": "₼",
     "display_symbol": "₼",
@@ -773,7 +965,11 @@
       "ja": "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
       "en": "Bosnia-Herzegovina Convertible Mark",
       "zh-cn": "波斯尼亚-黑塞哥维那可兑换马克",
-      "zh-tw": "波士尼亞-赫塞哥維納可轉換馬克"
+      "zh-tw": "波士尼亞-赫塞哥維納可轉換馬克",
+      "vi": "Marka chuyển đổi Bosnia",
+      "ms": "Marka Bosnia",
+      "hi": "बोस्नियाई परिवर्तनीय मार्क",
+      "id": "Mark Konvertibel Bosnia"
     },
     "symbol": "KM",
     "display_symbol": "KM",
@@ -789,7 +985,11 @@
       "ja": "バルバドス ドル",
       "en": "Barbadian Dollar",
       "zh-cn": "巴巴多斯元",
-      "zh-tw": "巴貝多元"
+      "zh-tw": "巴貝多元",
+      "vi": "Đô la Barbados",
+      "ms": "Dolar Barbados",
+      "hi": "बारबाडोस डॉलर",
+      "id": "Dolar Barbados"
     },
     "symbol": "$",
     "display_symbol": "Bds$",
@@ -805,7 +1005,11 @@
       "ja": "バングラデシュ タカ",
       "en": "Bangladeshi Taka",
       "zh-cn": "孟加拉塔卡",
-      "zh-tw": "孟加拉塔卡"
+      "zh-tw": "孟加拉塔卡",
+      "vi": "Taka Bangladesh",
+      "ms": "Taka Bangladesh",
+      "hi": "बांग्लादेशी टका",
+      "id": "Taka Bangladesh"
     },
     "symbol": "৳",
     "display_symbol": "৳",
@@ -821,7 +1025,11 @@
       "ja": "ブルンジ フラン",
       "en": "Burundian Franc",
       "zh-cn": "布隆迪法郎",
-      "zh-tw": "蒲隆地法郎"
+      "zh-tw": "蒲隆地法郎",
+      "vi": "Franc Burundi",
+      "ms": "Franc Burundi",
+      "hi": "बुरुंडी फ्रैंक",
+      "id": "Franc Burundi"
     },
     "symbol": "FBu",
     "display_symbol": "FBu",
@@ -837,7 +1045,11 @@
       "ja": "バミューダ ドル",
       "en": "Bermudan Dollar",
       "zh-cn": "百慕大元",
-      "zh-tw": "百慕達幣"
+      "zh-tw": "百慕達幣",
+      "vi": "Đô la Bermuda",
+      "ms": "Dolar Bermuda",
+      "hi": "बरमूडा डॉलर",
+      "id": "Dolar Bermuda"
     },
     "symbol": "$",
     "display_symbol": "$BM",
@@ -853,7 +1065,11 @@
       "ja": "ボリビア ボリビアーノ",
       "en": "Bolivian Boliviano",
       "zh-cn": "玻利维亚诺",
-      "zh-tw": "玻利維亞諾"
+      "zh-tw": "玻利維亞諾",
+      "vi": "Boliviano Bolivia",
+      "ms": "Boliviano Bolivia",
+      "hi": "बोलिवियन बोलिवियानो",
+      "id": "Boliviano Bolivia"
     },
     "symbol": "Bs",
     "display_symbol": "Bs",
@@ -869,7 +1085,11 @@
       "ja": "バハマ ドル",
       "en": "Bahamian Dollar",
       "zh-cn": "巴哈马元",
-      "zh-tw": "巴哈馬元"
+      "zh-tw": "巴哈馬元",
+      "vi": "Đô la Bahamas",
+      "ms": "Dolar Bahamas",
+      "hi": "बहामियन डॉलर",
+      "id": "Dolar Bahama"
     },
     "symbol": "$",
     "display_symbol": "BS$",
@@ -885,7 +1105,11 @@
       "ja": "ブータン ニュルタム",
       "en": "Bhutanese Ngultrum",
       "zh-cn": "不丹努尔特鲁姆",
-      "zh-tw": "不丹那特倫"
+      "zh-tw": "不丹那特倫",
+      "vi": "Ngultrum Bhutan",
+      "ms": "Ngultrum Bhutan",
+      "hi": "भूटानी न्गुल्ट्रम",
+      "id": "Ngultrum Bhutan"
     },
     "symbol": "Nu.",
     "display_symbol": "Nu.",
@@ -901,7 +1125,11 @@
       "ja": "ボツワナ プラ",
       "en": "Botswanan Pula",
       "zh-cn": "博茨瓦纳普拉",
-      "zh-tw": "波札那普拉"
+      "zh-tw": "波札那普拉",
+      "vi": "Pula Botswana",
+      "ms": "Pula Botswana",
+      "hi": "बोत्सवाना पुला",
+      "id": "Pula Botswana"
     },
     "symbol": "P",
     "display_symbol": "BWP",
@@ -917,7 +1145,11 @@
       "ja": "ベラルーシ ルーブル",
       "en": "Belarusian Ruble",
       "zh-cn": "白俄罗斯卢布",
-      "zh-tw": "白俄羅斯盧布"
+      "zh-tw": "白俄羅斯盧布",
+      "vi": "Rúp Belarus",
+      "ms": "Ruble Belarus",
+      "hi": "बेलारूसी रूबल",
+      "id": "Rubel Belarus"
     },
     "symbol": "Br",
     "display_symbol": "Br",
@@ -933,7 +1165,11 @@
       "ja": "ベリーズ ドル",
       "en": "Belize Dollar",
       "zh-cn": "伯利兹元",
-      "zh-tw": "貝里斯元"
+      "zh-tw": "貝里斯元",
+      "vi": "Đô la Belize",
+      "ms": "Dolar Belize",
+      "hi": "बेलीज़ डॉलर",
+      "id": "Dolar Belize"
     },
     "symbol": "$",
     "display_symbol": "$BZ",
@@ -949,7 +1185,11 @@
       "ja": "コンゴ フラン",
       "en": "Congolese Franc",
       "zh-cn": "刚果法郎",
-      "zh-tw": "剛果法郎"
+      "zh-tw": "剛果法郎",
+      "vi": "Franc Congo",
+      "ms": "Franc Congo",
+      "hi": "कांगोलीज फ्रैंक",
+      "id": "Franc Kongo"
     },
     "symbol": "FC",
     "display_symbol": "FC",
@@ -965,7 +1205,11 @@
       "ja": "チリ ペソ",
       "en": "Chilean Peso",
       "zh-cn": "智利比索",
-      "zh-tw": "智利披索"
+      "zh-tw": "智利披索",
+      "vi": "Peso Chile",
+      "ms": "Peso Chile",
+      "hi": "चिली पेसो",
+      "id": "Peso Chili"
     },
     "symbol": "$",
     "display_symbol": "$CL",
@@ -981,7 +1225,11 @@
       "ja": "コロンビア ペソ",
       "en": "Colombian Peso",
       "zh-cn": "哥伦比亚比索",
-      "zh-tw": "哥倫比亞披索"
+      "zh-tw": "哥倫比亞披索",
+      "vi": "Peso Colombia",
+      "ms": "Peso Colombia",
+      "hi": "कोलम्बियाई पेसो",
+      "id": "Peso Kolombia"
     },
     "symbol": "$",
     "display_symbol": "$CO",
@@ -997,7 +1245,11 @@
       "ja": "コスタリカ コロン",
       "en": "Costa Rican Colón",
       "zh-cn": "哥斯达黎加科朗",
-      "zh-tw": "哥斯大黎加科朗"
+      "zh-tw": "哥斯大黎加科朗",
+      "vi": "Colón Costa Rica",
+      "ms": "Colon Costa Rica",
+      "hi": "कोस्टा रिकन कोलोन",
+      "id": "Colon Kosta Rika"
     },
     "symbol": "₡",
     "display_symbol": "₡",
@@ -1013,7 +1265,11 @@
       "ja": "キューバ ペソ",
       "en": "Cuban Peso",
       "zh-cn": "古巴比索",
-      "zh-tw": "古巴披索"
+      "zh-tw": "古巴披索",
+      "vi": "Peso Cuba",
+      "ms": "Peso Cuba",
+      "hi": "क्यूबाई पेसो",
+      "id": "Peso Kuba"
     },
     "symbol": "$",
     "display_symbol": "CUP",
@@ -1029,7 +1285,11 @@
       "ja": "カーボベルデ エスクード",
       "en": "Cape Verdean Escudo",
       "zh-cn": "佛得角埃斯库多",
-      "zh-tw": "維德角埃斯庫多"
+      "zh-tw": "維德角埃斯庫多",
+      "vi": "Escudo Cabo Verde",
+      "ms": "Escudo Cabo Verde",
+      "hi": "केप वर्डे एस्क्यूडो",
+      "id": "Eskudo Tanjung Verde"
     },
     "symbol": "CVE",
     "display_symbol": "CVE",
@@ -1045,7 +1305,11 @@
       "ja": "ジブチ フラン",
       "en": "Djiboutian Franc",
       "zh-cn": "吉布提法郎",
-      "zh-tw": "吉布地法郎"
+      "zh-tw": "吉布地法郎",
+      "vi": "Franc Djibouti",
+      "ms": "Franc Djibouti",
+      "hi": "जिबूती फ्रैंक",
+      "id": "Franc Djibouti"
     },
     "symbol": "Fdj",
     "display_symbol": "Fdj",
@@ -1061,7 +1325,11 @@
       "ja": "ドミニカ ペソ",
       "en": "Dominican Peso",
       "zh-cn": "多米尼加比索",
-      "zh-tw": "多明尼加披索"
+      "zh-tw": "多明尼加披索",
+      "vi": "Peso Cộng hòa Dominica",
+      "ms": "Peso Dominican",
+      "hi": "डोमिनिकन पेसो",
+      "id": "Peso Dominika"
     },
     "symbol": "RD$",
     "display_symbol": "RD$",
@@ -1077,7 +1345,11 @@
       "ja": "アルジェリア ディナール",
       "en": "Algerian Dinar",
       "zh-cn": "阿尔及利亚第纳尔",
-      "zh-tw": "阿爾及利亞第納爾"
+      "zh-tw": "阿爾及利亞第納爾",
+      "vi": "Dinar Algeria",
+      "ms": "Dinar Algeria",
+      "hi": "अल्जीरियाई दीनार",
+      "id": "Dinar Aljazair"
     },
     "symbol": "DA",
     "display_symbol": "DA",
@@ -1093,7 +1365,11 @@
       "ja": "エリトリア ナクファ",
       "en": "Eritrean Nakfa",
       "zh-cn": "厄立特里亚纳克法",
-      "zh-tw": "厄立特里亞納克法"
+      "zh-tw": "厄立特里亞納克法",
+      "vi": "Nakfa Eritrea",
+      "ms": "Nakfa Eritrea",
+      "hi": "इरिट्रियाई नक्फा",
+      "id": "Nakfa Eritrea"
     },
     "symbol": "Nfk",
     "display_symbol": "Nfk",
@@ -1109,7 +1385,11 @@
       "ja": "エチオピア ブル",
       "en": "Ethiopian Birr",
       "zh-cn": "埃塞俄比亚比尔",
-      "zh-tw": "衣索比亞比爾"
+      "zh-tw": "衣索比亞比爾",
+      "vi": "Birr Ethiopia",
+      "ms": "Birr Ethiopia",
+      "hi": "इथियोपियाई बिर",
+      "id": "Birr Etiopia"
     },
     "symbol": "Br",
     "display_symbol": "Br",
@@ -1125,7 +1405,11 @@
       "ja": "フィジー ドル",
       "en": "Fijian Dollar",
       "zh-cn": "斐济元",
-      "zh-tw": "斐濟元"
+      "zh-tw": "斐濟元",
+      "vi": "Đô la Fiji",
+      "ms": "Dolar Fiji",
+      "hi": "फिजी डॉलर",
+      "id": "Dolar Fiji"
     },
     "symbol": "$",
     "display_symbol": "$FJ",
@@ -1141,7 +1425,11 @@
       "ja": "フォークランド（マルビナス）諸島 ポンド",
       "en": "Falkland Islands Pound",
       "zh-cn": "福克兰群岛镑",
-      "zh-tw": "福克蘭群島鎊"
+      "zh-tw": "福克蘭群島鎊",
+      "vi": "Bảng Falkland",
+      "ms": "Pound Falkland",
+      "hi": "फ़ॉकलैंड पाउंड",
+      "id": "Pound Falkland"
     },
     "symbol": "£",
     "display_symbol": "£FK",
@@ -1157,7 +1445,11 @@
       "ja": "ジョージア ラリ",
       "en": "Georgian Lari",
       "zh-cn": "格鲁吉亚拉里",
-      "zh-tw": "喬治亞拉里"
+      "zh-tw": "喬治亞拉里",
+      "vi": "Lari Georgia",
+      "ms": "Lari Georgia",
+      "hi": "जॉर्जियाई लारी",
+      "id": "Lari Georgia"
     },
     "symbol": "₾",
     "display_symbol": "₾",
@@ -1173,7 +1465,11 @@
       "ja": "ガーンジー・ポンド",
       "en": "Guernsey Pound",
       "zh-cn": "根西岛镑",
-      "zh-tw": "根西島鎊"
+      "zh-tw": "根西島鎊",
+      "vi": "Bảng Guernsey",
+      "ms": "Pound Guernsey",
+      "hi": "ग्वेर्नसी पाउंड",
+      "id": "Pound Guernsey"
     },
     "symbol": "£",
     "display_symbol": "GGP",
@@ -1189,7 +1485,11 @@
       "ja": "ガーナ セディ",
       "en": "Ghanaian Cedi",
       "zh-cn": "加纳塞地",
-      "zh-tw": "迦納塞地"
+      "zh-tw": "迦納塞地",
+      "vi": "Cedi Ghana",
+      "ms": "Cedi Ghana",
+      "hi": "घाना सेडी",
+      "id": "Cedi Ghana"
     },
     "symbol": "GH₵",
     "display_symbol": "GH₵",
@@ -1205,7 +1505,11 @@
       "ja": "ジブラルタル ポンド",
       "en": "Gibraltar Pound",
       "zh-cn": "直布罗陀镑",
-      "zh-tw": "直布羅陀鎊"
+      "zh-tw": "直布羅陀鎊",
+      "vi": "Bảng Gibraltar",
+      "ms": "Pound Gibraltar",
+      "hi": "जिब्राल्टर पाउंड",
+      "id": "Pound Gibraltar"
     },
     "symbol": "£",
     "display_symbol": "£GI",
@@ -1221,7 +1525,11 @@
       "ja": "ガンビア ダラシ",
       "en": "Gambian Dalasi",
       "zh-cn": "冈比亚达拉西",
-      "zh-tw": "甘比亞達拉西"
+      "zh-tw": "甘比亞達拉西",
+      "vi": "Dalasi Gambia",
+      "ms": "Dalasi Gambia",
+      "hi": "गाम्बियन दलासी",
+      "id": "Dalasi Gambia"
     },
     "symbol": "D",
     "display_symbol": "GMD",
@@ -1237,7 +1545,11 @@
       "ja": "ギニア フラン",
       "en": "Guinean Franc",
       "zh-cn": "几内亚法郎",
-      "zh-tw": "幾內亞法郎"
+      "zh-tw": "幾內亞法郎",
+      "vi": "Franc Guinea",
+      "ms": "Franc Guinea",
+      "hi": "गिनी फ्रैंक",
+      "id": "Franc Guinea"
     },
     "symbol": "FG",
     "display_symbol": "FG",
@@ -1253,7 +1565,11 @@
       "ja": "グアテマラ ケツァル",
       "en": "Guatemalan Quetzal",
       "zh-cn": "危地马拉格查尔",
-      "zh-tw": "瓜地馬拉格查爾"
+      "zh-tw": "瓜地馬拉格查爾",
+      "vi": "Quetzal Guatemala",
+      "ms": "Quetzal Guatemala",
+      "hi": "ग्वाटेमाला क्वेत्ज़ल",
+      "id": "Quetzal Guatemala"
     },
     "symbol": "Q",
     "display_symbol": "GTQ",
@@ -1269,7 +1585,11 @@
       "ja": "ガイアナ ドル",
       "en": "Guyanaese Dollar",
       "zh-cn": "圭亚那元",
-      "zh-tw": "圭亞那元"
+      "zh-tw": "圭亞那元",
+      "vi": "Đô la Guyana",
+      "ms": "Dolar Guyana",
+      "hi": "गुयाना डॉलर",
+      "id": "Dolar Guyana"
     },
     "symbol": "$",
     "display_symbol": "GYD",
@@ -1285,7 +1605,11 @@
       "ja": "ホンジュラス レンピラ",
       "en": "Honduran Lempira",
       "zh-cn": "洪都拉斯伦皮拉",
-      "zh-tw": "洪都拉斯倫皮拉"
+      "zh-tw": "洪都拉斯倫皮拉",
+      "vi": "Lempira Honduras",
+      "ms": "Lempira Honduras",
+      "hi": "होंडुरस लेम्पिरा",
+      "id": "Lempira Honduras"
     },
     "symbol": "L",
     "display_symbol": "HNL",
@@ -1301,7 +1625,11 @@
       "ja": "ハイチ グールド",
       "en": "Haitian Gourde",
       "zh-cn": "海地古德",
-      "zh-tw": "海地古德"
+      "zh-tw": "海地古德",
+      "vi": "Gourde Haiti",
+      "ms": "Gourde Haiti",
+      "hi": "हाईटियन गोर्ड",
+      "id": "Gourde Haiti"
     },
     "symbol": "G",
     "display_symbol": "HTG",
@@ -1317,7 +1645,11 @@
       "ja": "マン島ポンド",
       "en": "Manx Pound",
       "zh-cn": "马恩岛镑",
-      "zh-tw": "曼島鎊"
+      "zh-tw": "曼島鎊",
+      "vi": "Bảng Isle of Man",
+      "ms": "Pound Isle of Man",
+      "hi": "आइल ऑफ मैन पाउंड",
+      "id": "Pound Pulau Man"
     },
     "symbol": "£",
     "display_symbol": "IMP",
@@ -1333,7 +1665,11 @@
       "ja": "イラク ディナール",
       "en": "Iraqi Dinar",
       "zh-cn": "伊拉克第纳尔",
-      "zh-tw": "伊拉克第納爾"
+      "zh-tw": "伊拉克第納爾",
+      "vi": "Dinar Iraq",
+      "ms": "Dinar Iraq",
+      "hi": "इराकी दीनार",
+      "id": "Dinar Irak"
     },
     "symbol": "د.ع.‏",
     "display_symbol": "د.ع.‏",
@@ -1349,7 +1685,11 @@
       "ja": "イラン リアル",
       "en": "Iranian Rial",
       "zh-cn": "伊朗里亚尔",
-      "zh-tw": "伊朗里亞爾"
+      "zh-tw": "伊朗里亞爾",
+      "vi": "Rial Iran",
+      "ms": "Rial Iran",
+      "hi": "ईरानी रियाल",
+      "id": "Rial Iran"
     },
     "symbol": "ریال",
     "display_symbol": "ریال",
@@ -1365,7 +1705,11 @@
       "ja": "アイスランド クローナ",
       "en": "Icelandic Króna",
       "zh-cn": "冰岛克朗",
-      "zh-tw": "冰島克朗"
+      "zh-tw": "冰島克朗",
+      "vi": "Krona Iceland",
+      "ms": "Krona Iceland",
+      "hi": "आइसलैंडिक क्रोना",
+      "id": "Krona Islandia"
     },
     "symbol": "kr.",
     "display_symbol": "kr.",
@@ -1381,7 +1725,11 @@
       "ja": "ジャージー・ポンド",
       "en": "Jersey Pound",
       "zh-cn": "泽西镑",
-      "zh-tw": "澤西鎊"
+      "zh-tw": "澤西鎊",
+      "vi": "Bảng Jersey",
+      "ms": "Pound Jersey",
+      "hi": "जर्सी पाउंड",
+      "id": "Pound Jersey"
     },
     "symbol": "£",
     "display_symbol": "JEP",
@@ -1397,7 +1745,11 @@
       "ja": "ジャマイカ ドル",
       "en": "Jamaican Dollar",
       "zh-cn": "牙买加元",
-      "zh-tw": "牙買加元"
+      "zh-tw": "牙買加元",
+      "vi": "Đô la Jamaica",
+      "ms": "Dolar Jamaica",
+      "hi": "जमैकाई डॉलर",
+      "id": "Dolar Jamaika"
     },
     "symbol": "$",
     "display_symbol": "JM$",
@@ -1413,7 +1765,11 @@
       "ja": "ヨルダン ディナール",
       "en": "Jordanian Dinar",
       "zh-cn": "约旦第纳尔",
-      "zh-tw": "約旦第納爾"
+      "zh-tw": "約旦第納爾",
+      "vi": "Dinar Jordan",
+      "ms": "Dinar Jordan",
+      "hi": "जॉर्डनियन दीनार",
+      "id": "Dinar Yordania"
     },
     "symbol": "د.أ.‏",
     "display_symbol": "د.أ.‏",
@@ -1429,7 +1785,11 @@
       "ja": "ケニア シリング",
       "en": "Kenyan Shilling",
       "zh-cn": "肯尼亚先令",
-      "zh-tw": "肯尼亞先令"
+      "zh-tw": "肯尼亞先令",
+      "vi": "Shilling Kenya",
+      "ms": "Shilling Kenya",
+      "hi": "केन्याई शिलिंग",
+      "id": "Shilling Kenya"
     },
     "symbol": "Ksh",
     "display_symbol": "Ksh",
@@ -1445,7 +1805,11 @@
       "ja": "キルギス ソム",
       "en": "Kyrgystani Som",
       "zh-cn": "吉尔吉斯斯坦索姆",
-      "zh-tw": "吉爾吉斯索姆"
+      "zh-tw": "吉爾吉斯索姆",
+      "vi": "Som Kyrgyzstan",
+      "ms": "Som Kyrgyzstan",
+      "hi": "किर्गिज़स्तानी सोम",
+      "id": "Som Kirgizstan"
     },
     "symbol": "сом",
     "display_symbol": "сом",
@@ -1461,7 +1825,11 @@
       "ja": "カンボジア リエル",
       "en": "Cambodian Riel",
       "zh-cn": "柬埔寨瑞尔",
-      "zh-tw": "柬埔寨瑞爾"
+      "zh-tw": "柬埔寨瑞爾",
+      "vi": "Riel Campuchia",
+      "ms": "Riel Kemboja",
+      "hi": "कम्बोडियाई रियाल",
+      "id": "Riel Kamboja"
     },
     "symbol": "៛",
     "display_symbol": "៛",
@@ -1477,7 +1845,11 @@
       "ja": "コモロ フラン",
       "en": "Comorian Franc",
       "zh-cn": "科摩罗法郎",
-      "zh-tw": "科摩羅法郎"
+      "zh-tw": "科摩羅法郎",
+      "vi": "Franc Comoros",
+      "ms": "Franc Comoros",
+      "hi": "कोमोरोस फ्रैंक",
+      "id": "Franc Komoro"
     },
     "symbol": "CF",
     "display_symbol": "CF",
@@ -1493,7 +1865,11 @@
       "ja": "ケイマン諸島 ドル",
       "en": "Cayman Islands Dollar",
       "zh-cn": "开曼元",
-      "zh-tw": "開曼群島元"
+      "zh-tw": "開曼群島元",
+      "vi": "Đô la Cayman",
+      "ms": "Dolar Cayman",
+      "hi": "केमैन डॉलर",
+      "id": "Dolar Cayman"
     },
     "symbol": "$",
     "display_symbol": "KYD",
@@ -1509,7 +1885,11 @@
       "ja": "カザフスタン テンゲ",
       "en": "Kazakhstani Tenge",
       "zh-cn": "哈萨克斯坦坚戈",
-      "zh-tw": "哈薩克堅戈"
+      "zh-tw": "哈薩克堅戈",
+      "vi": "Tenge Kazakhstan",
+      "ms": "Tenge Kazakhstan",
+      "hi": "कज़ाख़ तेन्गे",
+      "id": "Tenge Kazakhstan"
     },
     "symbol": "₸",
     "display_symbol": "₸",
@@ -1525,7 +1905,11 @@
       "ja": "ラオス キープ",
       "en": "Laotian Kip",
       "zh-cn": "老挝基普",
-      "zh-tw": "寮國基普"
+      "zh-tw": "寮國基普",
+      "vi": "Kip Lào",
+      "ms": "Kip Laos",
+      "hi": "लाओशियाई किप",
+      "id": "Kip Laos"
     },
     "symbol": "₭",
     "display_symbol": "₭",
@@ -1541,7 +1925,11 @@
       "ja": "レバノン ポンド",
       "en": "Lebanese Pound",
       "zh-cn": "黎巴嫩镑",
-      "zh-tw": "黎巴嫩鎊"
+      "zh-tw": "黎巴嫩鎊",
+      "vi": "Bảng Lebanon",
+      "ms": "Pound Lubnan",
+      "hi": "लेबनानी पाउंड",
+      "id": "Pound Lebanon"
     },
     "symbol": "ل.ل.‏",
     "display_symbol": "ل.ل.‏",
@@ -1557,7 +1945,11 @@
       "ja": "スリランカ ルピー",
       "en": "Sri Lankan Rupee",
       "zh-cn": "斯里兰卡卢比",
-      "zh-tw": "斯里蘭卡盧比"
+      "zh-tw": "斯里蘭卡盧比",
+      "vi": "Rupee Sri Lanka",
+      "ms": "Rupee Sri Lanka",
+      "hi": "श्रीलंकाई रुपया",
+      "id": "Rupee Sri Lanka"
     },
     "symbol": "Rs.",
     "display_symbol": "Rs.",
@@ -1573,7 +1965,11 @@
       "ja": "リベリア ドル",
       "en": "Liberian Dollar",
       "zh-cn": "利比里亚元",
-      "zh-tw": "賴比瑞亞元"
+      "zh-tw": "賴比瑞亞元",
+      "vi": "Đô la Liberia",
+      "ms": "Dolar Liberia",
+      "hi": "लाइबेरियाई डॉलर",
+      "id": "Dolar Liberia"
     },
     "symbol": "$",
     "display_symbol": "LRD",
@@ -1589,7 +1985,11 @@
       "ja": "レソト ロティ",
       "en": "Lesotho Loti",
       "zh-cn": "莱索托洛蒂",
-      "zh-tw": "賴索托洛蒂"
+      "zh-tw": "賴索托洛蒂",
+      "vi": "Loti Lesotho",
+      "ms": "Loti Lesotho",
+      "hi": "लेसोथो लोटी",
+      "id": "Loti Lesotho"
     },
     "symbol": "M",
     "display_symbol": "ЛСЛ",
@@ -1605,7 +2005,11 @@
       "ja": "リビア ディナール",
       "en": "Libyan Dinar",
       "zh-cn": "利比亚第纳尔",
-      "zh-tw": "利比亞第納爾"
+      "zh-tw": "利比亞第納爾",
+      "vi": "Dinar Libya",
+      "ms": "Dinar Libya",
+      "hi": "लीबियाई दीनार",
+      "id": "Dinar Libya"
     },
     "symbol": "د.ل.‏",
     "display_symbol": "د.ل.‏",
@@ -1621,7 +2025,11 @@
       "ja": "モロッコ ディルハム",
       "en": "Moroccan Dirham",
       "zh-cn": "摩洛哥迪拉姆",
-      "zh-tw": "摩洛哥迪拉姆"
+      "zh-tw": "摩洛哥迪拉姆",
+      "vi": "Dirham Morocco",
+      "ms": "Dirham Maghribi",
+      "hi": "मोरोक्कन दिरहम",
+      "id": "Dirham Maroko"
     },
     "symbol": "د.م.‏",
     "display_symbol": "د.م.‏",
@@ -1637,7 +2045,11 @@
       "ja": "モルドバ レイ",
       "en": "Moldovan Leu",
       "zh-cn": "摩尔多瓦列伊",
-      "zh-tw": "摩杜雲列伊"
+      "zh-tw": "摩杜雲列伊",
+      "vi": "Leu Moldova",
+      "ms": "Leu Moldova",
+      "hi": "मोल्दोवन लेउ",
+      "id": "Leu Moldova"
     },
     "symbol": "L",
     "display_symbol": "MDL",
@@ -1653,7 +2065,11 @@
       "ja": "マダガスカル アリアリ",
       "en": "Malagasy Ariary",
       "zh-cn": "马达加斯加阿里亚里",
-      "zh-tw": "馬達加斯加阿里亞里"
+      "zh-tw": "馬達加斯加阿里亞里",
+      "vi": "Ariary Madagascar",
+      "ms": "Ariary Madagaskar",
+      "hi": "मालागासी एरियरी",
+      "id": "Ariary Madagaskar"
     },
     "symbol": "Ar",
     "display_symbol": "Ar",
@@ -1669,7 +2085,11 @@
       "ja": "マケドニア デナル",
       "en": "Macedonian Denar",
       "zh-cn": "马其顿第纳尔",
-      "zh-tw": "馬其頓第納爾"
+      "zh-tw": "馬其頓第納爾",
+      "vi": "Denar Bắc Macedonia",
+      "ms": "Denar Macedonia Utara",
+      "hi": "उत्तर मैसेडोनियाई देनार",
+      "id": "Denar Makedonia Utara"
     },
     "symbol": "den",
     "display_symbol": "den",
@@ -1685,7 +2105,11 @@
       "ja": "ミャンマー チャット",
       "en": "Myanmar Kyat",
       "zh-cn": "缅甸元",
-      "zh-tw": "緬甸元"
+      "zh-tw": "緬甸元",
+      "vi": "Kyat Myanmar",
+      "ms": "Kyat Myanmar",
+      "hi": "म्यांमार क्यात",
+      "id": "Kyat Myanmar"
     },
     "symbol": "K",
     "display_symbol": "MMK",
@@ -1701,7 +2125,11 @@
       "ja": "モンゴル トグログ",
       "en": "Mongolian Tugrik",
       "zh-cn": "蒙古图格里克",
-      "zh-tw": "蒙古圖格里克"
+      "zh-tw": "蒙古圖格里克",
+      "vi": "Tögrög Mông Cổ",
+      "ms": "Tögrög Mongolia",
+      "hi": "मंगोलियाई तुगरिक",
+      "id": "Tögrög Mongolia"
     },
     "symbol": "₮",
     "display_symbol": "₮",
@@ -1717,7 +2145,11 @@
       "ja": "モーリタニア ウギア (1973–2017)",
       "en": "Mauritanian Ouguiya (1973–2017)",
       "zh-cn": "毛里塔尼亚乌吉亚 (1973–2017)",
-      "zh-tw": "茅利塔尼亞烏吉亞 (1973–2017)"
+      "zh-tw": "茅利塔尼亞烏吉亞 (1973–2017)",
+      "vi": "Ouguiya Mauritania (cũ)",
+      "ms": "Ouguiya Mauritania (lama)",
+      "hi": "मॉरिटानियाई उगिया (पुराना)",
+      "id": "Ouguiya Mauritania (lama)"
     },
     "symbol": "MRO",
     "display_symbol": "MRO",
@@ -1733,7 +2165,11 @@
       "ja": "モーリタニア ウギア",
       "en": "Mauritanian Ouguiya",
       "zh-cn": "毛里塔尼亚乌吉亚",
-      "zh-tw": "茅利塔尼亞烏吉亞"
+      "zh-tw": "茅利塔尼亞烏吉亞",
+      "vi": "Ouguiya Mauritania",
+      "ms": "Ouguiya Mauritania",
+      "hi": "मॉरिटानियाई उगिया",
+      "id": "Ouguiya Mauritania"
     },
     "symbol": "UM",
     "display_symbol": "UM",
@@ -1749,7 +2185,11 @@
       "ja": "モーリシャス ルピー",
       "en": "Mauritian Rupee",
       "zh-cn": "毛里求斯卢比",
-      "zh-tw": "模里西斯盧比"
+      "zh-tw": "模里西斯盧比",
+      "vi": "Rupee Mauritius",
+      "ms": "Rupee Mauritius",
+      "hi": "मॉरीशस रुपया",
+      "id": "Rupee Mauritius"
     },
     "symbol": "Rs",
     "display_symbol": "Rs",
@@ -1765,7 +2205,11 @@
       "ja": "モルディブ ルフィア",
       "en": "Maldivian Rufiyaa",
       "zh-cn": "马尔代夫卢菲亚",
-      "zh-tw": "馬爾地夫盧非亞"
+      "zh-tw": "馬爾地夫盧非亞",
+      "vi": "Rufiyaa Maldives",
+      "ms": "Rufiyaa Maldives",
+      "hi": "मालदीवियन रूफिया",
+      "id": "Rufiyaa Maladewa"
     },
     "symbol": "Rf",
     "display_symbol": "Rf",
@@ -1781,7 +2225,11 @@
       "ja": "マラウィ クワチャ",
       "en": "Malawian Kwacha",
       "zh-cn": "马拉维克瓦查",
-      "zh-tw": "馬拉維克瓦查"
+      "zh-tw": "馬拉維克瓦查",
+      "vi": "Kwacha Malawi",
+      "ms": "Kwacha Malawi",
+      "hi": "मलावियन क्वाचा",
+      "id": "Kwacha Malawi"
     },
     "symbol": "MK",
     "display_symbol": "MK",
@@ -1797,7 +2245,11 @@
       "ja": "モザンビーク メティカル",
       "en": "Mozambican Metical",
       "zh-cn": "莫桑比克美提卡",
-      "zh-tw": "莫三比克梅蒂卡爾"
+      "zh-tw": "莫三比克梅蒂卡爾",
+      "vi": "Metical Mozambique",
+      "ms": "Metical Mozambique",
+      "hi": "मोज़ांबिक मेटिकल",
+      "id": "Metical Mozambik"
     },
     "symbol": "MTn",
     "display_symbol": "MTn",
@@ -1813,7 +2265,11 @@
       "ja": "ナミビア ドル",
       "en": "Namibian Dollar",
       "zh-cn": "纳米比亚元",
-      "zh-tw": "納米比亞元"
+      "zh-tw": "納米比亞元",
+      "vi": "Đô la Namibia",
+      "ms": "Dolar Namibia",
+      "hi": "नामीबियाई डॉलर",
+      "id": "Dolar Namibia"
     },
     "symbol": "$",
     "display_symbol": "$NA",
@@ -1829,7 +2285,11 @@
       "ja": "ナイジェリア ナイラ",
       "en": "Nigerian Naira",
       "zh-cn": "尼日利亚奈拉",
-      "zh-tw": "奈及利亞奈拉"
+      "zh-tw": "奈及利亞奈拉",
+      "vi": "Naira Nigeria",
+      "ms": "Naira Nigeria",
+      "hi": "नाइजीरियाई नाइरा",
+      "id": "Naira Nigeria"
     },
     "symbol": "₦",
     "display_symbol": "₦",
@@ -1845,7 +2305,11 @@
       "ja": "ニカラグア コルドバ オロ",
       "en": "Nicaraguan Córdoba",
       "zh-cn": "尼加拉瓜科多巴",
-      "zh-tw": "尼加拉瓜金科多巴"
+      "zh-tw": "尼加拉瓜金科多巴",
+      "vi": "Córdoba Nicaragua",
+      "ms": "Córdoba Nicaragua",
+      "hi": "निकारागुआन कोर्डोबा",
+      "id": "Córdoba Nikaragua"
     },
     "symbol": "C$",
     "display_symbol": "C$",
@@ -1861,7 +2325,11 @@
       "ja": "ネパール ルピー",
       "en": "Nepalese Rupee",
       "zh-cn": "尼泊尔卢比",
-      "zh-tw": "尼泊爾盧比"
+      "zh-tw": "尼泊爾盧比",
+      "vi": "Rupee Nepal",
+      "ms": "Rupee Nepal",
+      "hi": "नेपाली रुपया",
+      "id": "Rupee Nepal"
     },
     "symbol": "नेरू",
     "display_symbol": "नेरू",
@@ -1877,7 +2345,11 @@
       "ja": "オマーン リアル",
       "en": "Omani Rial",
       "zh-cn": "阿曼里亚尔",
-      "zh-tw": "阿曼里亞爾"
+      "zh-tw": "阿曼里亞爾",
+      "vi": "Rial Oman",
+      "ms": "Rial Oman",
+      "hi": "ओमानी रियाल",
+      "id": "Rial Oman"
     },
     "symbol": "ر.ع.‏",
     "display_symbol": "ر.ع.‏",
@@ -1893,7 +2365,11 @@
       "ja": "パナマ バルボア",
       "en": "Panamanian Balboa",
       "zh-cn": "巴拿马巴波亚",
-      "zh-tw": "巴拿馬巴波亞"
+      "zh-tw": "巴拿馬巴波亞",
+      "vi": "Balboa Panama",
+      "ms": "Balboa Panama",
+      "hi": "पनामानियाई बाल्बोआ",
+      "id": "Balboa Panama"
     },
     "symbol": "B/.",
     "display_symbol": "B/.",
@@ -1909,7 +2385,11 @@
       "ja": "ペルー ソル",
       "en": "Peruvian Sol",
       "zh-cn": "秘鲁索尔",
-      "zh-tw": "秘魯太陽幣"
+      "zh-tw": "秘魯太陽幣",
+      "vi": "Sol Peru",
+      "ms": "Sol Peru",
+      "hi": "पेरूवियन सोल",
+      "id": "Sol Peru"
     },
     "symbol": "S/",
     "display_symbol": "S/",
@@ -1925,7 +2405,11 @@
       "ja": "パプアニューギニア キナ",
       "en": "Papua New Guinean Kina",
       "zh-cn": "巴布亚新几内亚基那",
-      "zh-tw": "巴布亞紐幾內亞基那"
+      "zh-tw": "巴布亞紐幾內亞基那",
+      "vi": "Kina Papua New Guinea",
+      "ms": "Kina Papua New Guinea",
+      "hi": "पापुआ न्यू गिनी किना",
+      "id": "Kina Papua Nugini"
     },
     "symbol": "K",
     "display_symbol": "PGK",
@@ -1941,7 +2425,11 @@
       "ja": "パラグアイ グアラニ",
       "en": "Paraguayan Guarani",
       "zh-cn": "巴拉圭瓜拉尼",
-      "zh-tw": "巴拉圭瓜拉尼"
+      "zh-tw": "巴拉圭瓜拉尼",
+      "vi": "Guarani Paraguay",
+      "ms": "Guarani Paraguay",
+      "hi": "पैराग्वेयन गुआरानी",
+      "id": "Guarani Paraguay"
     },
     "symbol": "₲",
     "display_symbol": "₲",
@@ -1957,7 +2445,11 @@
       "ja": "カタール リアル",
       "en": "Qatari Riyal",
       "zh-cn": "卡塔尔里亚尔",
-      "zh-tw": "卡達里亞爾"
+      "zh-tw": "卡達里亞爾",
+      "vi": "Riyal Qatar",
+      "ms": "Riyal Qatar",
+      "hi": "कतरी रियाल",
+      "id": "Riyal Qatar"
     },
     "symbol": "ر.ق.‏",
     "display_symbol": "ر.ق.‏",
@@ -1973,7 +2465,11 @@
       "ja": "ルーマニア レイ",
       "en": "Romanian Leu",
       "zh-cn": "罗马尼亚列伊",
-      "zh-tw": "羅馬尼亞列伊"
+      "zh-tw": "羅馬尼亞列伊",
+      "vi": "Leu Romania",
+      "ms": "Leu Romania",
+      "hi": "रोमानियाई लेउ",
+      "id": "Leu Rumania"
     },
     "symbol": "RON",
     "display_symbol": "RON",
@@ -1989,7 +2485,11 @@
       "ja": "セルビア ディナール",
       "en": "Serbian Dinar",
       "zh-cn": "塞尔维亚第纳尔",
-      "zh-tw": "塞爾維亞戴納"
+      "zh-tw": "塞爾維亞戴納",
+      "vi": "Dinar Serbia",
+      "ms": "Dinar Serbia",
+      "hi": "सर्बियाई दीनार",
+      "id": "Dinar Serbia"
     },
     "symbol": "din.",
     "display_symbol": "din.",
@@ -2005,7 +2505,11 @@
       "ja": "ルワンダ フラン",
       "en": "Rwandan Franc",
       "zh-cn": "卢旺达法郎",
-      "zh-tw": "盧安達法郎"
+      "zh-tw": "盧安達法郎",
+      "vi": "Franc Rwanda",
+      "ms": "Franc Rwanda",
+      "hi": "रवांडाई फ्रैंक",
+      "id": "Franc Rwanda"
     },
     "symbol": "RF",
     "display_symbol": "RF",
@@ -2021,7 +2525,11 @@
       "ja": "ソロモン諸島 ドル",
       "en": "Solomon Islands Dollar",
       "zh-cn": "所罗门群岛元",
-      "zh-tw": "索羅門群島元"
+      "zh-tw": "索羅門群島元",
+      "vi": "Đô la Solomon",
+      "ms": "Dolar Solomon",
+      "hi": "सोलोमन आइलैंड्स डॉलर",
+      "id": "Dolar Kepulauan Solomon"
     },
     "symbol": "$",
     "display_symbol": "$SB",
@@ -2037,7 +2545,11 @@
       "ja": "セーシェル ルピー",
       "en": "Seychellois Rupee",
       "zh-cn": "塞舌尔卢比",
-      "zh-tw": "塞席爾盧比"
+      "zh-tw": "塞席爾盧比",
+      "vi": "Rupee Seychelles",
+      "ms": "Rupee Seychelles",
+      "hi": "सेशेल्स रुपया",
+      "id": "Rupee Seychelles"
     },
     "symbol": "SR",
     "display_symbol": "SR",
@@ -2053,7 +2565,11 @@
       "ja": "スーダン ポンド",
       "en": "Sudanese Pound",
       "zh-cn": "苏丹镑",
-      "zh-tw": "蘇丹鎊"
+      "zh-tw": "蘇丹鎊",
+      "vi": "Bảng Sudan",
+      "ms": "Pound Sudan",
+      "hi": "सूडानी पाउंड",
+      "id": "Pound Sudan"
     },
     "symbol": "ج.س.",
     "display_symbol": "ج.س.",
@@ -2069,7 +2585,11 @@
       "ja": "セントヘレナ ポンド",
       "en": "St. Helena Pound",
       "zh-cn": "圣赫勒拿群岛磅",
-      "zh-tw": "聖赫勒拿鎊"
+      "zh-tw": "聖赫勒拿鎊",
+      "vi": "Bảng Saint Helena",
+      "ms": "Pound Saint Helena",
+      "hi": "सेंट हेलेना पाउंड",
+      "id": "Pound Saint Helena"
     },
     "symbol": "£",
     "display_symbol": "SHP",
@@ -2085,7 +2605,11 @@
       "ja": "シエラレオネ レオン",
       "en": "Sierra Leonean Leone",
       "zh-cn": "塞拉利昂新利昂",
-      "zh-tw": "獅子山利昂"
+      "zh-tw": "獅子山利昂",
+      "vi": "Leone Sierra Leone",
+      "ms": "Leone Sierra Leone",
+      "hi": "सिएरा लियोन लियोन",
+      "id": "Leone Sierra Leone"
     },
     "symbol": "Le",
     "display_symbol": "Le",
@@ -2101,7 +2625,11 @@
       "ja": "ソマリア シリング",
       "en": "Somali Shilling",
       "zh-cn": "索马里先令",
-      "zh-tw": "索馬利亞先令"
+      "zh-tw": "索馬利亞先令",
+      "vi": "Shilling Somalia",
+      "ms": "Shilling Somalia",
+      "hi": "सोमाली शिलिंग",
+      "id": "Shilling Somalia"
     },
     "symbol": "S",
     "display_symbol": "SOS",
@@ -2117,7 +2645,11 @@
       "ja": "スリナム ドル",
       "en": "Surinamese Dollar",
       "zh-cn": "苏里南元",
-      "zh-tw": "蘇利南元"
+      "zh-tw": "蘇利南元",
+      "vi": "Đô la Suriname",
+      "ms": "Dolar Suriname",
+      "hi": "सुरिनामी डॉलर",
+      "id": "Dolar Suriname"
     },
     "symbol": "$",
     "display_symbol": "$SR",
@@ -2133,7 +2665,11 @@
       "ja": "南スーダン ポンド",
       "en": "South Sudanese Pound",
       "zh-cn": "南苏丹镑",
-      "zh-tw": "南蘇丹鎊"
+      "zh-tw": "南蘇丹鎊",
+      "vi": "Bảng Nam Sudan",
+      "ms": "Pound Sudan Selatan",
+      "hi": "दक्षिण सूडानी पाउंड",
+      "id": "Pound Sudan Selatan"
     },
     "symbol": "£",
     "display_symbol": "SSP",
@@ -2149,7 +2685,11 @@
       "ja": "サントメ・プリンシペ ドブラ",
       "en": "São Tomé & Príncipe Dobra",
       "zh-cn": "圣多美和普林西比多布拉",
-      "zh-tw": "聖多美島和普林西比島多布拉"
+      "zh-tw": "聖多美島和普林西比島多布拉",
+      "vi": "Dobra São Tomé và Príncipe",
+      "ms": "Dobra Sao Tome dan Principe",
+      "hi": "साओ टोमे और प्रिंसिपे डोब्रा",
+      "id": "Dobra Sao Tome dan Principe"
     },
     "symbol": "Db",
     "display_symbol": "Db",
@@ -2165,7 +2705,11 @@
       "ja": "エルサルバドル コロン",
       "en": "Salvadoran Colón",
       "zh-cn": "萨尔瓦多科朗",
-      "zh-tw": "薩爾瓦多科郎"
+      "zh-tw": "薩爾瓦多科郎",
+      "vi": "Colón El Salvador",
+      "ms": "Colon El Salvador",
+      "hi": "अल साल्वाडोर कोलोन",
+      "id": "Colon El Salvador"
     },
     "symbol": "SVC",
     "display_symbol": "SVC",
@@ -2181,7 +2725,11 @@
       "ja": "シリア ポンド",
       "en": "Syrian Pound",
       "zh-cn": "叙利亚镑",
-      "zh-tw": "敘利亞鎊"
+      "zh-tw": "敘利亞鎊",
+      "vi": "Bảng Syria",
+      "ms": "Pound Syria",
+      "hi": "सीरियाई पाउंड",
+      "id": "Pound Suriah"
     },
     "symbol": "LS",
     "display_symbol": "LS",
@@ -2197,7 +2745,11 @@
       "ja": "スワジランド リランゲニ",
       "en": "Swazi Lilangeni",
       "zh-cn": "斯威士兰里兰吉尼",
-      "zh-tw": "史瓦帝尼朗吉尼"
+      "zh-tw": "史瓦帝尼朗吉尼",
+      "vi": "Lilangeni Eswatini",
+      "ms": "Lilangeni Eswatini",
+      "hi": "एस्वातिनी लिलांगेनी",
+      "id": "Lilangeni Eswatini"
     },
     "symbol": "E",
     "display_symbol": "SZL",
@@ -2213,7 +2765,11 @@
       "ja": "タジキスタン ソモニ",
       "en": "Tajikistani Somoni",
       "zh-cn": "塔吉克斯坦索莫尼",
-      "zh-tw": "塔吉克索莫尼"
+      "zh-tw": "塔吉克索莫尼",
+      "vi": "Somoni Tajikistan",
+      "ms": "Somoni Tajikistan",
+      "hi": "ताजिक सोमोनी",
+      "id": "Somoni Tajikistan"
     },
     "symbol": "TJS",
     "display_symbol": "TJS",
@@ -2229,7 +2785,11 @@
       "ja": "トルクメニスタン マナト",
       "en": "Turkmenistani Manat",
       "zh-cn": "土库曼斯坦马纳特",
-      "zh-tw": "土庫曼馬納特"
+      "zh-tw": "土庫曼馬納特",
+      "vi": "Manat Turkmenistan",
+      "ms": "Manat Turkmenistan",
+      "hi": "तुर्कमेन मनात",
+      "id": "Manat Turkmenistan"
     },
     "symbol": "ТМТ",
     "display_symbol": "ТМТ",
@@ -2245,7 +2805,11 @@
       "ja": "チュニジア ディナール",
       "en": "Tunisian Dinar",
       "zh-cn": "突尼斯第纳尔",
-      "zh-tw": "突尼西亞第納爾"
+      "zh-tw": "突尼西亞第納爾",
+      "vi": "Dinar Tunisia",
+      "ms": "Dinar Tunisia",
+      "hi": "ट्यूनीशियाई दीनार",
+      "id": "Dinar Tunisia"
     },
     "symbol": "DT",
     "display_symbol": "DT",
@@ -2261,7 +2825,11 @@
       "ja": "トンガ パ・アンガ",
       "en": "Tongan Paʻanga",
       "zh-cn": "汤加潘加",
-      "zh-tw": "東加潘加"
+      "zh-tw": "東加潘加",
+      "vi": "Paʻanga Tonga",
+      "ms": "Pa'anga Tonga",
+      "hi": "टोंगन पाʻआंगा",
+      "id": "Paʻanga Tonga"
     },
     "symbol": "T$",
     "display_symbol": "T$",
@@ -2277,7 +2845,11 @@
       "ja": "トリニダード・トバゴ ドル",
       "en": "Trinidad & Tobago Dollar",
       "zh-cn": "特立尼达和多巴哥元",
-      "zh-tw": "千里達及托巴哥元"
+      "zh-tw": "千里達及托巴哥元",
+      "vi": "Đô la Trinidad và Tobago",
+      "ms": "Dolar Trinidad dan Tobago",
+      "hi": "त्रिनिदाद और टोबैगो डॉलर",
+      "id": "Dolar Trinidad dan Tobago"
     },
     "symbol": "$",
     "display_symbol": "$TT",
@@ -2293,7 +2865,11 @@
       "ja": "タンザニア シリング",
       "en": "Tanzanian Shilling",
       "zh-cn": "坦桑尼亚先令",
-      "zh-tw": "坦尚尼亞先令"
+      "zh-tw": "坦尚尼亞先令",
+      "vi": "Shilling Tanzania",
+      "ms": "Shilling Tanzania",
+      "hi": "तंजानियाई शिलिंग",
+      "id": "Shilling Tanzania"
     },
     "symbol": "TSh",
     "display_symbol": "TSh",
@@ -2309,7 +2885,11 @@
       "ja": "ウクライナ フリヴニャ",
       "en": "Ukrainian Hryvnia",
       "zh-cn": "乌克兰格里夫纳",
-      "zh-tw": "烏克蘭格里夫納"
+      "zh-tw": "烏克蘭格里夫納",
+      "vi": "Hryvnia Ukraine",
+      "ms": "Hryvnia Ukraine",
+      "hi": "यूक्रेनी रिव्निया",
+      "id": "Hryvnia Ukraina"
     },
     "symbol": "₴",
     "display_symbol": "₴",
@@ -2325,7 +2905,11 @@
       "ja": "ウガンダ シリング",
       "en": "Ugandan Shilling",
       "zh-cn": "乌干达先令",
-      "zh-tw": "烏干達先令"
+      "zh-tw": "烏干達先令",
+      "vi": "Shilling Uganda",
+      "ms": "Shilling Uganda",
+      "hi": "युगांडाई शिलिंग",
+      "id": "Shilling Uganda"
     },
     "symbol": "USh",
     "display_symbol": "USh",
@@ -2341,7 +2925,11 @@
       "ja": "ウルグアイ ペソ",
       "en": "Uruguayan Peso",
       "zh-cn": "乌拉圭比索",
-      "zh-tw": "烏拉圭披索"
+      "zh-tw": "烏拉圭披索",
+      "vi": "Peso Uruguay",
+      "ms": "Peso Uruguay",
+      "hi": "उरुग्वेयन पेसो",
+      "id": "Peso Uruguay"
     },
     "symbol": "$",
     "display_symbol": "$UY",
@@ -2357,7 +2945,11 @@
       "ja": "ウズベキスタン スム",
       "en": "Uzbekistani Som",
       "zh-cn": "乌兹别克斯坦苏姆",
-      "zh-tw": "烏茲別克索姆"
+      "zh-tw": "烏茲別克索姆",
+      "vi": "Som Uzbekistan",
+      "ms": "Som Uzbekistan",
+      "hi": "उज़्बेकिस्तानी सोम",
+      "id": "Som Uzbekistan"
     },
     "symbol": "сўм",
     "display_symbol": "сўм",
@@ -2373,7 +2965,11 @@
       "ja": "ベネズエラ ボリバル",
       "en": "Venezuelan Bolívar",
       "zh-cn": "委内瑞拉玻利瓦尔",
-      "zh-tw": "委內瑞拉玻利瓦"
+      "zh-tw": "委內瑞拉玻利瓦",
+      "vi": "Bolívar Venezuela",
+      "ms": "Bolivar Venezuela",
+      "hi": "वेनेज़ुएलाई बोलिवार",
+      "id": "Bolivar Venezuela"
     },
     "symbol": "Bs.S",
     "display_symbol": "Bs.S",
@@ -2389,7 +2985,11 @@
       "ja": "バヌアツ バツ",
       "en": "Vanuatu Vatu",
       "zh-cn": "瓦努阿图瓦图",
-      "zh-tw": "萬那杜瓦圖"
+      "zh-tw": "萬那杜瓦圖",
+      "vi": "Vatu Vanuatu",
+      "ms": "Vatu Vanuatu",
+      "hi": "वानुआतू वातु",
+      "id": "Vatu Vanuatu"
     },
     "symbol": "VT",
     "display_symbol": "VT",
@@ -2405,7 +3005,11 @@
       "ja": "サモア タラ",
       "en": "Samoan Tala",
       "zh-cn": "萨摩亚塔拉",
-      "zh-tw": "西薩摩亞塔拉"
+      "zh-tw": "西薩摩亞塔拉",
+      "vi": "Tālā Samoa",
+      "ms": "Tālā Samoa",
+      "hi": "समोअन ताला",
+      "id": "Tālā Samoa"
     },
     "symbol": "WS$",
     "display_symbol": "WS$",
@@ -2421,7 +3025,11 @@
       "ja": "中央アフリカ CFA フラン",
       "en": "Central African CFA Franc",
       "zh-cn": "中非法郎",
-      "zh-tw": "法郎 (CFA–BEAC)"
+      "zh-tw": "法郎 (CFA–BEAC)",
+      "vi": "Franc CFA Trung Phi",
+      "ms": "Franc CFA Afrika Tengah",
+      "hi": "मध्य अफ्रीकी CFA फ्रैंक",
+      "id": "Franc CFA Afrika Tengah"
     },
     "symbol": "FCFA",
     "display_symbol": "FCFA",
@@ -2437,7 +3045,11 @@
       "ja": "銀",
       "en": "Silver",
       "zh-cn": "银",
-      "zh-tw": "白銀"
+      "zh-tw": "白銀",
+      "vi": "Bạc",
+      "ms": "Perak",
+      "hi": "चांदी",
+      "id": "Perak"
     },
     "symbol": "XAG",
     "display_symbol": "XAG",
@@ -2453,7 +3065,11 @@
       "ja": "金",
       "en": "Gold",
       "zh-cn": "黄金",
-      "zh-tw": "黃金"
+      "zh-tw": "黃金",
+      "vi": "Vàng",
+      "ms": "Emas",
+      "hi": "सोना",
+      "id": "Emas"
     },
     "symbol": "XAU",
     "display_symbol": "XAU",
@@ -2469,7 +3085,11 @@
       "ja": "東カリブ ドル",
       "en": "East Caribbean Dollar",
       "zh-cn": "东加勒比元",
-      "zh-tw": "格瑞那達元"
+      "zh-tw": "格瑞那達元",
+      "vi": "Đô la Đông Caribbean",
+      "ms": "Dolar Caribbean Timur",
+      "hi": "पूर्वी कैरेबियाई डॉलर",
+      "id": "Dolar Karibia Timur"
     },
     "symbol": "EC$",
     "display_symbol": "EC$",
@@ -2485,7 +3105,11 @@
       "ja": "カリブ・ギルダー",
       "en": "Caribbean Guilder",
       "zh-cn": "加勒比盾",
-      "zh-tw": "加勒比盾"
+      "zh-tw": "加勒比盾",
+      "vi": "Guilder Caribbean",
+      "ms": "Guilder Caribbean",
+      "hi": "कैरेबियाई गुल्डर",
+      "id": "Gulden Karibia"
     },
     "symbol": "Cg.",
     "display_symbol": "Cg.",
@@ -2501,7 +3125,11 @@
       "ja": "特別引き出し権",
       "en": "Special Drawing Rights",
       "zh-cn": "特别提款权",
-      "zh-tw": "特殊提款權"
+      "zh-tw": "特殊提款權",
+      "vi": "Quyền rút vốn đặc biệt",
+      "ms": "Hak Pengeluaran Khas",
+      "hi": "विशेष आहरण अधिकार",
+      "id": "Hak Penarikan Khusus"
     },
     "symbol": "XDR",
     "display_symbol": "XDR",
@@ -2517,7 +3145,11 @@
       "ja": "西アフリカ CFA フラン",
       "en": "West African CFA Franc",
       "zh-cn": "西非法郎",
-      "zh-tw": "法郎 (CFA–BCEAO)"
+      "zh-tw": "法郎 (CFA–BCEAO)",
+      "vi": "Franc CFA Tây Phi",
+      "ms": "Franc CFA Afrika Barat",
+      "hi": "पश्चिम अफ्रीकी CFA फ्रैंक",
+      "id": "Franc CFA Afrika Barat"
     },
     "symbol": "F CFA",
     "display_symbol": "F CFA",
@@ -2533,7 +3165,11 @@
       "ja": "パラジウム",
       "en": "Palladium",
       "zh-cn": "钯",
-      "zh-tw": "帕拉狄昂"
+      "zh-tw": "帕拉狄昂",
+      "vi": "Palladium",
+      "ms": "Paladium",
+      "hi": "पैलेडियम",
+      "id": "Paladium"
     },
     "symbol": "XPD",
     "display_symbol": "XPD",
@@ -2549,7 +3185,11 @@
       "ja": "CFP フラン",
       "en": "CFP Franc",
       "zh-cn": "太平洋法郎",
-      "zh-tw": "法郎 (CFP)"
+      "zh-tw": "法郎 (CFP)",
+      "vi": "Franc CFP",
+      "ms": "Franc CFP",
+      "hi": "CFP फ्रैंक",
+      "id": "Franc CFP"
     },
     "symbol": "CFPF",
     "display_symbol": "CFPF",
@@ -2565,7 +3205,11 @@
       "ja": "プラチナ",
       "en": "Platinum",
       "zh-cn": "铂",
-      "zh-tw": "白金"
+      "zh-tw": "白金",
+      "vi": "Bạch kim",
+      "ms": "Platinum",
+      "hi": "प्लैटिनम",
+      "id": "Platinum"
     },
     "symbol": "XPT",
     "display_symbol": "XPT",
@@ -2581,7 +3225,11 @@
       "ja": "イエメン リアル",
       "en": "Yemeni Rial",
       "zh-cn": "也门里亚尔",
-      "zh-tw": "葉門里亞爾"
+      "zh-tw": "葉門里亞爾",
+      "vi": "Rial Yemen",
+      "ms": "Rial Yaman",
+      "hi": "यमनी रियाल",
+      "id": "Rial Yaman"
     },
     "symbol": "ر.ي.‏",
     "display_symbol": "ر.ي.‏",
@@ -2597,7 +3245,11 @@
       "ja": "ザンビア クワチャ",
       "en": "Zambian Kwacha",
       "zh-cn": "赞比亚克瓦查",
-      "zh-tw": "尚比亞克瓦查"
+      "zh-tw": "尚比亞克瓦查",
+      "vi": "Kwacha Zambia",
+      "ms": "Kwacha Zambia",
+      "hi": "ज़ांबियाई क्वाचा",
+      "id": "Kwacha Zambia"
     },
     "symbol": "K",
     "display_symbol": "ZMW",
@@ -2613,7 +3265,11 @@
       "ja": "ジンバブエ・ゴールド",
       "en": "Zimbabwean Gold",
       "zh-cn": "津巴布韦金币",
-      "zh-tw": "辛巴威金幣"
+      "zh-tw": "辛巴威金幣",
+      "vi": "Đô la vàng Zimbabwe",
+      "ms": "Dolar Emas Zimbabwe",
+      "hi": "ज़िम्बाब्वे गोल्ड डॉलर",
+      "id": "Dolar Emas Zimbabwe"
     },
     "symbol": "ZWG",
     "display_symbol": "ZWG",
