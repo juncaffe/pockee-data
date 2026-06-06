@@ -4141,18 +4141,25 @@
 
                 const pp = (ppIdx < sorted.length && sorted[ppIdx].afterMonth === month) ? sorted[ppIdx] : null;
 
+                let displayBalance = balance < 0.5 ? 0 : balance;
+                let newBalance = balance;
+
+                if (pp) {
+                    ppIdx++;
+                    newBalance = Math.max(0, balance - pp.amount);
+                    displayBalance = newBalance < 0.5 ? 0 : newBalance;
+                }
+
                 schedule.push({
                     month,
                     payment,
                     principal: principalPart,
                     interest,
-                    balance: balance < 0.5 ? 0 : balance,
+                    balance: displayBalance,
                     prepayment: pp ? { amount: pp.amount, type: pp.type } : null
                 });
 
                 if (pp) {
-                    ppIdx++;
-                    const newBalance = Math.max(0, balance - pp.amount);
                     if (newBalance < 0.5) { balance = 0; break; }
 
                     if (pp.type === 'reduce_term') {
@@ -4212,8 +4219,9 @@
             const r = annualRate / 100 / 12;
             const schedule = buildSchedule(principal, r, months, loanType, prepayments);
 
-            const totalPayment = schedule.reduce((s, row) => s + row.payment, 0);
-            const totalInterest = totalPayment - principal;
+            const totalPrepayments = schedule.reduce((s, row) => s + (row.prepayment?.amount || 0), 0);
+            const totalPayment = schedule.reduce((s, row) => s + row.payment, 0) + totalPrepayments;
+            const totalInterest = schedule.reduce((s, row) => s + row.interest, 0);
             const unit = getCurrencyDisplaySymbol(selectedLoanCurrency);
             const firstPayment = schedule[0]?.payment || 0;
 
