@@ -1,5 +1,30 @@
 {
-  "update": 2,
+  "update": 1,
   "announcement": 2,
-  "updated_at": "2026-05-16T17:50:00+09:00"
+  "fx": {
+    "currency_names_i18n": 1
+  },
+  "seed": {
+    "ko": {
+      "rev": "20260613144625",
+      "hash": "85b04a21259f242413c627f03773cfb6bbc7b7809665c9b3f9f5c4b1e361dfc4"
+    },
+    "zh-TW": {
+      "rev": "20260613144625",
+      "hash": "663ae5408d7db211d8579bad249344301f4283949bf3680d4214f50b7ebb6c4d"
+    },
+    "ja": {
+      "rev": "20260613144625",
+      "hash": "fb148aae84d1ebb2b243e7699c22495001cd9f727b8eae111a02df931d70d70c"
+    },
+    "en": {
+      "rev": "20260613144625",
+      "hash": "aa4254dba333f33f91e136c6e5dd7b1b7800d966262ef22004454ee7bfe0a883"
+    },
+    "zh-CN": {
+      "rev": "20260613144625",
+      "hash": "e833dd127e983d5f9bc287a6aaffbc7ce79271531cddee178a844947df796eb6"
+    }
+  }
+  "updated_at": "2026-06-13T15:13:00+09:00"
 }
