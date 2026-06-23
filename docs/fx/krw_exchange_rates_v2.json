@@ -4,71 +4,71 @@
     "cur_unit": "KRW",
     "cur_nm": "한국 원",
     "deal_bas_r": "1",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "base"
   },
   {
     "result": 1,
     "cur_unit": "AED",
     "cur_nm": "아랍에미리트 디르함",
-    "deal_bas_r": "417.95",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "418.15",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "AFN",
     "cur_nm": "아프가니스탄 아프가니",
-    "deal_bas_r": "23.7135",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "23.8039",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ALL",
     "cur_nm": "알바니아 레크",
-    "deal_bas_r": "18.5908",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "18.6811",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "AMD",
     "cur_nm": "아르메니아 드람",
-    "deal_bas_r": "4.1585",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "4.1773",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ANG",
     "cur_nm": "네덜란드령 안틸레스 길더",
-    "deal_bas_r": "854.7",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "862.07",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "AOA",
     "cur_nm": "앙골라 콴자",
-    "deal_bas_r": "1.6636",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "1.6722",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ARS",
     "cur_nm": "아르헨티나 페소",
-    "deal_bas_r": "1.0515",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1.0498",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "AUD",
     "cur_nm": "호주 달러",
-    "deal_bas_r": "1,075.57",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,074.68",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
@@ -76,7 +76,7 @@
     "cur_unit": "AWG",
     "cur_nm": "아루바 플로린",
     "deal_bas_r": "854.7",
-    "updated_at": "2026-06-19",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
@@ -84,7 +84,7 @@
     "cur_unit": "AZN",
     "cur_nm": "아제르바이잔 마나트",
     "deal_bas_r": "900.9",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -92,7 +92,7 @@
     "cur_unit": "BAM",
     "cur_nm": "보스니아-헤르체고비나 태환 마르크",
     "deal_bas_r": "900.9",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -100,30 +100,30 @@
     "cur_unit": "BBD",
     "cur_nm": "바베이도스 달러",
     "deal_bas_r": "751.88",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BDT",
     "cur_nm": "방글라데시 타카",
-    "deal_bas_r": "12.4626",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "12.5063",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BHD",
     "cur_nm": "바레인 디나르",
-    "deal_bas_r": "4,071.51",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "4,073.58",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "BIF",
     "cur_nm": "부룬디 프랑",
-    "deal_bas_r": "0.511692",
+    "deal_bas_r": "0.513769",
     "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
@@ -132,31 +132,31 @@
     "cur_unit": "BMD",
     "cur_nm": "버뮤다 달러",
     "deal_bas_r": "1,538.46",
-    "updated_at": "2026-06-19",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BND",
     "cur_nm": "브루나이 달러",
-    "deal_bas_r": "1,188.03",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,187.38",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "BOB",
     "cur_nm": "볼리비아 볼리비아노",
-    "deal_bas_r": "222.22",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "223.21",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BRL",
     "cur_nm": "브라질 헤알",
-    "deal_bas_r": "296.74",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "298.51",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -164,23 +164,23 @@
     "cur_unit": "BSD",
     "cur_nm": "바하마 달러",
     "deal_bas_r": "1,515.15",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BTN",
     "cur_nm": "부탄 눌투눔",
-    "deal_bas_r": "16.2259",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "16.2522",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "BWP",
     "cur_nm": "보츠와나 풀라",
-    "deal_bas_r": "112.99",
-    "updated_at": "2026-06-20",
+    "deal_bas_r": "113.64",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
@@ -188,7 +188,7 @@
     "cur_unit": "BYN",
     "cur_nm": "벨라루스 루블",
     "deal_bas_r": "549.45",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -196,102 +196,102 @@
     "cur_unit": "BZD",
     "cur_nm": "벨리즈 달러",
     "deal_bas_r": "751.88",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CAD",
     "cur_nm": "캐나다 달러",
-    "deal_bas_r": "1,082.93",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,084.88",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "CDF",
     "cur_nm": "콩고 프랑",
-    "deal_bas_r": "0.669478",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.678656",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CHF",
     "cur_nm": "스위스 프랑",
-    "deal_bas_r": "1,900.69",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,898.86",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "CLP",
     "cur_nm": "칠레 페소",
-    "deal_bas_r": "1.7005",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1.6985",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CNH",
     "cur_nm": "위안화",
-    "deal_bas_r": "226.42",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "226.84",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "CNY",
     "cur_nm": "중국 위안",
-    "deal_bas_r": "226.24",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "226.76",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "COP",
     "cur_nm": "콜롬비아 페소",
-    "deal_bas_r": "0.443066",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.446289",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CRC",
     "cur_nm": "코스타리카 콜론",
-    "deal_bas_r": "3.3632",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "3.3727",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CUP",
     "cur_nm": "쿠바 페소",
-    "deal_bas_r": "63.8162",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "64.0615",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CVE",
     "cur_nm": "카보베르데 에스쿠도",
-    "deal_bas_r": "15.9337",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "15.9847",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "CZK",
     "cur_nm": "체코 코루나",
-    "deal_bas_r": "72.4638",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "72.7802",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "DJF",
     "cur_nm": "지부티 프랑",
-    "deal_bas_r": "8.6274",
+    "deal_bas_r": "8.6708",
     "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
@@ -299,64 +299,64 @@
     "result": 1,
     "cur_unit": "DKK",
     "cur_nm": "덴마아크 크로네",
-    "deal_bas_r": "235.46",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "234.78",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "DOP",
     "cur_nm": "도미니카 페소",
-    "deal_bas_r": "25.7533",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "25.8665",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "DZD",
     "cur_nm": "알제리 디나르",
-    "deal_bas_r": "11.4574",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "11.5088",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "EGP",
     "cur_nm": "이집트 파운드",
-    "deal_bas_r": "30.6654",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "30.8642",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ERN",
     "cur_nm": "에리트리아 나크파",
-    "deal_bas_r": "99.6016",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "99.9001",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ETB",
     "cur_nm": "에티오피아 비르",
-    "deal_bas_r": "9.6684",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "9.6628",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "EUR",
     "cur_nm": "유로",
-    "deal_bas_r": "1,760.03",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,754.92",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "FJD",
     "cur_nm": "피지 달러",
-    "deal_bas_r": "684.93",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "689.66",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -364,23 +364,23 @@
     "cur_unit": "FKP",
     "cur_nm": "포클랜드제도 파운드",
     "deal_bas_r": "2,040.82",
-    "updated_at": "2026-06-19",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GBP",
     "cur_nm": "영국 파운드",
-    "deal_bas_r": "2,027.74",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "2,034.73",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "GEL",
     "cur_nm": "조지아 라리",
-    "deal_bas_r": "578.03",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "581.4",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -388,15 +388,15 @@
     "cur_unit": "GGP",
     "cur_nm": "건지 파운드",
     "deal_bas_r": "2,040.82",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GHS",
     "cur_nm": "가나 세디",
-    "deal_bas_r": "136.43",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "137.74",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -404,79 +404,79 @@
     "cur_unit": "GIP",
     "cur_nm": "지브롤터 파운드",
     "deal_bas_r": "2,000",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GMD",
     "cur_nm": "감비아 달라시",
-    "deal_bas_r": "21.0305",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "21.1775",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GNF",
     "cur_nm": "기니 프랑",
-    "deal_bas_r": "0.188537",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.190473",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GTQ",
     "cur_nm": "과테말라 케트살",
-    "deal_bas_r": "200",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "200.8",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "GYD",
     "cur_nm": "가이아나 달러",
-    "deal_bas_r": "7.2025",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "7.2275",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "HKD",
     "cur_nm": "홍콩 달러",
-    "deal_bas_r": "195.87",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "195.89",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "HNL",
     "cur_nm": "온두라스 렘피라",
-    "deal_bas_r": "56.9801",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "57.2738",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "HTG",
     "cur_nm": "아이티 구르드",
-    "deal_bas_r": "11.6591",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "11.7082",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "HUF",
     "cur_nm": "헝가리 포린트",
-    "deal_bas_r": "4.9778",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "4.999",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "IDR(100)",
     "cur_nm": "인도네시아 루피아",
-    "deal_bas_r": "8.63",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "8.61",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
@@ -484,7 +484,7 @@
     "cur_unit": "ILS",
     "cur_nm": "이스라엘 신 셰켈",
     "deal_bas_r": "518.13",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -492,39 +492,39 @@
     "cur_unit": "IMP",
     "cur_nm": "맨섬 파운드",
     "deal_bas_r": "2,040.82",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "INR",
     "cur_nm": "인도 루피",
-    "deal_bas_r": "16.2259",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "16.2522",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "IQD",
     "cur_nm": "이라크 디나르",
-    "deal_bas_r": "1.1674",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1.1724",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "IRR",
     "cur_nm": "이란 리얄",
-    "deal_bas_r": "0.001112",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.001114",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ISK",
     "cur_nm": "아이슬란드 크로나",
-    "deal_bas_r": "12.1907",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "12.2309",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -532,15 +532,15 @@
     "cur_unit": "JEP",
     "cur_nm": "저지 파운드",
     "deal_bas_r": "2,040.82",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "JMD",
     "cur_nm": "자메이카 달러",
-    "deal_bas_r": "9.7857",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "9.8367",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -548,287 +548,287 @@
     "cur_unit": "JOD",
     "cur_nm": "요르단 디나르",
     "deal_bas_r": "2,173.91",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "JPY(100)",
     "cur_nm": "일본 옌",
-    "deal_bas_r": "950.88",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "950.49",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "KES",
     "cur_nm": "케냐 실링",
-    "deal_bas_r": "11.8385",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "11.8892",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "KGS",
     "cur_nm": "키르기스스탄 솜",
-    "deal_bas_r": "17.4978",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "17.5685",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "KHR",
     "cur_nm": "캄보디아 리엘",
-    "deal_bas_r": "0.380026",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.381098",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "KMF",
     "cur_nm": "코모르 프랑",
-    "deal_bas_r": "3.5614",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "3.5731",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "KWD",
     "cur_nm": "쿠웨이트 디나르",
-    "deal_bas_r": "4,991.06",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "4,991.71",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "KYD",
     "cur_nm": "케이맨 제도 달러",
-    "deal_bas_r": "1,818.18",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,851.85",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "KZT",
     "cur_nm": "카자흐스탄 텡게",
-    "deal_bas_r": "3.1356",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "3.1541",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LAK",
     "cur_nm": "라오스 키프",
-    "deal_bas_r": "0.069376",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.0694",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LBP",
     "cur_nm": "레바논 파운드",
-    "deal_bas_r": "0.016662",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.016725",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LKR",
     "cur_nm": "스리랑카 루피",
-    "deal_bas_r": "4.5888",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "4.5979",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LRD",
     "cur_nm": "라이베리아 달러",
-    "deal_bas_r": "8.3879",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "8.4267",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LSL",
     "cur_nm": "레소토 로티",
-    "deal_bas_r": "92.9368",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "93.633",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "LYD",
     "cur_nm": "리비아 디나르",
-    "deal_bas_r": "239.81",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "240.38",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MAD",
     "cur_nm": "모로코 디르함",
-    "deal_bas_r": "164.2",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "164.74",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MDL",
     "cur_nm": "몰도바 레이",
-    "deal_bas_r": "87.108",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "87.4891",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MGA",
     "cur_nm": "마다가스카르 아리아리",
-    "deal_bas_r": "0.362516",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.363875",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MKD",
     "cur_nm": "마케도니아 디나르",
-    "deal_bas_r": "28.5307",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "28.5633",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MMK",
     "cur_nm": "미얀마 키얏",
-    "deal_bas_r": "0.728704",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.731743",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MNT",
     "cur_nm": "몽골 투그릭",
-    "deal_bas_r": "0.427405",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.42924",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MOP",
     "cur_nm": "마카오 파타카",
-    "deal_bas_r": "189.39",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "190.11",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MRO",
     "cur_nm": "모리타니 우기야 (1973–2017)",
-    "deal_bas_r": "38.6997",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "38.85",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MRU",
     "cur_nm": "모리타니 우기야",
-    "deal_bas_r": "38.2555",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "38.4468",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MUR",
     "cur_nm": "모리셔스 루피",
-    "deal_bas_r": "32.113",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "32.0821",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MVR",
     "cur_nm": "몰디브 제도 루피아",
-    "deal_bas_r": "99.4036",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "99.9001",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MWK",
     "cur_nm": "말라위 콰차",
-    "deal_bas_r": "0.879894",
-    "updated_at": "2026-06-20",
+    "deal_bas_r": "0.883626",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MXN",
     "cur_nm": "멕시코 페소",
-    "deal_bas_r": "88.2613",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "88.6525",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "MYR",
     "cur_nm": "말레이지아 링기트",
-    "deal_bas_r": "371.04",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "370.14",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "MZN",
     "cur_nm": "모잠비크 메티칼",
-    "deal_bas_r": "24.079",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "24.2014",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "NAD",
     "cur_nm": "나미비아 달러",
-    "deal_bas_r": "93.0233",
-    "updated_at": "2026-06-20",
+    "deal_bas_r": "93.5454",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "NGN",
     "cur_nm": "나이지리아 나이라",
-    "deal_bas_r": "1.1222",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1.1231",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "NIO",
     "cur_nm": "니카라과 코르도바",
-    "deal_bas_r": "41.5628",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "41.7711",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "NOK",
     "cur_nm": "노르웨이 크로네",
-    "deal_bas_r": "158.24",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "158.36",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "NPR",
     "cur_nm": "네팔 루피",
-    "deal_bas_r": "10.1286",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "10.142",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "NZD",
     "cur_nm": "뉴질랜드 달러",
-    "deal_bas_r": "880.48",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "877.42",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
@@ -836,23 +836,23 @@
     "cur_unit": "OMR",
     "cur_nm": "오만 리알",
     "deal_bas_r": "4,000",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PAB",
     "cur_nm": "파나마 발보아",
-    "deal_bas_r": "1,515.15",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "1,538.46",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PEN",
     "cur_nm": "페루 솔",
-    "deal_bas_r": "452.49",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "454.55",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -860,78 +860,78 @@
     "cur_unit": "PGK",
     "cur_nm": "파푸아뉴기니 키나",
     "deal_bas_r": "349.65",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PHP",
     "cur_nm": "필리핀 페소",
-    "deal_bas_r": "25.1889",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "25.1953",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PKR",
     "cur_nm": "파키스탄 루피",
-    "deal_bas_r": "5.4864",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "5.5072",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PLN",
     "cur_nm": "폴란드 즈워티",
-    "deal_bas_r": "411.52",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "413.22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "PYG",
     "cur_nm": "파라과이 과라니",
-    "deal_bas_r": "0.249657",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.251193",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "QAR",
     "cur_nm": "카타르 리얄",
-    "deal_bas_r": "420.17",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "421.94",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "RON",
     "cur_nm": "루마니아 레우",
-    "deal_bas_r": "335.57",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "336.7",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "RSD",
     "cur_nm": "세르비아 디나르",
-    "deal_bas_r": "14.9566",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "14.9993",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "RUB",
     "cur_nm": "러시아 루블",
-    "deal_bas_r": "20.8377",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "20.7771",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "RWF",
     "cur_nm": "르완다 프랑",
-    "deal_bas_r": "1.0434",
+    "deal_bas_r": "1.048",
     "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
@@ -939,48 +939,48 @@
     "result": 1,
     "cur_unit": "SAR",
     "cur_nm": "사우디 리얄",
-    "deal_bas_r": "408.96",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "409.04",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "SBD",
     "cur_nm": "솔로몬 제도 달러",
-    "deal_bas_r": "189.75",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "190.48",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SCR",
     "cur_nm": "세이셸 루피",
-    "deal_bas_r": "107.18",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "108.46",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SDG",
     "cur_nm": "수단 파운드",
-    "deal_bas_r": "2.5443",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "2.5562",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SEK",
     "cur_nm": "스웨덴 크로나",
-    "deal_bas_r": "160.12",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "159.62",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "SGD",
     "cur_nm": "싱가포르 달러",
-    "deal_bas_r": "1,188.03",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,187.38",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
@@ -988,103 +988,103 @@
     "cur_unit": "SHP",
     "cur_nm": "세인트헬레나 파운드",
     "deal_bas_r": "2,040.82",
-    "updated_at": "2026-06-19",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SLE",
     "cur_nm": "시에라리온 리온",
-    "deal_bas_r": "62.2665",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "62.5",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SOS",
     "cur_nm": "소말리아 실링",
-    "deal_bas_r": "2.6667",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "2.6797",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SRD",
     "cur_nm": "수리남 달러",
-    "deal_bas_r": "40.7498",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "40.95",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SSP",
     "cur_nm": "남수단 파운드",
-    "deal_bas_r": "0.323782",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "0.324981",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "STN",
     "cur_nm": "상투메 프린시페 도브라",
-    "deal_bas_r": "71.3776",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "71.6332",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SVC",
     "cur_nm": "엘살바도르 콜론",
-    "deal_bas_r": "174.22",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "175.13",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SYP",
     "cur_nm": "시리아 파운드",
-    "deal_bas_r": "13.4862",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "13.5556",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "SZL",
     "cur_nm": "스와질란드 릴랑게니",
-    "deal_bas_r": "92.9368",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "93.5454",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "THB",
     "cur_nm": "태국 바트",
-    "deal_bas_r": "46.62",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "46.59",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "TJS",
     "cur_nm": "타지키스탄 소모니",
-    "deal_bas_r": "164.74",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "165.56",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TMT",
     "cur_nm": "투르크메니스탄 마나트",
-    "deal_bas_r": "436.68",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "438.6",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TND",
     "cur_nm": "튀니지 디나르",
-    "deal_bas_r": "518.13",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "520.83",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
@@ -1092,38 +1092,38 @@
     "cur_unit": "TOP",
     "cur_nm": "통가 파앙가",
     "deal_bas_r": "645.16",
-    "updated_at": "2026-06-22",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TRY",
     "cur_nm": "튀르키예 리라",
-    "deal_bas_r": "32.9815",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "33.1016",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TTD",
     "cur_nm": "트리니다드 토바고 달러",
-    "deal_bas_r": "225.73",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "227.79",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TWD",
     "cur_nm": "대만 달러",
-    "deal_bas_r": "48.3793",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "48.5437",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "TZS",
     "cur_nm": "탄자니아 실링",
-    "deal_bas_r": "0.582954",
+    "deal_bas_r": "0.58572",
     "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
@@ -1131,15 +1131,15 @@
     "result": 1,
     "cur_unit": "UAH",
     "cur_nm": "우크라이나 그리브나",
-    "deal_bas_r": "34.0948",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "34.2114",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "UGX",
     "cur_nm": "우간다 실링",
-    "deal_bas_r": "0.419182",
+    "deal_bas_r": "0.421301",
     "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
@@ -1147,128 +1147,128 @@
     "result": 1,
     "cur_unit": "USD",
     "cur_nm": "미국 달러",
-    "deal_bas_r": "1,535",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "1,535.7",
+    "updated_at": "2026-06-23",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "UYU",
     "cur_nm": "우루과이 페소",
-    "deal_bas_r": "38.1098",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "38.373",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "UZS",
     "cur_nm": "우즈베키스탄 숨",
-    "deal_bas_r": "0.126831",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.127946",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "VES",
     "cur_nm": "베네수엘라 볼리바르",
-    "deal_bas_r": "2.5358",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "2.5276",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "VND",
     "cur_nm": "베트남 동",
-    "deal_bas_r": "0.058363",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "0.058599",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "VUV",
     "cur_nm": "바누아투 바투",
-    "deal_bas_r": "12.95",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "13.0225",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "WST",
     "cur_nm": "서 사모아 탈라",
-    "deal_bas_r": "561.8",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "564.97",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "XAF",
     "cur_nm": "중앙아프리카 CFA 프랑",
-    "deal_bas_r": "2.6784",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "2.6869",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "XCD",
     "cur_nm": "동카리브 달러",
-    "deal_bas_r": "555.56",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "558.66",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "XCG",
     "cur_nm": "카리브 길더",
-    "deal_bas_r": "847.46",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "854.7",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "XOF",
     "cur_nm": "서아프리카 CFA 프랑",
-    "deal_bas_r": "2.6784",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "2.6869",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "XPF",
     "cur_nm": "CFP 프랑",
-    "deal_bas_r": "14.6951",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "14.7384",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "YER",
     "cur_nm": "예멘 리알",
-    "deal_bas_r": "6.4012",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "6.4313",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ZAR",
     "cur_nm": "남아프리카공화국 랜드",
-    "deal_bas_r": "93.1099",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "93.7207",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ZMW",
     "cur_nm": "잠비아 콰차",
-    "deal_bas_r": "85.3242",
-    "updated_at": "2026-06-22",
+    "deal_bas_r": "86.1326",
+    "updated_at": "2026-06-23",
     "source": "frankfurter"
   },
   {
     "result": 1,
     "cur_unit": "ZWG",
     "cur_nm": "짐바브웨 골드",
-    "deal_bas_r": "56.9152",
-    "updated_at": "2026-06-19",
+    "deal_bas_r": "57.2082",
+    "updated_at": "2026-06-22",
     "source": "frankfurter"
   }
 ]
