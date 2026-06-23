@@ -25,6 +25,12 @@
       "rev": "20260613144625",
       "hash": "e833dd127e983d5f9bc287a6aaffbc7ce79271531cddee178a844947df796eb6"
     }
-  }
-  "updated_at": "2026-06-13T15:13:00+09:00"
+  },
+  "catalog": {
+    "ko": {
+      "hash": "35778cb1cb25abeafa3127d0ee8d041122de7ef48d9bdbc130125d900a4c72b6",
+      "rev": "20260623153120"
+    }
+  },
+  "updated_at": "2026-06-23T15:45:00+09:00"
 }
