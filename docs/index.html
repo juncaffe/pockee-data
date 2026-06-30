@@ -3964,9 +3964,9 @@
         async function init() {
             try {
                 const [metaRes, ratesRes, currencyNamesRes] = await Promise.all([
-                    fetch(getUrl('https://juncaffe.github.io/pockee-data/fx/krw_meta_v2.json')),
-                    fetch(getUrl('https://juncaffe.github.io/pockee-data/fx/krw_exchange_rates_v2.json')),
-                    fetch(getUrl('https://juncaffe.github.io/pockee-data/fx/currency_names_i18n.json'))
+                    fetch(getUrl('./fx/krw_meta_v2.json')),
+                    fetch(getUrl('./fx/krw_exchange_rates_v2.json')),
+                    fetch(getUrl('./fx/currency_names_i18n.json'))
                 ]);
 
                 if (!metaRes.ok || !ratesRes.ok || !currencyNamesRes.ok) {
