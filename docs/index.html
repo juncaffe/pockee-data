@@ -6,6 +6,7 @@
     <title>KRW Currency Converter - Track overseas spending with Pockee</title>
     <meta id="metaDescription" name="description" content="Check KRW-based exchange rates, share conversion links, and manage overseas spending with Pockee, a smart personal finance app.">
     <meta name="robots" content="index, follow">
+    <meta http-equiv="refresh" content="0; url=https://pockee.app/calculator/calculator.html?lang=en">
     <meta name="theme-color" content="#6200EE">
     <link rel="icon" type="image/png" href="https://pockee.app/assets/images/pockee_icon.png">
     <link rel="apple-touch-icon" href="https://pockee.app/assets/images/pockee_icon.png">
@@ -57,8 +58,9 @@
 
             if (!url.searchParams.get('lang')) {
                 url.searchParams.set('lang', currentLang);
-                window.history.replaceState({}, '', url.toString());
             }
+
+            window.location.replace('https://pockee.app/calculator/calculator.html' + url.search + url.hash);
         })();
     </script>
 
@@ -70,21 +72,21 @@
     })(window,document,'script','dataLayer','GTM-M4HHD8ZD');</script>
     <!-- End Google Tag Manager -->
     
-    <link id="canonicalLink" rel="canonical" href="https://pockee.app/pockee-data/?lang=en">
-    <link rel="alternate" hreflang="x-default" href="https://pockee.app/pockee-data/">
-    <link rel="alternate" hreflang="en" href="https://pockee.app/pockee-data/?lang=en">
-    <link rel="alternate" hreflang="ko" href="https://pockee.app/pockee-data/?lang=ko">
-    <link rel="alternate" hreflang="ja" href="https://pockee.app/pockee-data/?lang=ja">
-    <link rel="alternate" hreflang="zh-CN" href="https://pockee.app/pockee-data/?lang=zh-cn">
-    <link rel="alternate" hreflang="zh-TW" href="https://pockee.app/pockee-data/?lang=zh-tw">
-    <link rel="alternate" hreflang="vi" href="https://pockee.app/pockee-data/?lang=vi">
-    <link rel="alternate" hreflang="ms" href="https://pockee.app/pockee-data/?lang=ms">
-    <link rel="alternate" hreflang="hi" href="https://pockee.app/pockee-data/?lang=hi">
-    <link rel="alternate" hreflang="id" href="https://pockee.app/pockee-data/?lang=id">
+    <link id="canonicalLink" rel="canonical" href="https://pockee.app/calculator/calculator.html?lang=en">
+    <link rel="alternate" hreflang="x-default" href="https://pockee.app/calculator/calculator.html">
+    <link rel="alternate" hreflang="en" href="https://pockee.app/calculator/calculator.html?lang=en">
+    <link rel="alternate" hreflang="ko" href="https://pockee.app/calculator/calculator.html?lang=ko">
+    <link rel="alternate" hreflang="ja" href="https://pockee.app/calculator/calculator.html?lang=ja">
+    <link rel="alternate" hreflang="zh-CN" href="https://pockee.app/calculator/calculator.html?lang=zh-cn">
+    <link rel="alternate" hreflang="zh-TW" href="https://pockee.app/calculator/calculator.html?lang=zh-tw">
+    <link rel="alternate" hreflang="vi" href="https://pockee.app/calculator/calculator.html?lang=vi">
+    <link rel="alternate" hreflang="ms" href="https://pockee.app/calculator/calculator.html?lang=ms">
+    <link rel="alternate" hreflang="hi" href="https://pockee.app/calculator/calculator.html?lang=hi">
+    <link rel="alternate" hreflang="id" href="https://pockee.app/calculator/calculator.html?lang=id">
     <meta id="ogTitle" property="og:title" content="Pockee Currency Converter">
     <meta id="ogDescription" property="og:description" content="Check KRW-based exchange rates and manage overseas spending with Pockee.">
     <meta property="og:type" content="website">
-    <meta id="ogUrl" property="og:url" content="https://pockee.app/pockee-data/?lang=en">
+    <meta id="ogUrl" property="og:url" content="https://pockee.app/calculator/calculator.html?lang=en">
     <meta property="og:image" content="https://pockee.app/assets/images/pockee_graphic_image_en_1024.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta id="twitterTitle" name="twitter:title" content="Pockee Currency Converter">
@@ -1874,7 +1876,7 @@
         };
 
         const PAGE_BASE_URL = new URL('./', window.location.href).toString();
-        const SEO_PAGE_BASE_URL = 'https://pockee.app/pockee-data/';
+        const SEO_PAGE_BASE_URL = 'https://pockee.app/calculator/calculator.html';
         const SITE_BASE_URL = `${window.location.origin}/`;
 
         function normalizeLanguage(value) {
