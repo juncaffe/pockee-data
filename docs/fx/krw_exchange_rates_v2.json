@@ -4,15 +4,15 @@
     "cur_unit": "KRW",
     "cur_nm": "한국 원",
     "deal_bas_r": "1",
-    "updated_at": "2026-07-06",
+    "updated_at": "2026-07-07",
     "source": "base"
   },
   {
     "result": 1,
     "cur_unit": "AED",
     "cur_nm": "아랍에미리트 디르함",
-    "deal_bas_r": "419.24",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "417.08",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -67,8 +67,8 @@
     "result": 1,
     "cur_unit": "AUD",
     "cur_nm": "호주 달러",
-    "deal_bas_r": "1,067.86",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,065.98",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -115,8 +115,8 @@
     "result": 1,
     "cur_unit": "BHD",
     "cur_nm": "바레인 디나르",
-    "deal_bas_r": "4,084.19",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "4,063.24",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -139,8 +139,8 @@
     "result": 1,
     "cur_unit": "BND",
     "cur_nm": "브루나이 달러",
-    "deal_bas_r": "1,191.58",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,185.88",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -203,8 +203,8 @@
     "result": 1,
     "cur_unit": "CAD",
     "cur_nm": "캐나다 달러",
-    "deal_bas_r": "1,083.88",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,078.31",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -219,8 +219,8 @@
     "result": 1,
     "cur_unit": "CHF",
     "cur_nm": "스위스 프랑",
-    "deal_bas_r": "1,915.05",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,903.21",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -235,8 +235,8 @@
     "result": 1,
     "cur_unit": "CNH",
     "cur_nm": "위안화",
-    "deal_bas_r": "227.41",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "225.86",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -299,8 +299,8 @@
     "result": 1,
     "cur_unit": "DKK",
     "cur_nm": "덴마아크 크로네",
-    "deal_bas_r": "235.54",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "234.56",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -347,8 +347,8 @@
     "result": 1,
     "cur_unit": "EUR",
     "cur_nm": "유로",
-    "deal_bas_r": "1,760.49",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,753.3",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -371,8 +371,8 @@
     "result": 1,
     "cur_unit": "GBP",
     "cur_nm": "영국 파운드",
-    "deal_bas_r": "2,055.11",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "2,052.54",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -443,8 +443,8 @@
     "result": 1,
     "cur_unit": "HKD",
     "cur_nm": "홍콩 달러",
-    "deal_bas_r": "196.32",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "195.32",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -475,8 +475,8 @@
     "result": 1,
     "cur_unit": "IDR(100)",
     "cur_nm": "인도네시아 루피아",
-    "deal_bas_r": "8.58",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "8.51",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -555,8 +555,8 @@
     "result": 1,
     "cur_unit": "JPY(100)",
     "cur_nm": "일본 옌",
-    "deal_bas_r": "953.61",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "945.41",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -595,8 +595,8 @@
     "result": 1,
     "cur_unit": "KWD",
     "cur_nm": "쿠웨이트 디나르",
-    "deal_bas_r": "5,005.53",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "4,979.84",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -771,8 +771,8 @@
     "result": 1,
     "cur_unit": "MYR",
     "cur_nm": "말레이지아 링기트",
-    "deal_bas_r": "378.21",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "374.98",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -811,8 +811,8 @@
     "result": 1,
     "cur_unit": "NOK",
     "cur_nm": "노르웨이 크로네",
-    "deal_bas_r": "156.5",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "156.53",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -827,8 +827,8 @@
     "result": 1,
     "cur_unit": "NZD",
     "cur_nm": "뉴질랜드 달러",
-    "deal_bas_r": "877.71",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "873.74",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -939,8 +939,8 @@
     "result": 1,
     "cur_unit": "SAR",
     "cur_nm": "사우디 리얄",
-    "deal_bas_r": "410.09",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "407.91",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -971,16 +971,16 @@
     "result": 1,
     "cur_unit": "SEK",
     "cur_nm": "스웨덴 크로나",
-    "deal_bas_r": "159.69",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "159.21",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
     "result": 1,
     "cur_unit": "SGD",
     "cur_nm": "싱가포르 달러",
-    "deal_bas_r": "1,191.58",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,185.88",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -1059,8 +1059,8 @@
     "result": 1,
     "cur_unit": "THB",
     "cur_nm": "태국 바트",
-    "deal_bas_r": "46.42",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "46.03",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
@@ -1147,8 +1147,8 @@
     "result": 1,
     "cur_unit": "USD",
     "cur_nm": "미국 달러",
-    "deal_bas_r": "1,539.7",
-    "updated_at": "2026-07-06",
+    "deal_bas_r": "1,531.8",
+    "updated_at": "2026-07-07",
     "source": "koreaexim"
   },
   {
