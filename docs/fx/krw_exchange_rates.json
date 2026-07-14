@@ -3,79 +3,79 @@
     "result": 1,
     "cur_unit": "AED",
     "cur_nm": "아랍에미리트 디르함",
-    "deal_bas_r": "410.34"
+    "deal_bas_r": "409.72"
   },
   {
     "result": 1,
     "cur_unit": "AUD",
     "cur_nm": "호주 달러",
-    "deal_bas_r": "1,045.78"
+    "deal_bas_r": "1,040.86"
   },
   {
     "result": 1,
     "cur_unit": "BHD",
     "cur_nm": "바레인 디나르",
-    "deal_bas_r": "3,997.29"
+    "deal_bas_r": "3,991.25"
   },
   {
     "result": 1,
     "cur_unit": "BND",
     "cur_nm": "브루나이 달러",
-    "deal_bas_r": "1,165.36"
+    "deal_bas_r": "1,162.53"
   },
   {
     "result": 1,
     "cur_unit": "CAD",
     "cur_nm": "캐나다 달러",
-    "deal_bas_r": "1,063.62"
+    "deal_bas_r": "1,063.31"
   },
   {
     "result": 1,
     "cur_unit": "CHF",
     "cur_nm": "스위스 프랑",
-    "deal_bas_r": "1,860.04"
+    "deal_bas_r": "1,847.3"
   },
   {
     "result": 1,
     "cur_unit": "CNH",
     "cur_nm": "위안화",
-    "deal_bas_r": "222.43"
+    "deal_bas_r": "222.05"
   },
   {
     "result": 1,
     "cur_unit": "DKK",
     "cur_nm": "덴마아크 크로네",
-    "deal_bas_r": "229.74"
+    "deal_bas_r": "229.16"
   },
   {
     "result": 1,
     "cur_unit": "EUR",
     "cur_nm": "유로",
-    "deal_bas_r": "1,717.34"
+    "deal_bas_r": "1,712.88"
   },
   {
     "result": 1,
     "cur_unit": "GBP",
     "cur_nm": "영국 파운드",
-    "deal_bas_r": "2,015.52"
+    "deal_bas_r": "2,008.97"
   },
   {
     "result": 1,
     "cur_unit": "HKD",
     "cur_nm": "홍콩 달러",
-    "deal_bas_r": "192.24"
+    "deal_bas_r": "191.99"
   },
   {
     "result": 1,
     "cur_unit": "IDR(100)",
     "cur_nm": "인도네시아 루피아",
-    "deal_bas_r": "8.35"
+    "deal_bas_r": "8.31"
   },
   {
     "result": 1,
     "cur_unit": "JPY(100)",
     "cur_nm": "일본 옌",
-    "deal_bas_r": "930.08"
+    "deal_bas_r": "926.52"
   },
   {
     "result": 1,
@@ -87,55 +87,55 @@
     "result": 1,
     "cur_unit": "KWD",
     "cur_nm": "쿠웨이트 디나르",
-    "deal_bas_r": "4,897.16"
+    "deal_bas_r": "4,890.01"
   },
   {
     "result": 1,
     "cur_unit": "MYR",
     "cur_nm": "말레이지아 링기트",
-    "deal_bas_r": "370.29"
+    "deal_bas_r": "369.66"
   },
   {
     "result": 1,
     "cur_unit": "NOK",
     "cur_nm": "노르웨이 크로네",
-    "deal_bas_r": "154.02"
+    "deal_bas_r": "153.67"
   },
   {
     "result": 1,
     "cur_unit": "NZD",
     "cur_nm": "뉴질랜드 달러",
-    "deal_bas_r": "866.73"
+    "deal_bas_r": "866.3"
   },
   {
     "result": 1,
     "cur_unit": "SAR",
     "cur_nm": "사우디 리얄",
-    "deal_bas_r": "401.41"
+    "deal_bas_r": "400.78"
   },
   {
     "result": 1,
     "cur_unit": "SEK",
     "cur_nm": "스웨덴 크로나",
-    "deal_bas_r": "155.49"
+    "deal_bas_r": "154.9"
   },
   {
     "result": 1,
     "cur_unit": "SGD",
     "cur_nm": "싱가포르 달러",
-    "deal_bas_r": "1,165.36"
+    "deal_bas_r": "1,162.53"
   },
   {
     "result": 1,
     "cur_unit": "THB",
     "cur_nm": "태국 바트",
-    "deal_bas_r": "45.15"
+    "deal_bas_r": "44.93"
   },
   {
     "result": 1,
     "cur_unit": "USD",
     "cur_nm": "미국 달러",
-    "deal_bas_r": "1,507.1"
+    "deal_bas_r": "1,504.9"
   },
   {
     "result": 1,
