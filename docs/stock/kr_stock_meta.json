@@ -1,18 +1,18 @@
 {
-  "updatedAtKst": "2026-09-10T18:57:35+09:00",
-  "basDt": "20260909",
+  "updatedAtKst": "2026-09-11T18:05:29+09:00",
+  "basDt": "20260910",
   "source": "financial-services-commission-stock-price-api",
   "endpoint": "getStockPriceInfo",
-  "count": 2873,
+  "count": 2874,
   "marketCounts": {
     "KONEX": 108,
-    "KOSDAQ": 1822,
+    "KOSDAQ": 1823,
     "KOSPI": 943
   },
   "files": {
     "compact": "kr_stock_prices.json",
     "raw": "kr_stock_prices_raw.json",
-    "history": "history/kr/2026/09/09.json"
+    "history": "history/kr/2026/09/10.json"
   },
   "compactFields": [
     "srtnCd",
