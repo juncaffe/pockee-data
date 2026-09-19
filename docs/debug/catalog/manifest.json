@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-04-21T13:29:43Z",
+  "unknown": {
+    "en": {
+      "fileName": "rules_en.clb",
+      "ruleVersion": 1776778183355,
+      "sha256": "4c55c95e5fc4ab0acaa8cb91ec1328dc78c7d62ccc6d30a9684975062faaaccc",
+      "size": 28
+    },
+    "ja": {
+      "fileName": "rules_ja.clb",
+      "ruleVersion": 1776778183355,
+      "sha256": "ec15966cfe3f39cab46711ff2895020952e4d0de76861bcb948ef9d4b08288bd",
+      "size": 28
+    },
+    "ko": {
+      "fileName": "rules_ko.clb",
+      "ruleVersion": 1776778183355,
+      "sha256": "0f34e4320af901a9f64747a6cddc96fede957e805ef2cfb1ee483f0753d11fca",
+      "size": 5117
+    },
+    "zh_cn": {
+      "fileName": "rules_zh_cn.clb",
+      "ruleVersion": 1776778183355,
+      "sha256": "1c66fc9ea0119cabc65ea15e2f2fb00c52ac86bf3630279ea19cf08d3449d48b",
+      "size": 28
+    },
+    "zh_tw": {
+      "fileName": "rules_zh_tw.clb",
+      "ruleVersion": 1776778183355,
+      "sha256": "307431aea2dc4aa2deaed42fde3255e730fad60012109517588b5a8204b4fea0",
+      "size": 28
+    }
+  }
+}
