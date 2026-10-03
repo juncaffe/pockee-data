@@ -1,0 +1,43 @@
+{
+  "updatedAtKst": "2026-10-03T17:34:01+0900",
+  "searchDate": "20261002",
+  "searchDateIso": "2026-10-02",
+  "koreaEximAvailable": true,
+  "source": "koreaexim-oapi+frankfurter",
+  "data": "AP01",
+  "base": "KRW",
+  "output": "krw_exchange_rates_v2.json",
+  "retainedExisting": true,
+  "excludedCodes": [
+    "XAG",
+    "XAU",
+    "XDR",
+    "XPD",
+    "XPT"
+  ],
+  "excludedPolicyCodes": [
+    "XAG",
+    "XAU",
+    "XDR",
+    "XPD",
+    "XPT"
+  ],
+  "missingCurrencyNameCodes": [
+    "CMD",
+    "KPW"
+  ],
+  "invalidRateCodes": [],
+  "retainedCodes": [
+    "MRO"
+  ],
+  "counts": {
+    "total": 159,
+    "koreaexim_count": 23,
+    "frankfurter_seen_count": 165,
+    "frankfurter_added_or_updated_count": 135,
+    "retained_existing_count": 1,
+    "excluded_count": 5,
+    "missing_currency_name_count": 2,
+    "invalid_rate_count": 0
+  }
+}
