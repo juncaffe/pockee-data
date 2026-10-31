@@ -1,0 +1,25 @@
+{
+  "generatedAt": "20260613144625",
+  "files": {
+    "ko": {
+      "filename": "seed_ko_85b04a21259f242413c627f03773cfb6.bin",
+      "sha256": "85b04a21259f242413c627f03773cfb6bbc7b7809665c9b3f9f5c4b1e361dfc4"
+    },
+    "zh-TW": {
+      "filename": "seed_zh_tw_663ae5408d7db211d8579bad24934430.bin",
+      "sha256": "663ae5408d7db211d8579bad249344301f4283949bf3680d4214f50b7ebb6c4d"
+    },
+    "ja": {
+      "filename": "seed_ja_fb148aae84d1ebb2b243e7699c224950.bin",
+      "sha256": "fb148aae84d1ebb2b243e7699c22495001cd9f727b8eae111a02df931d70d70c"
+    },
+    "en": {
+      "filename": "seed_en_aa4254dba333f33f91e136c6e5dd7b1b.bin",
+      "sha256": "aa4254dba333f33f91e136c6e5dd7b1b7800d966262ef22004454ee7bfe0a883"
+    },
+    "zh-CN": {
+      "filename": "seed_zh_cn_e833dd127e983d5f9bc287a6aaffbc7c.bin",
+      "sha256": "e833dd127e983d5f9bc287a6aaffbc7ce79271531cddee178a844947df796eb6"
+    }
+  }
+}
