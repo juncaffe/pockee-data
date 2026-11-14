@@ -1,0 +1,28 @@
+{
+  "store_url": "https://play.google.com/store/apps/details?id=com.juncaffe.pockee",
+  "updates": [
+    {
+      "id": "update-2025-v30-force",
+      "min_version_code": null,
+      "max_version_code": 10,
+      "title": {
+        "ko": "필수 업데이트",
+        "en": "Required Update",
+        "ja": "必須アップデート",
+        "zh-cn": "必须更新",
+        "zh-tw": "必須更新"
+      },
+      "message": {
+         "ko": "일부 통화에서 소수점 금액 입력이 정상적으로 동작하지 않는 문제가 수정되었습니다. 정확한 거래 기록을 위해 최신 버전으로 업데이트해 주세요.",
+        "en": "We fixed an issue where decimal amount input did not work correctly for some currencies. Please update to the latest version to keep your transaction records accurate.",
+        "ja": "一部の通貨で小数点を含む金額入力が正しく動作しない問題を修正しました。正確に記録するため、最新バージョンへアップデートしてください。",
+        "zh-cn": "我们修复了部分货币中小数金额输入无法正常工作的问题。为确保交易记录准确，请更新至最新版本。",
+        "zh-tw": "我們修正了部分幣別中小數金額輸入無法正常運作的問題。為確保交易紀錄準確，請更新至最新版本。"
+      },
+      "is_dismissible": false,
+      "start_at": "2026-05-16T17:50:00+09:00",
+      "end_at": null,
+      "store_url": "https://play.google.com/store/apps/details?id=com.juncaffe.pockee"
+    }
+  ]
+}
